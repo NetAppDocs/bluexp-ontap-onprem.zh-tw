@@ -21,7 +21,7 @@ summary: 從ONTAP Cloud Manager探索內部使用的叢集之後、您可以開�
 
 Cloud Manager可讓您在現有的Aggregate上建立NFS或CIFS磁碟區。您無法ONTAP 從Cloud Manager在內部的叢集上建立新的Aggregate。
 
-Cloud Manager功能稱為「範本」、可讓您針對特定應用程式（例如資料庫或串流服務）的工作負載需求、建立最佳化的磁碟區。如果您的組織已建立您應該使用的Volume範本、請遵循 <<Creating volumes from templates,這些步驟>>。
+Cloud Manager功能稱為「範本」、可讓您針對特定應用程式（例如資料庫或串流服務）的工作負載需求、建立最佳化的磁碟區。如果您的組織已建立您應該使用的Volume範本、請遵循  volumes from templates,這些步驟。
 
 .步驟
 . 在「畫版」頁面上、按兩下您ONTAP 要在其中配置Volume的內部版位元組叢集名稱。
@@ -107,7 +107,7 @@ image:screenshot_define_ontap_vol_from_template.png["顯示空白範本的螢幕
 *注意：*如果您想查看這些參數的值、可以按一下「Show read-only parameters*（顯示唯讀參數*）」核取方塊、以顯示範本已鎖定的所有欄位。根據預設、這些預先定義的欄位會隱藏、只會顯示您需要填寫的欄位。
 
 . 在_context_區域中、工作環境會填入您剛開始使用的工作環境名稱。您需要選擇要在其中建立磁碟區的*儲存VM*和* Aggregate *。
-. 新增所有非模板硬編碼的參數值。請參閱 <<Creating volumes,建立磁碟區>> 如需部署內部ONTAP 資料的所有必要參數詳細資訊、請參閱。
+. 新增所有非模板硬編碼的參數值。請參閱  volumes,建立磁碟區 如需部署內部ONTAP 資料的所有必要參數詳細資訊、請參閱。
 . 定義完此Volume所需的所有參數後、請按一下*執行範本*。
 
 
