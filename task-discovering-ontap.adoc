@@ -99,7 +99,7 @@ NOTE: 如果您的支援合約到期、系統就會從「探索」頁面移除�
 每個叢集的軟體合約和硬體合約到期日均會顯示在行上。
 
 . 如果合約接近到期日、或已過期、您可以按一下Cloud Manager右下角的聊天圖示、要求延長合約期限。
-. 如需瞭解其他詳細資料的叢集、請按一下 image:button_down_caret.png["減少需求"] 以展開叢集資訊。
+. 如需瞭解其他詳細資料的叢集、請按一下 image:button_down_caret.png["一個脫機圖示"] 以展開叢集資訊。
 +
 image:screenshot_digital_wallet_license_info.png["擴充叢集詳細資料的快照、以便您檢視叢集授權資訊。"]
 

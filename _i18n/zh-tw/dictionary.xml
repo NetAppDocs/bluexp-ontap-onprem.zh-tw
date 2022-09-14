@@ -216,8 +216,6 @@
   <block id="7d8cc3d1d840829a8cdda42ed1f06341" category="list-text">在* Digital Wallet *中、按一下*內部部署ONTAP 的S還原*索引標籤。</block>
   <block id="84c2c11254da9ee11c4482a60291186d" category="paragraph">每個叢集的軟體合約和硬體合約到期日均會顯示在行上。</block>
   <block id="3f844e426a10085ba24d2a77f32144b3" category="list-text">如果合約接近到期日、或已過期、您可以按一下Cloud Manager右下角的聊天圖示、要求延長合約期限。</block>
-  <block id="ddd53e8927c624ebcbf44e804dd39950" category="inline-image-macro">減少需求</block>
-  <block id="d69c8f5affd800d0b387db4764fa4a30" category="list-text">如需瞭解其他詳細資料的叢集、請按一下 <block ref="3cc4b517e471a9470762ff8efb27bddb" category="inline-image-macro-rx" type="image"></block> 以展開叢集資訊。</block>
   <block id="18f84cf96ce5861e5585468ef883b180" category="inline-image-macro">擴充叢集詳細資料的快照、以便您檢視叢集授權資訊。</block>
   <block id="5796086a716a7059f711cc33be934605" category="paragraph"><block ref="5796086a716a7059f711cc33be934605" category="inline-image-macro-rx" type="image"></block></block>
   <block id="521890c2a62a1a85cbecc2bafda74ce4" category="section-title">從Cloud Manager探索內部叢集</block>
@@ -293,7 +291,6 @@
   <block id="7ae492186bd46e832a6b64cff9b1575a" category="paragraph">此範本應可讓您的工作更輕鬆、因為範本中已定義了某些磁碟區參數、例如磁碟類型、大小、傳輸協定、快照原則等。當參數已預先定義時、您只需跳至下一個Volume參數即可。</block>
   <block id="395f4870d887a81edabc6ad40f5a84f0" category="admonition">使用範本時、您只能建立NFS或CIFS磁碟區。</block>
   <block id="ec8d6cd563b6f9acbaf5d348267aeb5c" category="list-text">在「畫版」頁面上、按一下ONTAP 您要配置Volume的內部部署功能系統名稱。</block>
-  <block id="5bc96ba8ddc4433dd0df94e6350c496e" category="list-text">按一下 <block ref="a5c9b85c9e509567688aed8106bc419c" category="inline-image-macro-rx" type="image"></block> &gt;*從範本新增Volume *。</block>
   <block id="74099e7b70c30e3a55db543cda9bfc1e" category="inline-image-macro">顯示如何從範本新增磁碟區的快照。</block>
   <block id="f5cfbd56be4d95a78f70efb70e2e9079" category="paragraph"><block ref="f5cfbd56be4d95a78f70efb70e2e9079" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5b33742921c3a09b3c0916cff2d87632" category="list-text">在「選取範本_」頁面中、選取您要用來建立磁碟區的範本、然後按一下「*下一步*」。</block>
@@ -417,4 +414,8 @@
   <block id="7e7397a7b79323762c61941fc0e6b5f9" category="inline-link">資料保護</block>
   <block id="168463a2e30ac746441036fb49df730e" category="list-text"><block ref="168463a2e30ac746441036fb49df730e" category="inline-link-rx"></block></block>
   <block id="e9c2ec7472702d9e84d77a3ecb12f454" category="sidebar">使用System Manager進行管理</block>
+  <block id="6a9903314020e84e3af325216666825e" category="inline-image-macro">具有三個點的圖示。</block>
+  <block id="a78d007a06bac736eaadb47926ca0155" category="list-text">按一下 <block ref="8891ca04a345a35bd7da25d57718d9b7" category="inline-image-macro-rx" type="image"></block> &gt;*從範本新增Volume *。</block>
+  <block id="2dc127a72bebec759447c53e48d44a81" category="inline-image-macro">一個脫機圖示</block>
+  <block id="c3dcc3698432aa0b6e568ec48b5fe13f" category="list-text">如需瞭解其他詳細資料的叢集、請按一下 <block ref="88c68341c12fbc9f1bcf1c9927535845" category="inline-image-macro-rx" type="image"></block> 以展開叢集資訊。</block>
 </blocks>
