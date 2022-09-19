@@ -18,6 +18,30 @@ summary: 瞭解內部ONTAP 部署的更新功能。
 
 
 
+== 2022年9月18日
+
+以下是3.9.22版Connector的變更。
+
+
+
+=== 全新總覽頁面
+
+我們推出全新的「總覽」頁面、提供內部部署ONTAP 的叢集的重要詳細資料。例如、您現在可以檢視儲存效率、容量分配和系統資訊等詳細資料。
+
+您也可以檢視與其他NetApp雲端服務整合的詳細資料、以便進行資料分層、資料複寫及備份。
+
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-overview.png["快照顯示內部ONTAP 叢集的「總覽」頁面。"]
+
+
+
+=== 重新設計「Volume」頁面
+
+我們重新設計「Volumes（磁碟區）」頁面、提供叢集上磁碟區的摘要。摘要會顯示磁碟區總數、已配置容量、已使用容量和保留容量、以及階層式資料量。
+
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-volumes.png["顯示內部ONTAP 叢集「Volumes」（磁碟區）頁面的快照。"]
+
+
+
 == 2022年6月7日
 
 以下變更是在版本3.9.19的Connector中提出的。
@@ -30,7 +54,7 @@ summary: 瞭解內部ONTAP 部署的更新功能。
 
 此「進階檢視」可在ONTAP 內部部署的叢集執行9.10.0或更新版本時、以預覽形式提供。我們計畫改善這項體驗、並在即將推出的版本中加入增強功能。請使用產品內建聊天功能、向我們傳送意見反應。
 
-link:task-administer-advanced-view.html["深入瞭解進階檢視"]。
+https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-administer-advanced-view.html["深入瞭解進階檢視"]。
 
 
 

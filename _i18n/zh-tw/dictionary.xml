@@ -18,18 +18,13 @@
   <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto：ng-cloudmanager-feedback@netapp.com [意見反應電子郵件]</block>
   <block id="bff60abbc46aceed0f73a3a4f6cfb123" category="paragraph">我們非常重視您的意見。提交意見反應、協助我們改善Cloud Manager。</block>
   <block id="0659d428df833a806e29e65e632d380a" category="section-title">NetApp支援</block>
-  <block id="c91b5a63849b8d2db01014ed33192735" category="paragraph">除了上述的自我支援選項、您也可以與NetApp支援工程師合作、在您啟動支援之後解決任何問題。</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步驟</block>
   <block id="6c08c57e382a25a778455184cd9b1a4a" category="list-text">在Cloud Manager中、按一下*「說明」&gt;「支援」*。</block>
   <block id="f5052c65917d7341726235d4d4941461" category="list-text">在「Technical Support（技術支援）」下選擇可用的選項之一：</block>
-  <block id="bece28b158ab337d9ed24b00d7d02cc7" category="list-text">按一下*致電我們*以尋找NetApp技術支援的電話號碼。</block>
-  <block id="efe81cff8e6f47ec59ef94167b76bf5a" category="list-text">按一下「*開啟問題*」、選取其中一個選項、然後按一下「*傳送*」。</block>
-  <block id="cbb1040836732e478409dacf7e45171a" category="paragraph">NetApp代表將審查您的案例、並盡快回覆您。</block>
   <block id="09a149a5c5d747e4952df900eab14719" category="summary">如果ONTAP 您不想再從Cloud Manager管理內部部署的不工作環境、請將其移除。</block>
   <block id="833397a222b2d3624761a8e68a721fd5" category="doc">移除內部ONTAP 環境的不正常運作環境</block>
   <block id="f23bd56e3b5d6f7f6472fcb2b4cd3d5a" category="paragraph">移除工作環境並不會影響ONTAP 到整個叢集。您可以隨時從Cloud Manager重新探索。</block>
   <block id="0280e7f2fa84bc4f3c493a7a89c90d28" category="list-text">在「畫版」頁面上、按兩下內部部署ONTAP 的功能環境名稱。</block>
-  <block id="80e3b13d71092100ec711ddee84d23a4" category="list-text">按一下功能表圖示、然後選取*移除*。</block>
   <block id="82efd2783df66726ca1b3a680a181ac8" category="inline-image-macro">快照顯示頁面右上角的功能表和移除選項。</block>
   <block id="fdc54b68e260b5861ecabd7cfd437124" category="paragraph"><block ref="fdc54b68e260b5861ecabd7cfd437124" category="inline-image-macro-rx" type="image"></block></block>
   <block id="40b851aafab82c78484c46169f816fd2" category="list-text">按一下「 * 移除 * 」以確認。</block>
@@ -260,9 +255,7 @@
   <block id="efc4120a3fbfbea33245fb931c324492" category="inline-xref">這些步驟</block>
   <block id="ba9dee2f877a286e797bf6a3232b07bb" category="paragraph">Cloud Manager功能稱為「範本」、可讓您針對特定應用程式（例如資料庫或串流服務）的工作負載需求、建立最佳化的磁碟區。如果您的組織已建立您應該使用的Volume範本、請遵循 <block ref="e476f8430392eaa6984ef9c1426bdf73" category="inline-xref-macro-rx"></block>。</block>
   <block id="7c1c859794874e74db7044dd733c5ca7" category="list-text">在「畫版」頁面上、按兩下您ONTAP 要在其中配置Volume的內部版位元組叢集名稱。</block>
-  <block id="e0e02b01eefffa92ef6dd41ca0bfddaa" category="list-text">按一下「 * 新增 Volume * 」。</block>
   <block id="108a74a6cbb575c986177039e07dc411" category="list-text">依照精靈中的步驟建立磁碟區。</block>
-  <block id="3c4fc22bba56c8a041aad60e63c7450f" category="list-text">*詳細資料與保護*：輸入磁碟區的基本詳細資料、然後選取Snapshot原則。</block>
   <block id="3b0e375a08fe94a129cba31916c9d2dc" category="paragraph">此頁面上的部分欄位是不知自明的。下列清單說明您可能需要指引的欄位：</block>
   <block id="6f16a5f8ff5d75ab84c018adacdfcbb7" category="cell">欄位</block>
   <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">說明</block>
@@ -270,7 +263,6 @@
   <block id="7b975bd58356ec64d88f70d7f167a299" category="cell">您可以輸入的最大大小、主要取決於您是否啟用精簡配置、這可讓您建立比目前可用實體儲存容量更大的磁碟區。</block>
   <block id="426fb47479d0477ed5dbc9388b9add76" category="cell">Snapshot 原則</block>
   <block id="052c4d27b63fed6776d46336a295d801" category="cell">Snapshot 複製原則會指定自動建立的 NetApp Snapshot 複本的頻率和數量。NetApp Snapshot 複本是一種不影響效能的時間點檔案系統映像、需要最少的儲存容量。您可以選擇預設原則或無。您可以針對暫時性資料選擇「無」：例如、 Microsoft SQL Server 的 Tempdb 。</block>
-  <block id="5090bb88c9aa49ab33053342a61490ca" category="list-text">*傳輸協定*：選擇磁碟區的傳輸協定（NFS或CIFS）、然後設定磁碟區的存取控制或權限。</block>
   <block id="32532e671368d9ba8ec11ef9121e8520" category="paragraph">如果您選擇CIFS、但伺服器尚未設定、Cloud Manager會提示您使用Active Directory或工作群組來設定CIFS伺服器。</block>
   <block id="10ca883ec839df9958683234c16faa0c" category="paragraph">下列清單說明您可能需要指引的欄位：</block>
   <block id="8aaaedc342a0dce1d73d33f3fb69a2af" category="cell">存取控制</block>
@@ -312,17 +304,12 @@
   <block id="1e57268fd975664444ddbda428e56bf7" category="paragraph">如果您已配置 CIFS 共用區、請授予使用者或群組檔案和資料夾的權限、並確認這些使用者可以存取共用區並建立檔案。</block>
   <block id="9471c2e49e82f1450164e486a41810fd" category="section-title">複寫資料</block>
   <block id="d67fa48b66fcc0b221394da39a91b7bd" category="paragraph">您 Cloud Volumes ONTAP 可以選擇一次性資料複寫、 ONTAP 以協助您在雲端之間來回移動資料、或是循環排程、藉此協助災難恢復或長期保留資料、藉此複寫資料。</block>
-  <block id="4bfd6df89ae3683de5e81c0d2d601355" category="inline-link">請按一下此處以取得更多詳細資料</block>
-  <block id="a8a96c36866372f961b611932778c533" category="paragraph"><block ref="740522bad1dae5d9c555be7717efd2a7" category="inline-link-rx"></block>。</block>
   <block id="69d7d8f5eb94524f8d67bd4810ecd3b4" category="section-title">備份資料</block>
   <block id="4dafc83aff4c0c428f00d14ba637d08e" category="paragraph">您ONTAP 可以使用Cloud Backup、將內部部署的資料還原為雲端中低成本的物件式儲存設備。此服務提供備份與還原功能、可保護內部部署和雲端資料、並長期歸檔。</block>
-  <block id="bfdc46d4c7e2c86b2f36ab608613b0a1" category="paragraph"><block ref="92bb2af477ec46204a7fbf4ac8f25c07" category="inline-link-rx"></block>。</block>
   <block id="b62196e30035e69996a2d1d3a9d64116" category="section-title">掃描、對應及分類您的資料</block>
   <block id="8c5469d13e648a63a3b3954844a606d5" category="paragraph">Cloud Data Sense可掃描企業內部部署叢集、以對應及分類資料、並識別私有資訊。這有助於降低安全性與法規遵循風險、降低儲存成本、並協助您執行資料移轉專案。</block>
-  <block id="3a5ae3c8370ec0420f4d5f09975f9473" category="paragraph"><block ref="4ac871f2acbfe21994d476b705580307" category="inline-link-rx"></block>。</block>
   <block id="8eb970559649a4b00ff570ac7b611b1a" category="section-title">將資料分層至雲端</block>
   <block id="74f0cc3c17958e80b4ccd076c9e50493" category="paragraph">利用ONTAP 雲端分層功能、自動將非作用中的資料從叢集分層至物件式儲存設備、藉此將資料中心延伸至雲端。</block>
-  <block id="06ed7fc16cefcce74b94962584869b39" category="paragraph"><block ref="240bb627dd9982017efa6d3b711a39ad" category="inline-link-rx"></block>。</block>
   <block id="3c10116b37b407ac79092a38ffb292e4" category="summary">在您透過NetApp技術支援開啟支援案例之前、您必須先將NetApp支援網站帳戶新增至Cloud Manager、然後註冊以取得支援。</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">註冊以取得支援</block>
   <block id="aeaeee19a7c393222e407a525cf01991" category="section-title">新增一個NSS帳戶</block>
@@ -365,7 +352,6 @@
   <block id="5549a52d6578bcb66138c7319ef4ea11" category="paragraph">如果您需要對ONTAP 內部部署的叢集執行進階管理、可以使用ONTAP 支援ONTAP 此功能的作業系統管理程式、這個管理介面是隨附於一個作業系統的。我們直接在Cloud Manager中加入System Manager介面、因此您不需要離開Cloud Manager進行進階管理。</block>
   <block id="99721ad2e6d601b2966a9d9e1c7de770" category="paragraph">此「進階檢視」可在ONTAP 內部部署的叢集執行9.10.0或更新版本時、以預覽形式提供。我們計畫改善這項體驗、並在即將推出的版本中加入增強功能。請使用產品內建聊天功能、向我們傳送意見反應。</block>
   <block id="f303a87fe6efba259b752f5a9e11064b" category="inline-link-macro">深入瞭解進階檢視</block>
-  <block id="0c6e9220b6dd38f763ce6082c0125be9" category="paragraph"><block ref="cf41d716430563f350a841f38af568db" category="inline-link-macro-rx"></block>。</block>
   <block id="d7ce0ccf910efd77ec00e6d9bde719ca" category="doc">使用進階檢視來管理ONTAP</block>
   <block id="74593b49f99b6e21d38ca3d969b213f3" category="paragraph">此「進階檢視」可作為預覽使用。我們計畫改善這項體驗、並在即將推出的版本中加入增強功能。請使用產品內建聊天功能、向我們傳送意見反應。</block>
   <block id="98a1dd953dfcb1729fd4013fc440cb56" category="paragraph">Cloud Manager的進階檢視可讓您存取其他管理功能：</block>
@@ -419,4 +405,51 @@
   <block id="2dc127a72bebec759447c53e48d44a81" category="inline-image-macro">一個脫機圖示</block>
   <block id="c3dcc3698432aa0b6e568ec48b5fe13f" category="list-text">如需瞭解其他詳細資料的叢集、請按一下 <block ref="88c68341c12fbc9f1bcf1c9927535845" category="inline-image-macro-rx" type="image"></block> 以展開叢集資訊。</block>
   <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有Cloud Manager文件</block>
+  <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022年9月18日</block>
+  <block id="440be74a67502f9c3d55890782329328" category="paragraph">以下是3.9.22版Connector的變更。</block>
+  <block id="c8328d07fc05c4708c68f547ce6f5e77" category="section-title">全新總覽頁面</block>
+  <block id="8e41db9b51f790909ef80a064153f722" category="paragraph">我們推出全新的「總覽」頁面、提供內部部署ONTAP 的叢集的重要詳細資料。例如、您現在可以檢視儲存效率、容量分配和系統資訊等詳細資料。</block>
+  <block id="bcc757acad6812aeb9904ad6e30c0738" category="paragraph">您也可以檢視與其他NetApp雲端服務整合的詳細資料、以便進行資料分層、資料複寫及備份。</block>
+  <block id="fba766c98683be4af93f93b5d7909f1e" category="inline-image-macro">快照顯示內部ONTAP 叢集的「總覽」頁面。</block>
+  <block id="5277a2f54c2173b12f8eb86ae9da078e" category="paragraph"><block ref="5277a2f54c2173b12f8eb86ae9da078e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c76ff3fb4e35074fc6f04c1cb8ea02af" category="section-title">重新設計「Volume」頁面</block>
+  <block id="99cbfcbab5c608668044fc3849d8db46" category="paragraph">我們重新設計「Volumes（磁碟區）」頁面、提供叢集上磁碟區的摘要。摘要會顯示磁碟區總數、已配置容量、已使用容量和保留容量、以及階層式資料量。</block>
+  <block id="2f82cdfc06b6747c85937b5cceabaaee" category="inline-image-macro">顯示內部ONTAP 叢集「Volumes」（磁碟區）頁面的快照。</block>
+  <block id="bb4feb07894e787f9d7a8a9c00fa4d55" category="paragraph"><block ref="bb4feb07894e787f9d7a8a9c00fa4d55" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="677a2aadb254e7c4efbc10a593c2f4db" category="paragraph"><block ref="869a420ba883bbe1b303fc03706f8b2f" category="inline-link-rx"></block>。</block>
+  <block id="d71f4e248e7b72dc823a682ad81ee0a7" category="list-text">按一下功能表圖示、然後選取*從工作區移除*。</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">除了上述的自我支援選項、您也可以在啟動支援之後、與NetApp支援專家合作解決任何問題。</block>
+  <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">瞭解如何註冊以取得支援</block>
+  <block id="09651e14b46d7e8697d32de90d0deacb" category="paragraph">若要使用*建立案例*功能、您必須先執行Cloud Manager帳戶ID序號的一次性登錄（即960xxxx）。 <block ref="3349e4b3d05f646f2f1421bee7c2ad26" category="inline-link-macro-rx"></block>。</block>
+  <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">如果您想與電話上的其他人通話、請按一下*「呼叫我們*」。您將會被導向netapp.com上的頁面、其中列出您可以撥打的電話號碼。</block>
+  <block id="bf5bc6ab0f95f17f4e98c9d766b8c11d" category="list-text">按一下*建立案例*、與NetApp支援專家一起開啟問題單：</block>
+  <block id="b53e0a259f4a0c8e7da80d6c94e26c84" category="list-text">*《支援帳戶*》：選取與開立支援案例的人員相關的適用的NSS帳戶。NetApp 支援網站除了以下提供的其他電子郵件之外、此人將是NetApp聯絡的主要聯絡人。</block>
+  <block id="ec65cc87efda54741062da1fce99ff76" category="paragraph">如果您看不到您的NSS帳戶、可以瀏覽至Cloud Manager「Support（支援）」區段中的「* nssn* Management（* nssnss管理*）」索引標籤、將其新增至該處。</block>
+  <block id="b3144caf7d928b7954447c757b3ed77b" category="list-text">*服務*：選取問題相關的服務。例如、Cloud Manager在特定於服務工作流程或功能的技術支援問題時。</block>
+  <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*工作環境*：如果適用於儲存設備、請選取* Cloud Volumes ONTAP 《*》或*《內部部署*》、然後選取相關的工作環境。</block>
+  <block id="1e38219c106fb9d07d173c027b8911c7" category="paragraph">工作環境清單位於您在服務的最上層橫幅中所選的Cloud Manager帳戶、工作區和Connector範圍內。</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*案例優先順序*：選擇案例的優先順序、可以是低、中、高或嚴重。</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">若要深入瞭解這些優先順序、請將滑鼠游標暫留在欄位名稱旁的資訊圖示上。</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*問題說明*：提供問題的詳細說明、包括任何適用的錯誤訊息或您執行的疑難排解步驟。</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*其他電子郵件地址*：如果您想讓其他人知道此問題、請輸入其他電子郵件地址。</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">「建立案例」表單的快照、可讓您使用NetApp支援建立案例。</block>
+  <block id="a2ff30886e1baf1e7d5045b5fc24f5b9" category="paragraph"><block ref="a2ff30886e1baf1e7d5045b5fc24f5b9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">您的支援案例編號會出現快顯視窗。NetApp支援專家將會審查您的案例、並盡快回覆您。</block>
+  <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">如需支援案例的記錄、請按一下*設定&gt;時間軸*、然後尋找名為「create support case」的行動。 最右側的按鈕可讓您展開動作以查看詳細資料。</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">嘗試建立案例時、可能會遇到下列錯誤訊息：</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"您無權針對所選服務建立案例"</block>
+  <block id="148f13242c3e296dc276821cdc574921" category="paragraph">此錯誤可能表示、與此相關聯的NSS帳戶及記錄公司與Cloud Manager帳戶序號的記錄公司不同（例如960xxxx)或工作環境序號。您可以在「建立案例*」表單頂端查看您的NSS帳戶清單、以找出最適合的項目、或使用下列其中一個選項尋求協助：</block>
+  <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">使用產品內對談</block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">請至提交非技術案例<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="bfd7860b885159ef1631572dc506bf0e" category="list-text">按一下「* Volume &gt; Add Volume *」。</block>
+  <block id="97a34ca7d328720ed48cf2e2010985be" category="list-text">*詳細資料、保護及標記*：輸入磁碟區的詳細資料、例如磁碟區名稱和大小、選擇Snapshot原則、並視需要指定磁碟區標記。</block>
+  <block id="17b6d3e2bf5506b5e797dfb98b76c0c2" category="list-text">*傳輸協定*：選擇磁碟區的傳輸協定（NFS、CIFS或iSCSI）、然後設定磁碟區的存取控制或權限。</block>
+  <block id="0c57608b3dc99c491ccf28333d1a1ffd" category="inline-link">瞭解如何複寫資料</block>
+  <block id="057bdd599f52bea71a4eb64fb5283528" category="paragraph"><block ref="057bdd599f52bea71a4eb64fb5283528" category="inline-link-rx"></block></block>
+  <block id="b1d61988f64b60df32fb40aafa9a8a72" category="inline-link">瞭解如何將資料備份到雲端</block>
+  <block id="0c8aebb65487842ae7cee0153641a2c0" category="paragraph"><block ref="0c8aebb65487842ae7cee0153641a2c0" category="inline-link-rx"></block></block>
+  <block id="657194a3b23d82061f3c6bde831200e2" category="inline-link">瞭解如何掃描、對應及分類資料</block>
+  <block id="87297131944257017f4fa2ace90b4993" category="paragraph"><block ref="87297131944257017f4fa2ace90b4993" category="inline-link-rx"></block></block>
+  <block id="e8d45bdb0673c56f56414b928ee6a759" category="inline-link">瞭解如何將資料分層至雲端</block>
+  <block id="f3ad359fcb06b212c3249a38f6d003e4" category="paragraph"><block ref="f3ad359fcb06b212c3249a38f6d003e4" category="inline-link-rx"></block></block>
 </blocks>
