@@ -14,7 +14,7 @@ summary: 瞭解內部ONTAP 部署的更新功能。
 
 
 [role="lead"]
-瞭解內部ONTAP 部署的更新功能。
+瞭解ONTAP BlueXP（前身為Cloud Manager）內建的內部叢集管理功能的新功能。
 
 
 

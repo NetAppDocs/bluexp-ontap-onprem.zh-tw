@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-provisioning-ontap.html 
 keywords: ontap, cluster, manage, provision, provisioning, volumes, discovering, fas, aff, creating volumes, adding volumes 
-summary: 從ONTAP Cloud Manager探索內部使用的叢集之後、您可以開啟工作環境來配置和管理儲存設備。 
+summary: 在ONTAP 您從BlueXP探索內部的功能區叢集之後、您可以開啟工作環境來配置及管理儲存設備。 
 ---
 = 管理內部ONTAP 部署的儲存設備
 :hardbreaks:
@@ -13,17 +13,18 @@ summary: 從ONTAP Cloud Manager探索內部使用的叢集之後、您可以開�
 :imagesdir: ./media/
 
 
-從ONTAP Cloud Manager探索內部使用的叢集之後、您可以開啟工作環境來配置和管理儲存設備。
+在ONTAP 您從BlueXP探索內部的功能區叢集之後、您可以開啟工作環境來配置及管理儲存設備。
 
 
 
 == 建立磁碟區
 
-Cloud Manager可讓您在現有的Aggregate上建立NFS或CIFS磁碟區。您無法ONTAP 從Cloud Manager在內部的叢集上建立新的Aggregate。
+BlueXP可讓您在現有的Aggregate上建立NFS或CIFS磁碟區。您無法在ONTAP BlueXP的內部叢集上建立新的Aggregate。
 
-Cloud Manager功能稱為「範本」、可讓您針對特定應用程式（例如資料庫或串流服務）的工作負載需求、建立最佳化的磁碟區。如果您的組織已建立您應該使用的Volume範本、請遵循  volumes from templates,這些步驟。
+稱為「範本」的BlueXP功能可讓您建立專為特定應用程式（例如資料庫或串流服務）工作負載需求最佳化的磁碟區。如果您的組織已建立您應該使用的Volume範本、請遵循  volumes from templates,這些步驟。
 
 .步驟
+. 從導覽功能表中、選取*儲存設備> Canvas*。
 . 在「畫版」頁面上、按兩下您ONTAP 要在其中配置Volume的內部版位元組叢集名稱。
 . 按一下「* Volume > Add Volume *」。
 . 依照精靈中的步驟建立磁碟區。
@@ -45,7 +46,7 @@ Cloud Manager功能稱為「範本」、可讓您針對特定應用程式（例�
 |===
 .. *傳輸協定*：選擇磁碟區的傳輸協定（NFS、CIFS或iSCSI）、然後設定磁碟區的存取控制或權限。
 +
-如果您選擇CIFS、但伺服器尚未設定、Cloud Manager會提示您使用Active Directory或工作群組來設定CIFS伺服器。
+如果您選擇CIFS、但伺服器尚未設定、則BlueXP會提示您使用Active Directory或工作群組來設定CIFS伺服器。
 
 +
 下列清單說明您可能需要指引的欄位：
@@ -56,7 +57,7 @@ Cloud Manager功能稱為「範本」、可讓您針對特定應用程式（例�
 | 欄位 | 說明 
 
 
-| 存取控制 | NFS匯出原則會定義子網路中可存取磁碟區的用戶端。根據預設、 Cloud Manager 會輸入一個值、讓您存取子網路中的所有執行個體。 
+| 存取控制 | NFS匯出原則會定義子網路中可存取磁碟區的用戶端。根據預設、BlueXP會輸入一個值、以供存取子網路中的所有執行個體。 
 
 
 | 權限與使用者/群組 | 這些欄位可讓您控制使用者和群組存取SMB共用區的層級（也稱為存取控制清單或ACL）。您可以指定本機或網域 Windows 使用者或群組、或 UNIX 使用者或群組。如果您指定網域 Windows 使用者名稱、則必須使用網域 \ 使用者名稱格式來包含使用者的網域。 
@@ -111,7 +112,7 @@ image:screenshot_define_ontap_vol_from_template.png["顯示空白範本的螢幕
 . 定義完此Volume所需的所有參數後、請按一下*執行範本*。
 
 
-Cloud Manager會配置磁碟區並顯示頁面、以便您查看進度。
+BlueXP會配置磁碟區並顯示頁面、以便您查看進度。
 
 image:screenshot_template_creating_resource_ontap.png["快照顯示從範本建立新磁碟區的進度。"]
 

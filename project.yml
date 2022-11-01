@@ -25,10 +25,8 @@ sidebar:
       url: "/task-provisioning-ontap.html"
     - title: 使用System Manager進行管理
       url: "/task-administer-advanced-view.html"
-    - title: 使用Active IQ We Digital Advisor最佳化叢集
+    - title: 使用Digital Advisor最佳化叢集
       url: "/concept-aiq-digital-advisor.html"
-    - title: 使用Active IQ 不實資料管理叢集
-      url: "/task-managing-ontap.html"
     - title: 移除內部ONTAP 環境的不正常運作環境
       url: "/task-remove-on-prem.html"
   - title: 知識與支援
@@ -59,11 +57,11 @@ homepage:
     links:
     - title: NetApp社群
       url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
-    - title: Cloud Central部落格
+    - title: BlueXP部落格
       url: https://cloud.netapp.com/blog
     - title: 雲端網路研討會
       url: https://cloud.netapp.com/events
 product-family:
-  name: Cloud Manager
+  name: BlueXP
   repo: cloud-manager-family
-  sidebar_label: 所有Cloud Manager文件
+  sidebar_label: 所有BlueXP文件

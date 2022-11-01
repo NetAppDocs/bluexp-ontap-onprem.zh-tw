@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-discovering-ontap.html 
 keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, digital wallet 
-summary: Cloud Manager 可在 ONTAP 內部部署環境、 NetApp 私有儲存組態和 IBM Cloud 中探索這些功能集區。將內部叢集新增至Cloud Manager Canvas可讓您使用Cloud Volumes ONTAP 與您的VMware及其他雲端儲存解決方案相同的工具來管理這些叢集。 
+summary: 在ONTAP 內部部署環境、NetApp私有儲存組態和IBM Cloud中、BlueXP都能發現這些功能集區。將內部叢集新增至BlueXP畫版可讓您使用Cloud Volumes ONTAP 與您的VMware及其他雲端儲存解決方案相同的工具來管理這些叢集。 
 ---
 = 探索內部部署ONTAP 的叢集
 :hardbreaks:
@@ -13,9 +13,9 @@ summary: Cloud Manager 可在 ONTAP 內部部署環境、 NetApp 私有儲存組
 :imagesdir: ./media/
 
 
-Cloud Manager 可在 ONTAP 內部部署環境、 NetApp 私有儲存組態和 IBM Cloud 中探索這些功能集區。將內部叢集新增至Cloud Manager Canvas可讓您使用Cloud Volumes ONTAP 與您的VMware及其他雲端儲存解決方案相同的工具來管理這些叢集。
+在ONTAP 內部部署環境、NetApp私有儲存組態和IBM Cloud中、BlueXP都能發現這些功能集區。將內部叢集新增至BlueXP畫版可讓您使用Cloud Volumes ONTAP 與您的VMware及其他雲端儲存解決方案相同的工具來管理這些叢集。
 
-除了能夠在這些系統上配置儲存設備、將這些系統新增至Cloud Manager也能輕鬆檢視Digital Wallet中的硬體與軟體合約狀態資訊、並為這些叢集設定關鍵雲端型服務。這包括將資料複寫到雲端、將資料備份到雲端、將冷資料分層到雲端、以及對該資料執行法規遵循掃描。
+除了能夠在這些系統上配置儲存設備、將這些系統新增至BlueXP、也能輕鬆在Digital Wallet中檢視硬體與軟體合約狀態資訊、並為這些叢集設定重要的雲端型服務。這包括將資料複寫到雲端、將資料備份到雲端、將冷資料分層到雲端、以及對該資料執行法規遵循掃描。
 
 
 
@@ -31,9 +31,9 @@ Cloud Manager 可在 ONTAP 內部部署環境、 NetApp 私有儲存組態和 IB
 ** https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["深入瞭解雲端分層"^]
 
 
-* 將叢集新增至 Cloud Manager 的叢集管理 IP 位址和管理使用者帳戶密碼。
+* 叢集管理IP位址和管理使用者帳戶密碼、用於將叢集新增至BlueXP。
 +
-Cloud Manager 使用 ONTAP HTTPS 探索各個叢集。如果使用自訂防火牆原則、則必須符合下列需求：
+BlueXP會使用ONTAP HTTPS探索叢集。如果使用自訂防火牆原則、則必須符合下列需求：
 
 +
 ** 連接器主機必須允許透過連接埠 443 進行傳出 HTTPS 存取。
@@ -46,46 +46,28 @@ Cloud Manager 使用 ONTAP HTTPS 探索各個叢集。如果使用自訂防火�
 
 
 
-* 一組有效的NetApp支援網站認證資料。瞭解如何操作 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-nss-accounts.html["將新增至Cloud Manager的NSS帳戶"^]。
+* 一組有效的 NetApp 支援網站認證資料。瞭解如何操作 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-nss-accounts.html["將新增至BlueXP的NSS帳戶"^]。
 
 
 
 
 == 檢視已探索及未探索的內部叢集
 
-您可以使用Cloud Manager中的_Digital Wallet或_Discovery_服務來檢視、探索及管理ONTAP 內部支援合約中的內部叢集。
-
-若要從_Digital Wallet檢視內部叢集和授權詳細資料：
+您可以使用BlueXP中的_Digital Wallet _服務來檢視、探索及管理ONTAP 支援合約中的內部版的支援叢集。
 
 .步驟
-. 從Cloud Manager中選取* Digital Wallet *服務。
+. 從BlueXP導覽功能表中、選取*管理>數位錢包*。
 . 按一下*內部部署ONTAP 的S還原*索引標籤。
 +
 image:screenshot_digital_wallet_onprem_main.png["「數位錢包」頁面的快照、適用於內部部署ONTAP 的叢集。"]
 
 +
-顯示您的叢集時、會顯示Cloud Manager是否已探索到這些叢集的狀態。ONTAP
+顯示您的叢集時、會顯示是否已在BlueXP中找到它們的狀態。ONTAP
 
 +
 如果系統提示您先輸入NetApp支援網站（NSS）帳戶認證、請在支援儀表板中輸入認證資料。新增帳戶後、即會顯示該帳戶中包含的叢集。
 
 
-
-若要從_Discovery服務檢視內部叢集和授權詳細資料：
-
-.步驟
-. 從Cloud Manager中選取* Discovery *服務。
-. 如Active IQ 有必要、請選取與您的NSS帳戶相關聯的登入資訊。
-+
-image:screenshot_aiq_main_page.png["內部部署ONTAP 的叢集之「探索」主頁的快照。"]
-
-+
-您擁有有效支援合約的支援叢集會顯示狀態、指出是否已在Cloud Manager中找到這些叢集。ONTAP
-
-
-
-
-NOTE: 如果您的支援合約到期、系統就會從「探索」頁面移除。不過、您可以繼續在他們的工作環境中管理這些系統。瞭解如何操作 link:https://docs.netapp.com/us-en/active-iq/task_renew_support_contracts_for_your_systems.html["請向 Active IQ 支援顧問續約"^]。
 
 
 
@@ -94,11 +76,12 @@ NOTE: 如果您的支援合約到期、系統就會從「探索」頁面移除�
 您可以使用_Digital Wallet檢視叢集詳細資料、以及硬體與軟體合約狀態。
 
 .步驟
+. 從BlueXP導覽功能表中、選取*管理>數位錢包*。
 . 在* Digital Wallet *中、按一下*內部部署ONTAP 的S還原*索引標籤。
 +
 每個叢集的軟體合約和硬體合約到期日均會顯示在行上。
 
-. 如果合約接近到期日、或已過期、您可以按一下Cloud Manager右下角的聊天圖示、要求延長合約期限。
+. 如果合約接近到期日、或已過期、您可以按一下BlueXP右下角的聊天圖示、要求延長合約期限。
 . 如需瞭解其他詳細資料的叢集、請按一下 image:button_down_caret.png["一個脫機圖示"] 以展開叢集資訊。
 +
 image:screenshot_digital_wallet_license_info.png["擴充叢集詳細資料的快照、以便您檢視叢集授權資訊。"]
@@ -107,9 +90,9 @@ image:screenshot_digital_wallet_license_info.png["擴充叢集詳細資料的快
 
 
 
-== 從Cloud Manager探索內部叢集
+== 從BlueXP探索內部叢集
 
-您可以ONTAP 從_Digital Wallet _、_Discovery_服務或_Canvas_、在Cloud Manager中探索內部的等叢集。一旦發現、他們就能在Cloud Manager中以工作環境的形式提供、以便您管理叢集。
+您可以ONTAP 從_Digital Wallet _或_Canvas_、在BlueXP中探索內部的等叢集。一旦發現、它們就能在BlueXP中作為工作環境使用、以便您管理叢集。
 
 
 
@@ -118,11 +101,12 @@ image:screenshot_digital_wallet_license_info.png["擴充叢集詳細資料的快
 您可以ONTAP 從Digital Wallet中探索自己的核心叢集、並將其新增為工作環境。
 
 .步驟
+. 從BlueXP導覽功能表中、選取*管理>數位錢包*。
 . 在* Digital Wallet *中、按一下*內部部署ONTAP 的S還原*索引標籤。
 +
 image:screenshot_digital_wallet_clusters.png["內部部署ONTAP 資訊頁面的快照、顯示您的NSS帳戶中找到的所有叢集。"]
 
-. 按一下* Discover（探索）*以瞭解您要透過Cloud Manager管理的叢集。
+. 按一下* Discover（探索）*以瞭解您要透過BlueXP管理的叢集。
 . 在_探索ONTAP 更新叢集_頁面上、輸入管理員使用者帳戶的密碼、然後按一下*探索*。
 +
 image:screenshot_discover_ontap_wallet.png["快照顯示 ONTAP 「叢集管理詳細資料」頁面的範例：叢集管理 IP 位址、使用者名稱和密碼。"]
@@ -135,7 +119,7 @@ image:screenshot_discover_ontap_wallet.png["快照顯示 ONTAP 「叢集管理�
 
 
 
-Cloud Manager會使用叢集名稱做為工作環境名稱、探索叢集並將其新增至Canvas中的工作環境。
+BlueXP會使用叢集名稱做為工作環境名稱、探索叢集並將其新增至Canvas中的工作環境。
 
 image:screenshot_onprem_cluster.png["畫版中內部的叢集快照ONTAP 。"]
 
@@ -143,36 +127,9 @@ image:screenshot_onprem_cluster.png["畫版中內部的叢集快照ONTAP 。"]
 
 
 
-=== 從「Discovery」（探索）頁面探索叢集
-
-您可以ONTAP 從「Discovery」（探索）頁面探索您的叢集、並將其新增為工作環境。
-
-.步驟
-. 在* Discovery *（探索*）頁面中、按一下*叢集庫存*索引標籤。
-+
-image:screenshot_aiq_clusters.png["「探索」頁面的快照、顯示您的NSS帳戶中找到的所有叢集。"]
-
-. 按一下* Discover（探索）*以瞭解您要透過Cloud Manager管理的叢集。
-. 在_選擇位置_頁面*內部部署ONTAP 的SURE*已預先選取、所以只要按一下*繼續*即可。
-. 在「_ ONTAP 此叢集詳細資料_」頁面上、輸入管理員使用者帳戶的密碼、然後按一下「*新增*」。
-+
-image:screenshot_discover_ontap.png["快照顯示 ONTAP 「叢集管理詳細資料」頁面的範例：叢集管理 IP 位址、使用者名稱和密碼。"]
-
-+
-請注意、叢集管理IP位址是根據Active IQ 來自下列項目的資訊填入。
-
-. 在「_Details & Credentials_」頁面上、叢集名稱會新增為「工作環境名稱」、因此只要按一下「* Go *」即可。
-
-
-Cloud Manager會使用叢集名稱做為工作環境名稱、探索叢集並將其新增至Canvas中的工作環境。
-
-您可以在右側面板中啟用此叢集的服務、以便在叢集之間複寫資料、設定資料分層至雲端、將磁碟區備份至雲端、或在磁碟區上執行法規遵循掃描。您也可以建立新磁碟區或啟動System Manager來執行進階工作。
-
-
-
 === 從「畫版」頁面探索叢集
 
-您可以從ONTAP 「畫版」頁面探索您的叢集、並將其新增為工作環境。如果叢集目前沒有支援合約、而未列在「Digital Wallet」或「Discovery」頁面中、則可使用這些步驟。
+您可以從ONTAP 「畫版」頁面探索您的叢集、並將其新增為工作環境。如果叢集目前沒有支援合約、而未列在Digital Wallet中、則可使用這些步驟。
 
 .步驟
 . 在「畫版」頁面上、按一下「 * 新增工作環境 * 」、然後選取「 * 內部部署 ONTAP 的更新環境 * 」。
@@ -187,6 +144,6 @@ image:screenshot_discover_ontap.png["快照顯示 ONTAP 「叢集管理詳細資
 . 在「_詳細資料與認證資料_」頁面上、輸入工作環境的名稱與說明、然後按一下「*執行*」。
 
 
-Cloud Manager會探索叢集、並將其新增至畫版中的工作環境。
+BlueXP會探索叢集、並將其新增至畫版中的工作環境。
 
 您可以在右側面板中啟用此叢集的服務、以便在叢集之間複寫資料、設定資料分層至雲端、將磁碟區備份至雲端、或在磁碟區上執行法規遵循掃描。您也可以建立新磁碟區或啟動System Manager來執行進階工作。

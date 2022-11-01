@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-administer-advanced-view.html 
 keywords: system manager, advanced view, access system manager, load system manager, use system manager 
-summary: 如果您需要對ONTAP 內部部署的叢集執行進階管理、可以使用ONTAP 支援ONTAP 此功能的作業系統管理程式、這個管理介面是隨附於一個作業系統的。我們直接在Cloud Manager中加入System Manager介面、因此您不需要離開Cloud Manager進行進階管理。 
+summary: 如果您需要對ONTAP 內部部署的叢集執行進階管理、可以使用ONTAP 支援ONTAP 此功能的作業系統管理程式、這個管理介面是隨附於一個作業系統的。我們已將System Manager介面直接納入BlueXP、因此您不需要離開BlueXP進行進階管理。 
 ---
 = 使用進階檢視來管理ONTAP
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 如果您需要對ONTAP 內部部署的叢集執行進階管理、可�
 
 
 [role="lead"]
-如果您需要對ONTAP 內部部署的叢集執行進階管理、可以使用ONTAP 支援ONTAP 此功能的作業系統管理程式、這個管理介面是隨附於一個作業系統的。我們直接在Cloud Manager中加入System Manager介面、因此您不需要離開Cloud Manager進行進階管理。
+如果您需要對ONTAP 內部部署的叢集執行進階管理、可以使用ONTAP 支援ONTAP 此功能的作業系統管理程式、這個管理介面是隨附於一個作業系統的。我們已將System Manager介面直接納入BlueXP、因此您不需要離開BlueXP進行進階管理。
 
 此「進階檢視」可作為預覽使用。我們計畫改善這項體驗、並在即將推出的版本中加入增強功能。請使用產品內建聊天功能、向我們傳送意見反應。
 
@@ -22,7 +22,7 @@ summary: 如果您需要對ONTAP 內部部署的叢集執行進階管理、可�
 
 == 功能
 
-Cloud Manager的進階檢視可讓您存取其他管理功能：
+BlueXP的進階檢視可讓您存取其他管理功能：
 
 * 進階儲存管理
 +
@@ -58,11 +58,11 @@ Cloud Manager的進階檢視可讓您存取其他管理功能：
 
 == 限制
 
-在Cloud Manager中使用進階檢視時、內部部署ONTAP 的叢集不支援幾項System Manager功能：
+在使用BlueXP中的進階檢視時、內部部署ONTAP 的叢集不支援一些System Manager功能：
 
 * 叢集設定
 +
-設定管理IP位址並在內部ONTAP 的叢集上設定管理密碼之後、您可以在Cloud Manager中探索叢集、然後從「進階檢視」繼續叢集設定。
+設定管理IP位址並在內部ONTAP 的叢集上設定管理密碼之後、您可以在BlueXP中探索叢集、然後從「進階檢視」繼續叢集設定。
 
 * 雲端備份啟動
 +
@@ -92,7 +92,7 @@ image:screenshot-advanced-view.png["內部ONTAP 環境的快照、顯示「切�
 
 . 如果出現確認訊息、請仔細閱讀、然後按一下*關閉*。
 . 使用System Manager來管理ONTAP 功能。
-. 如有需要、請按一下*切換至標準檢視*、透過Cloud Manager返回標準管理。
+. 如有需要、請按一下*切換至標準檢視*、透過BlueXP返回標準管理。
 +
 image:screenshot-standard-view.png["內部ONTAP 環境的快照、顯示「切換至標準檢視」選項。"]
 
