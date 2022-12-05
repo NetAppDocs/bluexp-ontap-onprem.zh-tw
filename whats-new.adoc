@@ -18,6 +18,30 @@ summary: 瞭解內部ONTAP 部署的更新功能。
 
 
 
+== 2022年12月4日
+
+以下是3.9.24版本的Connector所做的變更。
+
+
+
+=== 探索內部ONTAP 部署的新型叢集方法
+
+您現在ONTAP 無需使用Connector、即可直接探索內部的功能性叢集。此選項僅透過System Manager啟用叢集管理。您無法在此類型的工作環境中啟用任何BlueXP資料服務。
+
+https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["深入瞭解此探索與管理選項"]。
+
+
+
+=== 資料量FlexGroup
+
+對於ONTAP 透過Connector探索的內部元件叢集、BlueXP中的「標準」檢視畫面現在會顯示FlexGroup 透過System Manager或ONTAP CLI建立的功能區。您也可以透過複製這些磁碟區、編輯其設定、刪除這些磁碟區等方式來管理這些磁碟區。
+
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-flexgroup-volumes.png["在FlexGroup 「Volumes」（磁碟區）頁面上顯示的快照、可顯示內部ONTAP 叢集的「聲音量」。"]
+
+BlueXP不支援建立FlexGroup 功能區。您需要繼續使用System Manager或CLI來建立FlexGroup 各種功能。
+
+
+
 == 2022年9月18日
 
 以下是3.9.22版Connector的變更。

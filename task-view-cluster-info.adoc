@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: task-view-cluster-info.html 
+keywords: software contract, hardware contract, contracts, expiration date, expired, software contract 
+summary: 您可以使用Digital Wallet來檢視叢集詳細資料、以及硬體與軟體合約狀態。 
+---
+= 檢視叢集資訊和合約詳細資料
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+您可以使用_Digital Wallet檢視叢集詳細資料、以及硬體與軟體合約狀態。
+
+.步驟
+. 從BlueXP導覽功能表中、選取*管理>數位錢包*。
+. 在* Digital Wallet *中、按一下*內部部署ONTAP 的S還原*索引標籤。
++
+每個叢集的軟體合約和硬體合約到期日均會顯示在行上。
+
+. 如果合約接近到期日、或已過期、您可以按一下BlueXP右下角的聊天圖示、要求延長合約期限。
+. 如需瞭解其他詳細資料的叢集、請按一下 image:button_down_caret.png["一個脫機圖示"] 以展開叢集資訊。
++
+image:screenshot_digital_wallet_license_info.png["擴充叢集詳細資料的快照、以便您檢視叢集授權資訊。"]
+
+

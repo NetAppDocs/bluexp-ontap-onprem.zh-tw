@@ -1,6 +1,6 @@
 ---
 settings:
-  name: On-prem ONTAP clusters
+  name: On-premises ONTAP clusters
   platform: cloud
   internal:
     pdf_enabled: true
@@ -11,20 +11,24 @@ settings:
   langs: zh-tw,us-en,ja-jp,zh-cn,ko-kr,fr-fr,de-de
 sidebar:
   entries:
-  - title: 內部ONTAP 部署：叢集文件
+  - title: 內部部署ONTAP 的叢集文件
     url: "/index.html"
   - title: 版本資訊
     url: "/whats-new.html"
   - title: 開始使用
     entries:
+    - title: 深入瞭解ONTAP 內部的叢集管理
+      url: "/concept-onprem-ontap.html"
     - title: 探索 ONTAP 叢集
       url: "/task-discovering-ontap.html"
   - title: 管理內部ONTAP 的叢集
     entries:
-    - title: 管理內部ONTAP 的不全功能資料
-      url: "/task-provisioning-ontap.html"
-    - title: 使用System Manager進行管理
-      url: "/task-administer-advanced-view.html"
+    - title: 直接管理探索到的叢集
+      url: "/task-manage-ontap-direct.html"
+    - title: 使用Connector管理探索到的叢集
+      url: "/task-manage-ontap-connector.html"
+    - title: 檢視叢集資訊和合約詳細資料
+      url: "/task-view-cluster-info.html"
     - title: 使用Digital Advisor最佳化叢集
       url: "/concept-aiq-digital-advisor.html"
     - title: 移除內部ONTAP 環境的不正常運作環境
@@ -41,18 +45,16 @@ homepage:
   tiles:
   - title: 開始使用
     links:
-    - title: 檢視已探索及未探索的內部叢集
-      url: task-discovering-ontap.html#viewing-discovered-and-undiscovered-on-prem-clusters
+    - title: 深入瞭解ONTAP 內部的叢集管理
+      url: concept-onprem-ontap.html
     - title: 探索 ONTAP 叢集
       url: task-discovering-ontap.html
-    - title: 新增功能
-      url: whats-new.html
   - title: 管理內部ONTAP 的叢集
     links:
-    - title: 建立磁碟區
-      url: task-provisioning-ontap.html
-    - title: 下載新的磁碟和機櫃韌體
-      url: task-managing-ontap.html#downloading-new-disk-and-shelf-firmware
+    - title: 直接管理探索到的叢集
+      url: task-manage-ontap-direct.html
+    - title: 使用Connector管理探索到的叢集
+      url: task-manage-ontap-connector.html
   - title: 部落格社群
     links:
     - title: NetApp社群

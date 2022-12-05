@@ -38,12 +38,6 @@ Digital Advisor可提供ONTAP 您在您的NSS.帳戶中所有內部部署的系�
 
 
 
-== 成本
-
-透過BlueXP使用此服務不需付費。
-
-
-
 == 數位顧問如何與BlueXP搭配運作
 
 請參閱 https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html["數位顧問文件"^] 以取得詳細資料。

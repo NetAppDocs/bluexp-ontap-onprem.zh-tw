@@ -13,15 +13,48 @@ summary: 在ONTAP 內部部署環境、NetApp私有儲存組態和IBM Cloud中�
 :imagesdir: ./media/
 
 
-在ONTAP 內部部署環境、NetApp私有儲存組態和IBM Cloud中、BlueXP都能發現這些功能集區。將內部叢集新增至BlueXP畫版可讓您使用Cloud Volumes ONTAP 與您的VMware及其他雲端儲存解決方案相同的工具來管理這些叢集。
-
-除了能夠在這些系統上配置儲存設備、將這些系統新增至BlueXP、也能輕鬆在Digital Wallet中檢視硬體與軟體合約狀態資訊、並為這些叢集設定重要的雲端型服務。這包括將資料複寫到雲端、將資料備份到雲端、將冷資料分層到雲端、以及對該資料執行法規遵循掃描。
-
+[role="lead"]
+探索ONTAP 來自BlueXP的內部資源介紹叢集、以便您開始使用ONTAP 從BlueXP取得的功能完善的系統管理程式來管理磁碟區和執行進階管理、不需要離開BlueXP進行進階管理。
 
 
-== 需求
 
-* 安裝在雲端供應商或內部部署環境中的 Connector 。
+== 探索與管理選項
+
+BlueXP提供兩種方法來探索及管理內部ONTAP 的支援功能
+
+透過連接器探索:: 此選項可讓您使用下列功能來管理叢集：
++
+--
+* 標準檢視、提供基本的Volume作業
+* 進階檢視、透過System Manager提供管理功能
+* 與BlueXP資料服務整合、提供資料複寫、備份與還原、資料分類及資料分層等功能
+
+
+連接器必須安裝在雲端供應商或內部部署環境中。
+
+--
+直接探索:: 此選項可讓您使用System Manager管理叢集。沒有其他管理選項可供使用。
++
+--
+此選項不需要連接器。
+
+--
+
+
+一旦發現、您的叢集就能在BlueXP畫版上做為工作環境使用。
+
+
+
+== 使用Connector探索叢集
+
+利用ONTAP Connector探索內部的支援功能、充分發揮BlueXP提供的所有管理功能。
+
+.需求
+* 您應該已經開始使用BlueXP、其中包括登入及設定帳戶。
++
+https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["瞭解如何開始使用BlueXP"^]
+
+* 連接器必須安裝在雲端供應商或內部部署環境中。
 +
 如果您想要將冷資料分層至雲端、則應根據您計畫將冷資料分層的位置來審查 Connector 的需求。
 
@@ -31,7 +64,7 @@ summary: 在ONTAP 內部部署環境、NetApp私有儲存組態和IBM Cloud中�
 ** https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["深入瞭解雲端分層"^]
 
 
-* 叢集管理IP位址和管理使用者帳戶密碼、用於將叢集新增至BlueXP。
+* 您需要叢集管理IP位址和管理員使用者帳戶密碼、才能將叢集新增至BlueXP。
 +
 BlueXP會使用ONTAP HTTPS探索叢集。如果使用自訂防火牆原則、則必須符合下列需求：
 
@@ -46,96 +79,15 @@ BlueXP會使用ONTAP HTTPS探索叢集。如果使用自訂防火牆原則、則
 
 
 
-* 一組有效的 NetApp 支援網站認證資料。瞭解如何操作 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-nss-accounts.html["將新增至BlueXP的NSS帳戶"^]。
 
-
-
-
-== 檢視已探索及未探索的內部叢集
-
-您可以使用BlueXP中的_Digital Wallet _服務來檢視、探索及管理ONTAP 支援合約中的內部版的支援叢集。
 
 .步驟
-. 從BlueXP導覽功能表中、選取*管理>數位錢包*。
-. 按一下*內部部署ONTAP 的S還原*索引標籤。
-+
-image:screenshot_digital_wallet_onprem_main.png["「數位錢包」頁面的快照、適用於內部部署ONTAP 的叢集。"]
-
-+
-顯示您的叢集時、會顯示是否已在BlueXP中找到它們的狀態。ONTAP
-
-+
-如果系統提示您先輸入NetApp支援網站（NSS）帳戶認證、請在支援儀表板中輸入認證資料。新增帳戶後、即會顯示該帳戶中包含的叢集。
-
-
-
-
-
-== 檢視叢集資訊和合約詳細資料
-
-您可以使用_Digital Wallet檢視叢集詳細資料、以及硬體與軟體合約狀態。
-
-.步驟
-. 從BlueXP導覽功能表中、選取*管理>數位錢包*。
-. 在* Digital Wallet *中、按一下*內部部署ONTAP 的S還原*索引標籤。
-+
-每個叢集的軟體合約和硬體合約到期日均會顯示在行上。
-
-. 如果合約接近到期日、或已過期、您可以按一下BlueXP右下角的聊天圖示、要求延長合約期限。
-. 如需瞭解其他詳細資料的叢集、請按一下 image:button_down_caret.png["一個脫機圖示"] 以展開叢集資訊。
-+
-image:screenshot_digital_wallet_license_info.png["擴充叢集詳細資料的快照、以便您檢視叢集授權資訊。"]
-
-
-
-
-
-== 從BlueXP探索內部叢集
-
-您可以ONTAP 從_Digital Wallet _或_Canvas_、在BlueXP中探索內部的等叢集。一旦發現、它們就能在BlueXP中作為工作環境使用、以便您管理叢集。
-
-
-
-=== 從Digital Wallet探索叢集
-
-您可以ONTAP 從Digital Wallet中探索自己的核心叢集、並將其新增為工作環境。
-
-.步驟
-. 從BlueXP導覽功能表中、選取*管理>數位錢包*。
-. 在* Digital Wallet *中、按一下*內部部署ONTAP 的S還原*索引標籤。
-+
-image:screenshot_digital_wallet_clusters.png["內部部署ONTAP 資訊頁面的快照、顯示您的NSS帳戶中找到的所有叢集。"]
-
-. 按一下* Discover（探索）*以瞭解您要透過BlueXP管理的叢集。
-. 在_探索ONTAP 更新叢集_頁面上、輸入管理員使用者帳戶的密碼、然後按一下*探索*。
-+
-image:screenshot_discover_ontap_wallet.png["快照顯示 ONTAP 「叢集管理詳細資料」頁面的範例：叢集管理 IP 位址、使用者名稱和密碼。"]
-
-+
-請注意、叢集管理IP位址是根據Digital Wallet中的資訊填入。
-
-+
-叢集的狀態會在「內部部署ONTAP 」（_on－en——內部部署）頁面中變成*已探索*。
-
-
-
-BlueXP會使用叢集名稱做為工作環境名稱、探索叢集並將其新增至Canvas中的工作環境。
-
-image:screenshot_onprem_cluster.png["畫版中內部的叢集快照ONTAP 。"]
-
-您可以在右側面板中啟用此叢集的服務、以便在叢集之間複寫資料、設定資料分層至雲端、將磁碟區備份至雲端、或在磁碟區上執行法規遵循掃描。您也可以建立新磁碟區或啟動System Manager來執行進階工作。
-
-
-
-=== 從「畫版」頁面探索叢集
-
-您可以從ONTAP 「畫版」頁面探索您的叢集、並將其新增為工作環境。如果叢集目前沒有支援合約、而未列在Digital Wallet中、則可使用這些步驟。
-
-.步驟
-. 在「畫版」頁面上、按一下「 * 新增工作環境 * 」、然後選取「 * 內部部署 ONTAP 的更新環境 * 」。
+. 從導覽功能表中、選取*儲存設備> Canvas*。
+. 在「畫版」頁面上、按一下「*新增工作環境*」、然後選取「*內部部署*」。
+. 選取*內部部署ONTAP 的S--。
 . 如果出現提示、請建立連接器。
 +
-如需詳細資料、請參閱上述連結。
+如需詳細資料、請參閱上述要求。
 
 . 在「_ ONTAP 不適用叢集詳細資料_」頁面上、輸入叢集管理IP位址、管理員使用者帳戶的密碼、然後按一下「*新增*」。
 +
@@ -146,4 +98,39 @@ image:screenshot_discover_ontap.png["快照顯示 ONTAP 「叢集管理詳細資
 
 BlueXP會探索叢集、並將其新增至畫版中的工作環境。
 
-您可以在右側面板中啟用此叢集的服務、以便在叢集之間複寫資料、設定資料分層至雲端、將磁碟區備份至雲端、或在磁碟區上執行法規遵循掃描。您也可以建立新磁碟區或啟動System Manager來執行進階工作。
+link:task-manage-ontap-connector.html["瞭解如何管理叢集"]。
+
+
+
+== 直接探索叢集
+
+直接從ONTAP BlueXP探索內部部署的叢集、以便使用System Manager管理叢集。
+
+
+TIP: 當您在執行ONTAP 9.12.1或更新版本的內部部署功能叢集上存取System Manager並連線至BlueXP服務時、系統會提示您直接從BlueXP管理叢集。如果您遵循此提示、它會像本節所述、在BlueXP中探索叢集。
+
+.需求
+* 您應該已經開始使用BlueXP、其中包括登入及設定帳戶。
++
+https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["瞭解如何開始使用BlueXP"^]
+
+* 內部部署ONTAP 的無線叢集必須執行9.12.1或更新版本、並連線至BlueXP服務（\https://bluexp.netapp.com）。
+* 您需要叢集管理IP位址和管理員使用者帳戶的密碼。
++
+BlueXP會使用ONTAP HTTPS探索叢集。如果您使用自訂防火牆原則、ONTAP 則無法透過連接埠443存取傳入HTTPS。
+
++
+預設的「管理」防火牆原則允許從所有 IP 位址進行傳入 HTTPS 存取。如果您修改此預設原則、或是建立自己的防火牆原則、則必須將 HTTPS 傳輸協定與該原則建立關聯、並啟用從 Connector 主機存取。
+
+
+
+.步驟
+. 從導覽功能表中、選取*儲存設備> Canvas*。
+. 在「畫版」頁面上、按一下「*新增工作環境*」、然後選取「*內部部署*」。
+. 選擇*本地內部部署ONTAP （Direct）*。
+. 輸入叢集管理IP位址、管理員使用者帳戶的密碼、然後按一下*「Add*（新增*）」。
+
+
+BlueXP會探索叢集、並將其新增至畫版中的工作環境。
+
+link:task-manage-ontap-direct.html["瞭解如何管理叢集"]。
