@@ -114,7 +114,7 @@ TIP: 當您在執行ONTAP 9.12.1或更新版本的內部部署功能叢集上存
 +
 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["瞭解如何開始使用BlueXP"^]
 
-* 內部部署ONTAP 的無線叢集必須執行9.12.1或更新版本、並連線至BlueXP服務（\https://bluexp.netapp.com）。
+* 內部部署ONTAP 的無線叢集必須執行9.12.1或更新版本、並連線至BlueXP服務。
 * 您需要叢集管理IP位址和管理員使用者帳戶的密碼。
 +
 BlueXP會使用ONTAP HTTPS探索叢集。如果您使用自訂防火牆原則、ONTAP 則無法透過連接埠443存取傳入HTTPS。

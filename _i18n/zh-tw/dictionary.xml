@@ -172,7 +172,6 @@
   <block id="729efe039f733cfbcd1a94fd02a8b2c6" category="paragraph">無法隨需升級韌體和軟體。</block>
   <block id="01ab8fe0565c01eb93456b579d969d66" category="list-text">角色型存取控制</block>
   <block id="83f5656d14cbf1628e806237dd016ac6" category="paragraph">不支援System Manager的角色型存取控制。</block>
-  <block id="07e1d66babe77070cc76a4e637c9f26d" category="section-title">如何開始使用</block>
   <block id="bbd3883401d7cab6239afc1bb95269c5" category="paragraph">開啟內部部署ONTAP 的「不工作環境」、然後按一下「進階檢視」選項。</block>
   <block id="30712363115d96bac17774981ad3a874" category="list-text">在「畫版」頁面上、按兩下內部部署ONTAP 的運作環境名稱。</block>
   <block id="a31b079030fd3d406e06a9ce180abf58" category="list-text">在右上角、按一下*切換至進階檢視*。</block>
@@ -362,7 +361,6 @@
   <block id="b30b65f2681ed2d6502197f4610e70c8" category="section-title">直接探索叢集</block>
   <block id="e08ee5a36e032624fb49ba25ecf80f33" category="paragraph">直接從ONTAP BlueXP探索內部部署的叢集、以便使用System Manager管理叢集。</block>
   <block id="7e88fc68853866bfdfc0a0b49e0f2399" category="admonition">當您在執行ONTAP 9.12.1或更新版本的內部部署功能叢集上存取System Manager並連線至BlueXP服務時、系統會提示您直接從BlueXP管理叢集。如果您遵循此提示、它會像本節所述、在BlueXP中探索叢集。</block>
-  <block id="9d77980fa3ff27250f01b3c6e5071013" category="list-text">內部部署ONTAP 的無線叢集必須執行9.12.1或更新版本、並連線至BlueXP服務（\https://bluexp.netapp.com）。</block>
   <block id="7d0b01345a5038f25fdd17dc04d8872e" category="list-text">您需要叢集管理IP位址和管理員使用者帳戶的密碼。</block>
   <block id="95773f82d1d681361d7f2215f3912515" category="paragraph">BlueXP會使用ONTAP HTTPS探索叢集。如果您使用自訂防火牆原則、ONTAP 則無法透過連接埠443存取傳入HTTPS。</block>
   <block id="ffaf5a6e69763e444841985add398d73" category="list-text">選擇*本地內部部署ONTAP （Direct）*。</block>
@@ -429,4 +427,6 @@
   <block id="86c7810a751199da86e2984eefab0cbf" category="sidebar">直接管理探索到的叢集</block>
   <block id="d7bca90a91d0f08eecc40f650240e677" category="sidebar">使用Connector管理探索到的叢集</block>
   <block id="d3db502b671c154b98dfced0b397de36" category="sidebar">檢視叢集資訊和合約詳細資料</block>
+  <block id="c6c831233d61f4d380266d4dc57c8f7e" category="list-text">內部部署ONTAP 的無線叢集必須執行9.12.1或更新版本、並連線至BlueXP服務。</block>
+  <block id="00134a9d28b6398470ee6b1362eeb303" category="section-title">使用進階檢視（系統管理員）</block>
 </blocks>
