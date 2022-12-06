@@ -16,18 +16,17 @@ summary: 如果您在ONTAP 不使用Connector的情況下直接探索內部的�
 [role="lead"]
 如果您在ONTAP 不使用Connector的情況下直接探索內部的叢集、可以使用System Manager開啟工作環境來管理叢集。
 
-下列System Manager功能無法使用：
+.限制
+BlueXP不支援一些System Manager功能。
 
-* 全域搜尋
-* 數位顧問Active IQ （前身為「支援中心」）整合、包括風險與補救資訊、容量使用記錄、韌體可用度通知、以及檢視開放式支援案例的能力
-* 使用者介面設定
-* 雲端小工具
-* 手動升級ONTAP 版的功能
-* 雲端備份整合
-
+link:reference-limitations.html["檢閱限制清單"]。
 
 .步驟
 . 在「畫版」頁面上、按兩下內部部署ONTAP 的運作環境名稱。
+. 出現提示時、請輸入ONTAP 您的「不確定」認證資料。
++
+每次開啟工作環境時、系統都會提示您使用ONTAP 您的支援資訊登入。
+
 . 使用System Manager來管理ONTAP 功能。
 +
 如果您需要協助、請ONTAP 參閱《System Manager with》（搭配使用系統管理程式） https://docs.netapp.com/us-en/ontap/index.html["本文檔 ONTAP"^] 以取得逐步指示。以下是幾個可能有幫助的連結：

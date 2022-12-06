@@ -28,7 +28,7 @@ summary: 如果您需要對ONTAP 內部部署的叢集執行進階管理、可�
 
 BlueXP可讓您在現有的Aggregate上建立NFS或CIFS磁碟區。您無法ONTAP 從BlueXP標準檢視在內部的叢集上建立新的Aggregate。您需要使用「進階」檢視來建立Aggregate。
 
-稱為「範本」的BlueXP功能可讓您建立專為特定應用程式（例如資料庫或串流服務）工作負載需求最佳化的磁碟區。如果您的組織已建立您應該使用的Volume範本、請遵循  volumes from templates,這些步驟。
+稱為「範本」的BlueXP功能可讓您建立專為特定應用程式（例如資料庫或串流服務）工作負載需求最佳化的磁碟區。如果您的組織已建立您應該使用的Volume範本、請遵循 <<從範本建立磁碟區,這些步驟>>。
 
 .步驟
 . 從導覽功能表中、選取*儲存設備> Canvas*。
@@ -108,11 +108,12 @@ image:screenshot_define_ontap_vol_from_template.png["顯示空白範本的螢幕
 . 在_context_區域中、工作環境會填入您剛開始使用的工作環境名稱。您需要選擇要在其中建立磁碟區的*儲存VM*和* Aggregate *。
 . 新增所有非模板硬編碼的參數值。
 +
- volumes,瞭解建立Volume所需的參數。
+<<建立磁碟區,瞭解建立Volume所需的參數>>。
 
 . 定義完此Volume所需的所有參數後、請按一下*執行範本*。
 
 
+.結果
 BlueXP會配置磁碟區並顯示頁面、以便您查看進度。
 
 image:screenshot_template_creating_resource_ontap.png["快照顯示從範本建立新磁碟區的進度。"]
@@ -121,6 +122,7 @@ image:screenshot_template_creating_resource_ontap.png["快照顯示從範本建�
 
 此外、如果範本中實作任何次要動作、例如在磁碟區上啟用Cloud Backup、也會執行該動作。
 
+.完成後
 如果您已配置 CIFS 共用區、請授予使用者或群組檔案和資料夾的權限、並確認這些使用者可以存取共用區並建立檔案。
 
 
@@ -171,25 +173,9 @@ BlueXP的進階檢視可讓您存取其他管理功能：
 
 === 限制
 
-在使用BlueXP中的進階檢視時、內部部署ONTAP 的叢集不支援一些System Manager功能：
+在使用BlueXP中的進階檢視時、內部部署ONTAP 的叢集不支援一些System Manager功能。
 
-* 叢集設定
-+
-設定管理IP位址並在內部ONTAP 的叢集上設定管理密碼之後、您可以在BlueXP中探索叢集、然後從「進階檢視」繼續叢集設定。
-
-* 雲端備份啟動
-+
-直接從Cloud Backup在內部部署叢集上啟用Cloud Backup。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html["瞭解如何開始使用"^]。
-
-* 隨需升級
-+
-無法隨需升級韌體和軟體。
-
-* 角色型存取控制
-+
-不支援System Manager的角色型存取控制。
-
-
+link:reference-limitations.html["檢閱限制清單"]。
 
 
 

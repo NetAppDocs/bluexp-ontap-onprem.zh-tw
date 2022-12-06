@@ -14,7 +14,11 @@ sidebar:
   - title: 內部部署ONTAP 的叢集文件
     url: "/index.html"
   - title: 版本資訊
-    url: "/whats-new.html"
+    entries:
+    - title: 新增功能
+      url: "/whats-new.html"
+    - title: 已知限制
+      url: "/reference-limitations.html"
   - title: 開始使用
     entries:
     - title: 深入瞭解ONTAP 內部的叢集管理
