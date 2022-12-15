@@ -120,6 +120,7 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["�
 +
 \https://cloudmanager.cloud.netapp.com/ontap-service/check-service-connection
 
+* 您用來存取BlueXP主控台的電腦必須有連至內部ONTAP 叢集的網路連線、這與您提供連線至私有網路中其他資源的方式類似。
 * 您需要叢集管理IP位址和管理員使用者帳戶的密碼。
 * BlueXP會使用ONTAP HTTPS探索叢集。如果您使用自訂防火牆原則、ONTAP 則無法透過連接埠443存取傳入HTTPS。
 +

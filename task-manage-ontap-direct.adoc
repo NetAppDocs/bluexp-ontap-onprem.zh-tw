@@ -16,6 +16,9 @@ summary: 如果您在ONTAP 不使用Connector的情況下直接探索內部的�
 [role="lead"]
 如果您在ONTAP 不使用Connector的情況下直接探索內部的叢集、可以使用System Manager開啟工作環境來管理叢集。
 
+.需求
+您用來存取BlueXP主控台的電腦必須有連至內部ONTAP 叢集的網路連線、這與您提供連線至私有網路中其他資源的方式類似。
+
 .限制
 BlueXP不支援一些System Manager功能。
 
