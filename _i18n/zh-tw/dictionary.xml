@@ -32,15 +32,12 @@
   <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">開放原始碼</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知檔案提供有關 NetApp 軟體所使用之協力廠商版權與授權的資訊。</block>
-  <block id="1e54529331fefb19128d41707045a526" category="summary">瞭解內部ONTAP 部署的更新功能。</block>
   <block id="25203f9c21dc384a4870095f19f67811" category="doc">內部ONTAP 部署的更新功能</block>
   <block id="ba26e4556a0f160834687982b0479336" category="section-title">2022年2月27日</block>
-  <block id="f25694bb9bc00e8fcfcc1a3c65dd482b" category="section-title">數位錢包提供「ONTAP 內部部署的功能」索引標籤。</block>
   <block id="d3f07c4c7baf0c60bc64c1cdc48732af" category="paragraph">現在您可以查看內部ONTAP 的叢集庫存、以及其硬體和服務合約的到期日。此外也提供叢集的其他詳細資料。</block>
   <block id="184ca21b83c54a7ba12f9b1077ccb494" category="inline-link">請參閱如何檢視這項重要的內部叢集資訊</block>
   <block id="a70e816a0245e4c041fe696bc068fde8" category="paragraph"><block ref="cdf49294fa22fe97f3cd9774fbb3d925" category="inline-link-rx"></block>。您必須擁有適用於叢集的NetApp支援網站帳戶（NSS）、而且必須將您的Cloud Manager帳戶附加至新的資信。</block>
   <block id="ef1bf4095b622ba80ac24b48b8e45eac" category="section-title">2022年1月11日</block>
-  <block id="d69df284f21ccdf93082c4aaf0953b6d" category="section-title">您在內部ONTAP 的等量資料叢集上新增到磁碟區的標記、可與標記服務搭配使用。</block>
   <block id="3686b84bef4027bfe5a11fcf472d8662" category="paragraph">您新增至磁碟區的標記現在與應用程式範本服務的標記功能相關聯、可協助您組織及簡化資源管理。</block>
   <block id="f61163b681442ac500a8018c87241770" category="section-title">2021年11月28日</block>
   <block id="feea05ef76a2f6f2d444dfab436c31c4" category="section-title">已ONTAP 簡化內部部署的架構叢集建立Volume精靈</block>
@@ -440,8 +437,18 @@
   <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">開始之前</block>
   <block id="bc3d7bdad28e2f8cac321d5cae0b897c" category="paragraph">BlueXP不支援一些System Manager功能。</block>
   <block id="059eb0e13bd9e186363bedd175a5226b" category="list-text">出現提示時、請輸入ONTAP 您的「不確定」認證資料。</block>
-  <block id="e62e400b7f916eb360e1c51ccb93a44f" category="paragraph">每次開啟工作環境時、系統都會提示您使用ONTAP 您的支援資訊登入。</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
   <block id="03be90bdc455bf51f8b56b71203c2e11" category="list-text">您用來存取BlueXP主控台的電腦必須有連至內部ONTAP 叢集的網路連線、這與您提供連線至私有網路中其他資源的方式類似。</block>
   <block id="9b97b7bd5e0a87be7bf218224ada83cf" category="paragraph-title">需求</block>
+  <block id="a3df9ba5a49f94fff6553063f65ca85c" category="summary">瞭解ONTAP BlueXP內部部署的更新功能、瞭解叢集管理功能。</block>
+  <block id="1f7138998459804601fc351f8d442e29" category="section-title">2023年1月1日</block>
+  <block id="f2e4e4f7b0b864863bfac74f4383a826" category="section-title">儲存ONTAP 不一樣的認證資料</block>
+  <block id="6a28e623eb98d9eb0799ab2c472620f3" category="paragraph">當您在不ONTAP 使用Connector的情況下直接開啟內部的支援環境時、您現在可以選擇儲存ONTAP 您的支援中心叢集認證資料、以便在每次開啟工作環境時、都不需要輸入這些認證資料。</block>
+  <block id="8a08a7490f38dacd86c415a138d60aea" category="inline-link">深入瞭解此選項。</block>
+  <block id="b269330dc42e4f7fc82bba99c0dd5fd7" category="paragraph"><block ref="b269330dc42e4f7fc82bba99c0dd5fd7" category="inline-link-rx"></block></block>
+  <block id="c09e2822c570628d904cc9ae1b81258c" category="section-title">數位錢包提供「ONTAP 內部部署的功能」索引標籤</block>
+  <block id="884e6fc7085a6b2763738e713000a65f" category="section-title">您在內部ONTAP 的等量資料叢集上新增的標記可與標記服務搭配使用</block>
+  <block id="a3712341ec8d6b2a8227c05fca90e65c" category="paragraph">每次開啟工作環境時、系統都會提示您使用ONTAP 您的支援資訊登入。您可以選擇儲存認證資料、以便不需要每次都輸入。如果您使用此選項、認證資料僅與您的BlueXP使用者相關聯。您帳戶中的任何人都不會儲存這些檔案以供使用。</block>
+  <block id="c4d0d6d40840ebb3d4f4f87b4309d6b6" category="inline-image-macro">螢幕擷取畫面會顯示提示、提示您輸入ONTAP 使用者名稱和密碼以供使用。</block>
+  <block id="ae0f0582f8fc53d392de639973d7187a" category="paragraph"><block ref="ae0f0582f8fc53d392de639973d7187a" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>

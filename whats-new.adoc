@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, on-prem' 
-summary: 瞭解內部ONTAP 部署的更新功能。 
+summary: 瞭解ONTAP BlueXP內部部署的更新功能、瞭解叢集管理功能。 
 ---
 = 內部ONTAP 部署的更新功能
 :hardbreaks:
@@ -15,6 +15,18 @@ summary: 瞭解內部ONTAP 部署的更新功能。
 
 [role="lead"]
 瞭解ONTAP BlueXP（前身為Cloud Manager）內建的內部叢集管理功能的新功能。
+
+
+
+== 2023年1月1日
+
+
+
+=== 儲存ONTAP 不一樣的認證資料
+
+當您在不ONTAP 使用Connector的情況下直接開啟內部的支援環境時、您現在可以選擇儲存ONTAP 您的支援中心叢集認證資料、以便在每次開啟工作環境時、都不需要輸入這些認證資料。
+
+https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-manage-ontap-direct.html["深入瞭解此選項。"]
 
 
 
@@ -86,7 +98,7 @@ https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-administer-advance
 
 
 
-=== 數位錢包提供「ONTAP 內部部署的功能」索引標籤。
+=== 數位錢包提供「ONTAP 內部部署的功能」索引標籤
 
 現在您可以查看內部ONTAP 的叢集庫存、以及其硬體和服務合約的到期日。此外也提供叢集的其他詳細資料。
 
@@ -98,7 +110,7 @@ https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.
 
 
 
-=== 您在內部ONTAP 的等量資料叢集上新增到磁碟區的標記、可與標記服務搭配使用。
+=== 您在內部ONTAP 的等量資料叢集上新增的標記可與標記服務搭配使用
 
 您新增至磁碟區的標記現在與應用程式範本服務的標記功能相關聯、可協助您組織及簡化資源管理。
 
