@@ -329,7 +329,6 @@
   <block id="e96ffca10c8548ba223da5a961f4e0bb" category="section-title">探索與管理選項</block>
   <block id="a8b4b8a9fc6c5671a89f402cc069afda" category="paragraph">BlueXP提供兩種方法來探索及管理內部ONTAP 的支援功能</block>
   <block id="a8fd54ba8c2928ea1b2a300ca75a00fa" category="list-text">透過連接器探索</block>
-  <block id="9099bf7c5b970d6d29d762b19812bc2a" category="list-text">此選項可讓您使用下列功能來管理叢集：</block>
   <block id="dad407e605b93746e62dec356ab5303e" category="list-text">標準檢視、提供基本的Volume作業</block>
   <block id="90050bf1ae850c8b086b4d648fb45152" category="list-text">與BlueXP資料服務整合、提供資料複寫、備份與還原、資料分類及資料分層等功能</block>
   <block id="95ef150c4c1c6bc6be1dda757b58c70c" category="paragraph">連接器必須安裝在雲端供應商或內部部署環境中。</block>
@@ -422,7 +421,6 @@
   <block id="05280ae0f52dfc03d23962982cf79f21" category="list-text">進階檢視、可透過System Manager進行管理（ONTAP 支援使用支援的版本為0。9.10.0及更新版本）</block>
   <block id="18913a11bfb9265ce650e9b06d80da69" category="inline-xref">請檢閱下列要求和逐步指示</block>
   <block id="b96973ab12dad5cf917d59fa426d501e" category="paragraph">連接器必須安裝在雲端供應商或內部部署環境中。 <block ref="578fb4b6eccb6dc6ce978336e196fff7" category="inline-xref-macro-rx"></block>。</block>
-  <block id="48162a37cddfdaa963ac3204f7595591" category="list-text">此選項可讓您使用System Manager管理叢集。沒有其他管理選項可供使用。您無法使用「標準」檢視、也無法啟用資料服務。</block>
   <block id="be7a52baf7d7b7389782214033190cd4" category="paragraph">此選項不需要連接器。 <block ref="0820951a94f165da4a5239e04ce4e106" category="inline-xref-macro-rx"></block>。</block>
   <block id="797c4c6d452fc60610219b263c22393d" category="paragraph">如果您決定稍後再使用其他探索選項、則需要在畫版上將內部叢集探索為獨立的工作環境。然後您可以選擇移除其他工作環境。</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">結果</block>
@@ -451,4 +449,7 @@
   <block id="a3712341ec8d6b2a8227c05fca90e65c" category="paragraph">每次開啟工作環境時、系統都會提示您使用ONTAP 您的支援資訊登入。您可以選擇儲存認證資料、以便不需要每次都輸入。如果您使用此選項、認證資料僅與您的BlueXP使用者相關聯。您帳戶中的任何人都不會儲存這些檔案以供使用。</block>
   <block id="c4d0d6d40840ebb3d4f4f87b4309d6b6" category="inline-image-macro">螢幕擷取畫面會顯示提示、提示您輸入ONTAP 使用者名稱和密碼以供使用。</block>
   <block id="ae0f0582f8fc53d392de639973d7187a" category="paragraph"><block ref="ae0f0582f8fc53d392de639973d7187a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2a921d78113b3701fe44f302cea12ade" category="list-text">此選項可讓您ONTAP 使用下列功能來管理執行支援功能的叢集：</block>
+  <block id="085602a04bf66e6b72300eefb21c9c32" category="list-text">此選項可讓您ONTAP 使用System Manager來管理執行《支援使用程式》9.12.1及更新版本的叢集。沒有其他管理選項可供使用。您無法使用「標準」檢視、也無法啟用資料服務。</block>
+  <block id="8ab7236e714d67d0d2cdb0f6c0c6bdea" category="list-text">內部部署叢集必須執行ONTAP 不含更新版本的功能。</block>
 </blocks>
