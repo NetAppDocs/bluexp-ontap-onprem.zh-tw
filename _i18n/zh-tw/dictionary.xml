@@ -449,7 +449,7 @@
   <block id="a3712341ec8d6b2a8227c05fca90e65c" category="paragraph">每次開啟工作環境時、系統都會提示您使用ONTAP 您的支援資訊登入。您可以選擇儲存認證資料、以便不需要每次都輸入。如果您使用此選項、認證資料僅與您的BlueXP使用者相關聯。您帳戶中的任何人都不會儲存這些檔案以供使用。</block>
   <block id="c4d0d6d40840ebb3d4f4f87b4309d6b6" category="inline-image-macro">螢幕擷取畫面會顯示提示、提示您輸入ONTAP 使用者名稱和密碼以供使用。</block>
   <block id="ae0f0582f8fc53d392de639973d7187a" category="paragraph"><block ref="ae0f0582f8fc53d392de639973d7187a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2a921d78113b3701fe44f302cea12ade" category="list-text">此選項可讓您ONTAP 使用下列功能來管理執行支援功能的叢集：</block>
   <block id="085602a04bf66e6b72300eefb21c9c32" category="list-text">此選項可讓您ONTAP 使用System Manager來管理執行《支援使用程式》9.12.1及更新版本的叢集。沒有其他管理選項可供使用。您無法使用「標準」檢視、也無法啟用資料服務。</block>
   <block id="8ab7236e714d67d0d2cdb0f6c0c6bdea" category="list-text">內部部署叢集必須執行ONTAP 不含更新版本的功能。</block>
+  <block id="a3736487d08fb63c22adeaf7035f0bca" category="list-text">此選項可讓您ONTAP 使用下列功能來管理執行支援功能的叢集：</block>
 </blocks>
