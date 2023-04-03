@@ -14,7 +14,29 @@ summary: 瞭解ONTAP BlueXP內部部署的更新功能、瞭解叢集管理功�
 
 
 [role="lead"]
-瞭解ONTAP BlueXP（前身為Cloud Manager）內建的內部叢集管理功能的新功能。
+瞭解ONTAP BlueXP內部部署的更新功能、瞭解叢集管理功能。
+
+
+
+== 2023年4月3日
+
+
+
+=== 單一探索選項
+
+當ONTAP 您從BlueXP主控台發現內部的功能性叢集時、您現在會看到一個選項：
+
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-discover-on-prem-ontap.png["快照顯示ONTAP 建立工作環境時可用的「探索內部部署的功能」選項"]
+
+以前、直接探索和使用Connector探索的流程是分開的。這兩個選項仍可使用、但合併成單一流程。
+
+當您開始探索程序時、BlueXP會探索叢集、如下所示：
+
+* 如果您的活動連接器已連線ONTAP 至您的叢集、則BlueXP會使用該連接器來探索及管理叢集。
+* 如果您沒有連接器、或是連接器沒有連線到ONTAP 該叢集、則BlueXP會自動使用「直接探索與管理」選項。
+
+
+https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["深入瞭解探索與管理選項"]。
 
 
 

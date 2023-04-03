@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-discovering-ontap.html 
 keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, digital wallet 
-summary: 在ONTAP 內部部署環境、NetApp私有儲存組態和IBM Cloud中、BlueXP都能發現這些功能集區。將內部叢集新增至BlueXP畫版可讓您使用Cloud Volumes ONTAP 與您的VMware及其他雲端儲存解決方案相同的工具來管理這些叢集。 
+summary: 探索ONTAP 來自BlueXP的內部資源介紹叢集、以便您開始使用ONTAP 從BlueXP取得的功能完善的系統管理程式來管理磁碟區和執行進階管理。 
 ---
 = 探索內部部署ONTAP 的叢集
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 在ONTAP 內部部署環境、NetApp私有儲存組態和IBM Cloud中�
 
 
 [role="lead"]
-探索ONTAP 來自BlueXP的內部資源介紹叢集、以便您開始使用ONTAP 從BlueXP取得的功能完善的系統管理程式來管理磁碟區和執行進階管理、不需要離開BlueXP進行進階管理。
+探索ONTAP 來自BlueXP的內部資源介紹叢集、以便您開始使用ONTAP 從BlueXP取得的功能完善的系統管理程式來管理磁碟區和執行進階管理。
 
 
 
@@ -30,13 +30,15 @@ BlueXP提供兩種方法來探索及管理內部ONTAP 的支援功能
 * 與BlueXP資料服務整合、提供資料複寫、備份與還原、資料分類及資料分層等功能
 
 
-連接器必須安裝在雲端供應商或內部部署環境中。 <<使用Connector探索叢集,請檢閱下列要求和逐步指示>>。
+此選項需要連接器、您可以將其安裝在雲端供應商或內部部署環境中。
 
 --
 直接探索:: 此選項可讓您ONTAP 使用System Manager來管理執行《支援使用程式》9.12.1及更新版本的叢集。沒有其他管理選項可供使用。您無法使用「標準」檢視、也無法啟用資料服務。
 +
 --
-此選項不需要連接器。 <<直接探索叢集,請檢閱下列要求和逐步指示>>。
+此選項不需要連接器。
+
+當您在執行ONTAP 9.12.1或更新版本的內部部署功能叢集上存取System Manager並連線至BlueXP服務時、系統會提示您直接從BlueXP管理叢集。如果您遵循此提示、它會使用直接探索選項在BluXP中探索叢集。
 
 --
 
@@ -47,14 +49,28 @@ BlueXP提供兩種方法來探索及管理內部ONTAP 的支援功能
 
 
 
-== 使用Connector探索叢集
+== 需求
 
-利用ONTAP Connector探索內部的支援功能、充分發揮BlueXP提供的所有管理功能。
+在您探索內部ONTAP 的功能完善的叢集之前、請先確認您已符合下列要求。
 
-.需求
+
+
+=== 一般要求
+
 * 您應該已經開始使用BlueXP、其中包括登入及設定帳戶。
 +
 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["瞭解如何開始使用BlueXP"^]
+
+* 您需要叢集管理IP位址和管理員使用者帳戶的密碼。
+* BlueXP會使用ONTAP HTTPS探索叢集。如果您使用自訂防火牆原則、ONTAP 則無法透過連接埠443存取傳入HTTPS。
++
+預設的「管理」防火牆原則允許從所有 IP 位址進行傳入 HTTPS 存取。如果您修改此預設原則、或是建立自己的防火牆原則、則必須將 HTTPS 傳輸協定與該原則建立關聯、並啟用從 Connector 主機存取。
+
+
+
+
+
+=== Connector探索與管理需求
 
 * 內部部署叢集必須執行ONTAP 不含更新版本的功能。
 * 連接器必須安裝在雲端供應商或內部部署環境中。
@@ -67,54 +83,15 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["�
 ** https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["深入瞭解雲端分層"^]
 
 
-* 您需要叢集管理IP位址和管理員使用者帳戶密碼、才能將叢集新增至BlueXP。
-* BlueXP會使用ONTAP HTTPS探索叢集。如果使用自訂防火牆原則、則必須符合下列需求：
-+
-** 連接器主機必須允許透過連接埠 443 進行傳出 HTTPS 存取。
+* 連接器主機必須允許透過連接埠 443 進行傳出 HTTPS 存取。
 +
 如果 Connector 位於雲端、則預先定義的安全性群組會允許所有傳出通訊。
 
-** 這個支援叢集必須允許透過連接埠 443 進行傳入 HTTPS 存取。 ONTAP
-+
-預設的「管理」防火牆原則允許從所有 IP 位址進行傳入 HTTPS 存取。如果您修改此預設原則、或是建立自己的防火牆原則、則必須將 HTTPS 傳輸協定與該原則建立關聯、並啟用從 Connector 主機存取。
 
 
 
 
-
-.步驟
-. 從導覽功能表中、選取*儲存設備> Canvas*。
-. 在「畫版」頁面上、按一下「*新增工作環境*」、然後選取「*內部部署*」。
-. 在內部部署ONTAP 的不二字旁、選取* Discover（探索）*。
-. 如果出現提示、請建立連接器。
-+
-如需詳細資料、請參閱上述要求。
-
-. 在「_ ONTAP 不適用叢集詳細資料_」頁面上、輸入叢集管理IP位址、管理員使用者帳戶的密碼、然後按一下「*新增*」。
-+
-image:screenshot_discover_ontap.png["快照顯示 ONTAP 「叢集管理詳細資料」頁面的範例：叢集管理 IP 位址、使用者名稱和密碼。"]
-
-. 在「_詳細資料與認證資料_」頁面上、輸入工作環境的名稱與說明、然後按一下「*執行*」。
-
-
-.結果
-BlueXP會探索叢集、並將其新增為畫版上的工作環境。
-
-link:task-manage-ontap-connector.html["瞭解如何管理叢集"]。
-
-
-
-== 直接探索叢集
-
-直接從ONTAP BlueXP探索內部部署的叢集、以便使用System Manager管理叢集。
-
-
-TIP: 當您在執行ONTAP 9.12.1或更新版本的內部部署功能叢集上存取System Manager並連線至BlueXP服務時、系統會提示您直接從BlueXP管理叢集。如果您遵循此提示、它會像本節所述、在BlueXP中探索叢集。
-
-.需求
-* 您應該已經開始使用BlueXP、其中包括登入及設定帳戶。
-+
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["瞭解如何開始使用BlueXP"^]
+=== 直接探索與管理的需求
 
 * 內部部署叢集必須執行ONTAP 不含更新版本的功能。
 * 叢集必須具有與BlueXP服務的傳入和傳出連線：
@@ -122,21 +99,33 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["�
 \https://cloudmanager.cloud.netapp.com/ontap-service/check-service-connection
 
 * 您用來存取BlueXP主控台的電腦必須有連至內部ONTAP 叢集的網路連線、這與您提供連線至私有網路中其他資源的方式類似。
-* 您需要叢集管理IP位址和管理員使用者帳戶的密碼。
-* BlueXP會使用ONTAP HTTPS探索叢集。如果您使用自訂防火牆原則、ONTAP 則無法透過連接埠443存取傳入HTTPS。
-+
-預設的「管理」防火牆原則允許從所有 IP 位址進行傳入 HTTPS 存取。如果您修改此預設原則、或是建立自己的防火牆原則、則必須將 HTTPS 傳輸協定與該原則建立關聯、並啟用從 Connector 主機存取。
 
+
+
+
+== 探索叢集
+
+在ONTAP BlueXP中探索畫版上的內部資料叢集。當您開始探索程序時、BlueXP會探索叢集、如下所示：
+
+* 如果您的活動連接器已連線ONTAP 至您的叢集、則BlueXP會使用該連接器來探索及管理叢集。
+* 如果您沒有連接器、或是連接器沒有連線到ONTAP 該叢集、則BlueXP會自動使用「直接探索與管理」選項。
 
 
 .步驟
 . 從導覽功能表中、選取*儲存設備> Canvas*。
 . 在「畫版」頁面上、按一下「*新增工作環境*」、然後選取「*內部部署*」。
-. 在本機內部ONTAP 部署的地方（Direct）旁、選取* Discover（探索）*。
-. 輸入叢集管理IP位址、管理員使用者帳戶的密碼、然後按一下*「Add*（新增*）」。
+. 在內部部署ONTAP 的不二字旁、選取* Discover（探索）*。
+. 在「_Discover」頁面上、輸入叢集管理IP位址、以及管理使用者帳戶的密碼。
+. 如果您直接探索叢集（沒有連接器）、可以選取*儲存認證*。
++
+如果您選取此選項、則每次開啟工作環境時、都不需要重新輸入認證資料。這些認證資料僅與您的BlueXP使用者相關聯。您帳戶中的任何人都不會儲存這些檔案以供使用。
+
+. 選擇* Discover（探索）*。
 
 
 .結果
-BlueXP會探索叢集、並將其新增為畫版上的工作環境。
+BlueXP會探索叢集、並將其新增為畫版上的工作環境。您現在可以開始管理叢集。
 
-link:task-manage-ontap-direct.html["瞭解如何管理叢集"]。
+* link:task-manage-ontap-direct.html["瞭解如何直接管理探索到的叢集"]
+* link:task-manage-ontap-connector.html["瞭解如何管理透過Connector探索到的叢集"]
+

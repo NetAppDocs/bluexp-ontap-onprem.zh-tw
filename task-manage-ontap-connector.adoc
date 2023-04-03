@@ -16,6 +16,12 @@ summary: 如果您需要對ONTAP 內部部署的叢集執行進階管理、可�
 [role="lead"]
 如果您使用ONTAP Connector發現內部的支援叢集、可以從「標準」檢視建立磁碟區、從「進階」檢視使用System Manager、以及啟用BlueXP資料服務。
 
+在畫版上、使用Connector探索到的叢集工作環境圖示應類似下列內容：
+
+image:screenshot-connector-we.png["出現在畫版上的工作環境圖示快照"]
+
+如果直接探索到工作環境、工作環境圖示會顯示「Direct（直接）」一詞。
+
 
 
 == 從「標準」檢視建立Volume
