@@ -86,7 +86,7 @@ BlueXP不支援建立FlexGroup 功能區。您需要繼續使用System Manager�
 
 我們推出全新的「總覽」頁面、提供內部部署ONTAP 的叢集的重要詳細資料。例如、您現在可以檢視儲存效率、容量分配和系統資訊等詳細資料。
 
-您也可以檢視與其他NetApp雲端服務整合的詳細資料、以便進行資料分層、資料複寫及備份。
+您也可以檢視與其他 BlueXP 服務整合的詳細資料、這些服務可實現資料分層、資料複寫和備份。
 
 image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-overview.png["快照顯示內部ONTAP 叢集的「總覽」頁面。"]
 

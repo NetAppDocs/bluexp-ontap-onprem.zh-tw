@@ -109,10 +109,7 @@
   <block id="3fcf4599fd910141dcd628a7411238d5" category="paragraph">然後新磁碟區便會新增至工作環境。</block>
   <block id="0ca2ea4d1ed88de2980b88af718eedaf" category="paragraph">此外、如果範本中實作任何次要動作、例如在磁碟區上啟用Cloud Backup、也會執行該動作。</block>
   <block id="1e57268fd975664444ddbda428e56bf7" category="paragraph">如果您已配置 CIFS 共用區、請授予使用者或群組檔案和資料夾的權限、並確認這些使用者可以存取共用區並建立檔案。</block>
-  <block id="d67fa48b66fcc0b221394da39a91b7bd" category="paragraph">您 Cloud Volumes ONTAP 可以選擇一次性資料複寫、 ONTAP 以協助您在雲端之間來回移動資料、或是循環排程、藉此協助災難恢復或長期保留資料、藉此複寫資料。</block>
-  <block id="4dafc83aff4c0c428f00d14ba637d08e" category="paragraph">您ONTAP 可以使用Cloud Backup、將內部部署的資料還原為雲端中低成本的物件式儲存設備。此服務提供備份與還原功能、可保護內部部署和雲端資料、並長期歸檔。</block>
   <block id="b62196e30035e69996a2d1d3a9d64116" category="section-title">掃描、對應及分類您的資料</block>
-  <block id="8c5469d13e648a63a3b3954844a606d5" category="paragraph">Cloud Data Sense可掃描企業內部部署叢集、以對應及分類資料、並識別私有資訊。這有助於降低安全性與法規遵循風險、降低儲存成本、並協助您執行資料移轉專案。</block>
   <block id="74f0cc3c17958e80b4ccd076c9e50493" category="paragraph">利用ONTAP 雲端分層功能、自動將非作用中的資料從叢集分層至物件式儲存設備、藉此將資料中心延伸至雲端。</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">註冊以取得支援</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">「說明」功能表的快照、其中「支援」是第一個列出的選項</block>
@@ -182,7 +179,6 @@
   <block id="440be74a67502f9c3d55890782329328" category="paragraph">以下是3.9.22版Connector的變更。</block>
   <block id="c8328d07fc05c4708c68f547ce6f5e77" category="section-title">全新總覽頁面</block>
   <block id="8e41db9b51f790909ef80a064153f722" category="paragraph">我們推出全新的「總覽」頁面、提供內部部署ONTAP 的叢集的重要詳細資料。例如、您現在可以檢視儲存效率、容量分配和系統資訊等詳細資料。</block>
-  <block id="bcc757acad6812aeb9904ad6e30c0738" category="paragraph">您也可以檢視與其他NetApp雲端服務整合的詳細資料、以便進行資料分層、資料複寫及備份。</block>
   <block id="fba766c98683be4af93f93b5d7909f1e" category="inline-image-macro">快照顯示內部ONTAP 叢集的「總覽」頁面。</block>
   <block id="5277a2f54c2173b12f8eb86ae9da078e" category="paragraph"><block ref="5277a2f54c2173b12f8eb86ae9da078e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c76ff3fb4e35074fc6f04c1cb8ea02af" category="section-title">重新設計「Volume」頁面</block>
@@ -211,14 +207,6 @@
   <block id="bfd7860b885159ef1631572dc506bf0e" category="list-text">按一下「* Volume &gt; Add Volume *」。</block>
   <block id="97a34ca7d328720ed48cf2e2010985be" category="list-text">*詳細資料、保護及標記*：輸入磁碟區的詳細資料、例如磁碟區名稱和大小、選擇Snapshot原則、並視需要指定磁碟區標記。</block>
   <block id="17b6d3e2bf5506b5e797dfb98b76c0c2" category="list-text">*傳輸協定*：選擇磁碟區的傳輸協定（NFS、CIFS或iSCSI）、然後設定磁碟區的存取控制或權限。</block>
-  <block id="0c57608b3dc99c491ccf28333d1a1ffd" category="inline-link">瞭解如何複寫資料</block>
-  <block id="057bdd599f52bea71a4eb64fb5283528" category="paragraph"><block ref="057bdd599f52bea71a4eb64fb5283528" category="inline-link-rx"></block></block>
-  <block id="b1d61988f64b60df32fb40aafa9a8a72" category="inline-link">瞭解如何將資料備份到雲端</block>
-  <block id="0c8aebb65487842ae7cee0153641a2c0" category="paragraph"><block ref="0c8aebb65487842ae7cee0153641a2c0" category="inline-link-rx"></block></block>
-  <block id="657194a3b23d82061f3c6bde831200e2" category="inline-link">瞭解如何掃描、對應及分類資料</block>
-  <block id="87297131944257017f4fa2ace90b4993" category="paragraph"><block ref="87297131944257017f4fa2ace90b4993" category="inline-link-rx"></block></block>
-  <block id="e8d45bdb0673c56f56414b928ee6a759" category="inline-link">瞭解如何將資料分層至雲端</block>
-  <block id="f3ad359fcb06b212c3249a38f6d003e4" category="paragraph"><block ref="f3ad359fcb06b212c3249a38f6d003e4" category="inline-link-rx"></block></block>
   <block id="ac77698b17043bc79661d58433294c87" category="summary">透過BlueXP（AFF 前身為Cloud Manager）來管理您的NetApp功能和FAS 功能、以配置儲存設備、複寫資料及設定關鍵雲端型資料服務。</block>
   <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp以多種方式提供對BlueXP的支援。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。</block>
   <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">NetApp以多種方式支援BlueXP及其雲端服務。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。</block>
@@ -336,7 +324,6 @@
   <block id="dce4384ee7fa334b58b3b529933aacef" category="paragraph">如果您需要對內部部署ONTAP 的故障叢集執行進階管理、您可以使用ONTAP 支援ONTAP 此功能的支援功能、這個管理介面是隨附於一個故障診斷系統的。我們已將System Manager介面直接納入BlueXP、因此您不需要離開BlueXP進行進階管理。</block>
   <block id="5d82c1ade2b4a73465d28377bf1ee806" category="section-title">取得System Manager的協助</block>
   <block id="9094954a45207debf588da430f00322f" category="section-title">啟用BlueXP資料服務</block>
-  <block id="5c4d507eeba73d584fcde6e4f2f1b172" category="paragraph">在您的工作環境中啟用BlueXP資料服務、以複寫、備份、掃描及分層資料。</block>
   <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="section-title">複寫資料</block>
   <block id="b76ae88aa754ea86825b84c8badae90a" category="section-title">備份資料</block>
   <block id="840a495adf1ad99ebc0b2945d0d37848" category="section-title">將資料分層至雲端</block>
@@ -498,9 +485,9 @@
   <block id="02067bb3de9c60175abe8c4b7d81c3c2" category="list-text">如果您的活動連接器已連線ONTAP 至您的叢集、則BlueXP會使用該連接器來探索及管理叢集。</block>
   <block id="873b328fabdfb8db13a38e03c836d37b" category="inline-link">深入瞭解探索與管理選項</block>
   <block id="d74db5b2b9703b60c98aead9c3c3275e" category="paragraph"><block ref="9ba91f2cd50d4cdc6a75347f1fff1126" category="inline-link-rx"></block>。</block>
-  <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">*附件（選用）*：一次上傳最多五個附件。</block>
-  <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">每個檔案的附件上限為25 MB。支援下列副檔名：TXT、log、pdf、JP/JPEG、rtf、 DOC/docx、xls/xlsx及csv.</block>
-  <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*更新案例備註*：提供問題的其他詳細資料、或選擇*上傳檔案*最多附加五個檔案。</block>
+  <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">* 附件（選填） * ：上傳最多五個附件、一次上傳一個。</block>
+  <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">每個檔案的附件上限為 25 MB 。支援下列副檔名： txt 、 log 、 pdf 、 jpg/jpeg 、 rtf 、 doc/dox 、 xls/xlsx 和 csv 。</block>
+  <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">* 更新案例附註 * ：提供問題的其他詳細資料、或選擇 * 上傳檔案 * 最多附加五個檔案。</block>
   <block id="6935d4eff56228cdcc6138a57b8873c9" category="paragraph">在畫版上、使用Connector探索到的叢集工作環境圖示應類似下列內容：</block>
   <block id="db711502e98fa11f32f96dfd6ecc6e6b" category="inline-image-macro">出現在畫版上的工作環境圖示快照</block>
   <block id="7191ab2cdb6e0f21fd1844124dd5642e" category="paragraph"><block ref="7191ab2cdb6e0f21fd1844124dd5642e" category="inline-image-macro-rx" type="image"></block></block>
@@ -509,4 +496,25 @@
   <block id="adae1368fef895169a40e9765864c2d0" category="paragraph"><block ref="adae1368fef895169a40e9765864c2d0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d6a0741adb3101b3ac8caa5bee63eb9e" category="list-text">如果出現提示、請輸入ONTAP 您的「不確定」認證資料。</block>
   <block id="45d2775227d0faf611658c52b9e5d2da" category="paragraph">如果您未儲存認證資料、系統會在ONTAP 每次開啟工作環境時、提示您使用您的支援認證登入。您可以選擇儲存認證資料、以便不需要每次都輸入。如果您使用此選項、認證資料僅與您的BlueXP使用者相關聯。您帳戶中的任何人都不會儲存這些檔案以供使用。</block>
+  <block id="d35ea0fa6a3d81047f0a36a7dfac1c07" category="paragraph">您也可以檢視與其他 BlueXP 服務整合的詳細資料、這些服務可實現資料分層、資料複寫和備份。</block>
+  <block id="c0c23b19a5402f833c9c6d50dc076f38" category="paragraph">在您的工作環境中啟用 BlueXP 資料服務、以複寫資料、備份資料、層級資料等。</block>
+  <block id="7dfe1792c76bc1bec7f64c0b01460178" category="list-text">在 Cloud Volumes ONTAP 系統、適用於 ONTAP 檔案系統的 Amazon FSX 和 ONTAP 叢集之間複寫資料。選擇一次性資料複寫、可協助您在雲端之間移動資料、或是週期性排程、有助於災難恢復或長期資料保留。</block>
+  <block id="dc699e704dec5502b9aa219f9381ad94" category="inline-link">複寫文件</block>
+  <block id="5f87e564b371518f04853fd701600836" category="paragraph"><block ref="5f87e564b371518f04853fd701600836" category="inline-link-rx"></block></block>
+  <block id="5cb29a187dfa39bb23966a4d01f66e5a" category="list-text">使用雲端備份、將內部部署 ONTAP 系統的資料備份到雲端的低成本物件儲存設備。</block>
+  <block id="846099e77083903f32f72c0e2156c3c5" category="inline-link">雲端備份文件</block>
+  <block id="ac0eb00d0ec982bf3152bc023bc35e99" category="paragraph"><block ref="ac0eb00d0ec982bf3152bc023bc35e99" category="inline-link-rx"></block></block>
+  <block id="6c8d5da78ab1fbae76a8c2a84cdb0a7c" category="list-text">掃描公司內部部署叢集以對應及分類資料、並識別私有資訊。這有助於降低安全性與法規遵循風險、降低儲存成本、並協助您執行資料移轉專案。</block>
+  <block id="c0554a6d8deefa28ad0d9e99455a69f7" category="inline-link">Cloud Data Sense文件</block>
+  <block id="7eeb485682479a1e26ec3839825c2fef" category="paragraph"><block ref="7eeb485682479a1e26ec3839825c2fef" category="inline-link-rx"></block></block>
+  <block id="18b67cdd6c50872fa0de2de9dfd11343" category="inline-link">雲端分層文件</block>
+  <block id="3e6d42d31ee577e8f72ad9c3894d3cf5" category="paragraph"><block ref="3e6d42d31ee577e8f72ad9c3894d3cf5" category="inline-link-rx"></block></block>
+  <block id="d645b6604b6bed9eead9cae8fe011de8" category="list-text">維持健全狀況、正常運作時間和效能</block>
+  <block id="a49bfeae157cc560a89bac37a142be7d" category="list-text">在發生中斷或故障之前、實作 ONTAP 叢集的建議修正。</block>
+  <block id="5e37dded84c4efba1c6c22de468101ca" category="inline-link">營運恢復能力文件</block>
+  <block id="cca0aaac8a4ddfadb9d4340ee5c58c3d" category="paragraph"><block ref="cca0aaac8a4ddfadb9d4340ee5c58c3d" category="inline-link-rx"></block></block>
+  <block id="81e1fcaa1ce96a674b79e47a02d7f4ba" category="list-text">識別容量不足的叢集</block>
+  <block id="6469bc932e571a70af6dc9f155dc8c4f" category="list-text">識別容量偏低的叢集、檢閱叢集以瞭解目前和預測的容量等等。</block>
+  <block id="68eb93c26a1fa5e191126273ae12b097" category="inline-link">經濟效益文件</block>
+  <block id="5a1ba2c518bc284a53dce33562379ae9" category="paragraph"><block ref="5a1ba2c518bc284a53dce33562379ae9" category="inline-link-rx"></block></block>
 </blocks>

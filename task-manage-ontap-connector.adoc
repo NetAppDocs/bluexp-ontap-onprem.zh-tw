@@ -218,36 +218,42 @@ image:screenshot-standard-view.png["內部ONTAP 環境的快照、顯示「切�
 
 == 啟用BlueXP資料服務
 
-在您的工作環境中啟用BlueXP資料服務、以複寫、備份、掃描及分層資料。
+在您的工作環境中啟用 BlueXP 資料服務、以複寫資料、備份資料、層級資料等。
 
+複寫資料:: 在 Cloud Volumes ONTAP 系統、適用於 ONTAP 檔案系統的 Amazon FSX 和 ONTAP 叢集之間複寫資料。選擇一次性資料複寫、可協助您在雲端之間移動資料、或是週期性排程、有助於災難恢復或長期資料保留。
++
+--
+https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["複寫文件"^]
 
+--
+備份資料:: 使用雲端備份、將內部部署 ONTAP 系統的資料備份到雲端的低成本物件儲存設備。
++
+--
+https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html["雲端備份文件"^]
 
-=== 複寫資料
+--
+掃描、對應及分類您的資料:: 掃描公司內部部署叢集以對應及分類資料、並識別私有資訊。這有助於降低安全性與法規遵循風險、降低儲存成本、並協助您執行資料移轉專案。
++
+--
+https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["Cloud Data Sense文件"^]
 
-您 Cloud Volumes ONTAP 可以選擇一次性資料複寫、 ONTAP 以協助您在雲端之間來回移動資料、或是循環排程、藉此協助災難恢復或長期保留資料、藉此複寫資料。
+--
+將資料分層至雲端:: 利用ONTAP 雲端分層功能、自動將非作用中的資料從叢集分層至物件式儲存設備、藉此將資料中心延伸至雲端。
++
+--
+https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["雲端分層文件"^]
 
-https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["瞭解如何複寫資料"^]
+--
+維持健全狀況、正常運作時間和效能:: 在發生中斷或故障之前、實作 ONTAP 叢集的建議修正。
++
+--
+https://docs.netapp.com/us-en/bluexp-operational-resiliency/index.html["營運恢復能力文件"^]
 
+--
+識別容量不足的叢集:: 識別容量偏低的叢集、檢閱叢集以瞭解目前和預測的容量等等。
++
+--
+https://docs.netapp.com/us-en/bluexp-economic-efficiency/index.html["經濟效益文件"^]
 
+--
 
-=== 備份資料
-
-您ONTAP 可以使用Cloud Backup、將內部部署的資料還原為雲端中低成本的物件式儲存設備。此服務提供備份與還原功能、可保護內部部署和雲端資料、並長期歸檔。
-
-https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html["瞭解如何將資料備份到雲端"^]
-
-
-
-=== 掃描、對應及分類您的資料
-
-Cloud Data Sense可掃描企業內部部署叢集、以對應及分類資料、並識別私有資訊。這有助於降低安全性與法規遵循風險、降低儲存成本、並協助您執行資料移轉專案。
-
-https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["瞭解如何掃描、對應及分類資料"^]
-
-
-
-=== 將資料分層至雲端
-
-利用ONTAP 雲端分層功能、自動將非作用中的資料從叢集分層至物件式儲存設備、藉此將資料中心延伸至雲端。
-
-https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["瞭解如何將資料分層至雲端"^]
