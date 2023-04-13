@@ -3,7 +3,6 @@
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">取得協助</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">這些選項可供免費使用、一天24小時、一週7天：</block>
   <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">知識庫</block>
-  <block id="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="list-text"><block ref="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="inline-link-rx"></block></block>
   <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">社群</block>
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">文件</block>
@@ -69,11 +68,8 @@
   <block id="b06972aadece5eaa3ac9cc962a035477" category="list-text">連接器主機必須允許透過連接埠 443 進行傳出 HTTPS 存取。</block>
   <block id="2b9e44ec073f65b2847ecb4d29f27fb3" category="paragraph">如果 Connector 位於雲端、則預先定義的安全性群組會允許所有傳出通訊。</block>
   <block id="6f9f6c9a212736eda9e7ebc73ff5b991" category="paragraph">預設的「管理」防火牆原則允許從所有 IP 位址進行傳入 HTTPS 存取。如果您修改此預設原則、或是建立自己的防火牆原則、則必須將 HTTPS 傳輸協定與該原則建立關聯、並啟用從 Connector 主機存取。</block>
-  <block id="e6dfd5017eebf97461338fa01b9cb076" category="paragraph">您可以使用_Digital Wallet檢視叢集詳細資料、以及硬體與軟體合約狀態。</block>
-  <block id="7d8cc3d1d840829a8cdda42ed1f06341" category="list-text">在* Digital Wallet *中、按一下*內部部署ONTAP 的S還原*索引標籤。</block>
   <block id="84c2c11254da9ee11c4482a60291186d" category="paragraph">每個叢集的軟體合約和硬體合約到期日均會顯示在行上。</block>
   <block id="18f84cf96ce5861e5585468ef883b180" category="inline-image-macro">擴充叢集詳細資料的快照、以便您檢視叢集授權資訊。</block>
-  <block id="5796086a716a7059f711cc33be934605" category="paragraph"><block ref="5796086a716a7059f711cc33be934605" category="inline-image-macro-rx" type="image"></block></block>
   <block id="efc4120a3fbfbea33245fb931c324492" category="inline-xref">這些步驟</block>
   <block id="7c1c859794874e74db7044dd733c5ca7" category="list-text">在「畫版」頁面上、按兩下您ONTAP 要在其中配置Volume的內部版位元組叢集名稱。</block>
   <block id="108a74a6cbb575c986177039e07dc411" category="list-text">依照精靈中的步驟建立磁碟區。</block>
@@ -173,8 +169,6 @@
   <block id="168463a2e30ac746441036fb49df730e" category="list-text"><block ref="168463a2e30ac746441036fb49df730e" category="inline-link-rx"></block></block>
   <block id="6a9903314020e84e3af325216666825e" category="inline-image-macro">具有三個點的圖示。</block>
   <block id="a78d007a06bac736eaadb47926ca0155" category="list-text">按一下 <block ref="8891ca04a345a35bd7da25d57718d9b7" category="inline-image-macro-rx" type="image"></block> &gt;*從範本新增Volume *。</block>
-  <block id="2dc127a72bebec759447c53e48d44a81" category="inline-image-macro">一個脫機圖示</block>
-  <block id="c3dcc3698432aa0b6e568ec48b5fe13f" category="list-text">如需瞭解其他詳細資料的叢集、請按一下 <block ref="88c68341c12fbc9f1bcf1c9927535845" category="inline-image-macro-rx" type="image"></block> 以展開叢集資訊。</block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022年9月18日</block>
   <block id="440be74a67502f9c3d55890782329328" category="paragraph">以下是3.9.22版Connector的變更。</block>
   <block id="c8328d07fc05c4708c68f547ce6f5e77" category="section-title">全新總覽頁面</block>
@@ -223,7 +217,6 @@
   <block id="a820c8babe9911ddf670332c6647b2cf" category="summary">如果ONTAP 您不想再從BlueXP管理內部部署的不工作環境、請將其移除。</block>
   <block id="bd60ce6149853fe9cc7d5bd848c0bde4" category="paragraph">移除工作環境並不會影響ONTAP 到整個叢集。您可以隨時從BlueXP重新探索。</block>
   <block id="43bfd35e9b57eaace0eafa6750af5ff7" category="list-text">從BlueXP導覽功能表中、選取*管理&gt;數位錢包*。</block>
-  <block id="891b391e7c699621fb61d87adcf4faba" category="list-text">如果合約接近到期日、或已過期、您可以按一下BlueXP右下角的聊天圖示、要求延長合約期限。</block>
   <block id="69e6c31f6140607f08425260f2faecb5" category="list-text">從導覽功能表中、選取*儲存設備&gt; Canvas*。</block>
   <block id="886d154945ab6b1710e580c43bfabaf7" category="paragraph">如果您選擇CIFS、但伺服器尚未設定、則BlueXP會提示您使用Active Directory或工作群組來設定CIFS伺服器。</block>
   <block id="c2cf3bd16a968cc398d9e36f7fee3e49" category="cell">NFS匯出原則會定義子網路中可存取磁碟區的用戶端。根據預設、BlueXP會輸入一個值、以供存取子網路中的所有執行個體。</block>
@@ -294,7 +287,6 @@
   <block id="643ed1d8ada28dc21c68f0cf27770cdf" category="sidebar">使用Digital Advisor最佳化叢集</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP部落格</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文件</block>
-  <block id="4c36467537ed03dcde201f2a693ba5ec" category="summary">您可以使用Digital Wallet來檢視叢集詳細資料、以及硬體與軟體合約狀態。</block>
   <block id="4bbcdd6338e8631576e63f1156b1c51d" category="doc">檢視叢集資訊和合約詳細資料</block>
   <block id="c5fbee6586294d81141f8dd158707985" category="doc">探索內部部署ONTAP 的叢集</block>
   <block id="e96ffca10c8548ba223da5a961f4e0bb" category="section-title">探索與管理選項</block>
@@ -517,4 +509,16 @@
   <block id="6469bc932e571a70af6dc9f155dc8c4f" category="list-text">識別容量偏低的叢集、檢閱叢集以瞭解目前和預測的容量等等。</block>
   <block id="68eb93c26a1fa5e191126273ae12b097" category="inline-link">經濟效益文件</block>
   <block id="5a1ba2c518bc284a53dce33562379ae9" category="paragraph"><block ref="5a1ba2c518bc284a53dce33562379ae9" category="inline-link-rx"></block></block>
+  <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
+  <block id="94fd71e366753efc2c71fcdd0fc3afd4" category="summary">BlueXP 數位錢包可讓您檢視每個內部部署 ONTAP 叢集的合約詳細資料。如果您尚未在 BlueXP 中發現叢集、也可以從數位錢包中找到叢集。</block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">開始之前</block>
+  <block id="2b474be1d4faf7d5e70a3977fa183a0a" category="paragraph">BlueXP 數位錢包會顯示內部部署 ONTAP 叢集的詳細資料、這些叢集是您在工作環境中發現的、或是與您新增至 BlueXP 的 NetApp 支援網站 帳戶相關聯的叢集。</block>
+  <block id="e65135bd79d15db91bec6c98a9f8dabe" category="list-text">選取*內部部署ONTAP 的S--。</block>
+  <block id="93416f52fcce3ab7a37ed87d0aeb8134" category="paragraph">如果系統提示您先輸入 NetApp 支援網站（NSS）帳戶認證資料，請在支援儀表板中輸入認證資料。新增帳戶後、即會顯示該帳戶中包含的叢集。</block>
+  <block id="50b3dac67cf083c4a4dd133f8b8d0076" category="paragraph"><block ref="50b3dac67cf083c4a4dd133f8b8d0076" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="19d0494f8c332b6872314cab23b38a2d" category="list-text">如果您尚未將叢集發現為工作環境、請選取 * 探索 * 、然後依照提示進行。</block>
+  <block id="87713871e17e5ef9a4e363132a527495" category="paragraph">當您發現叢集之後、它就會在 BlueXP 中作為工作環境提供、以便您管理它。</block>
+  <block id="06afa66cf6eca938a45be835a47030e1" category="paragraph-title">相關連結</block>
+  <block id="73aa008a6b5cf018ef8dbd33a51ac3c7" category="inline-link">深入瞭解如何從 BlueXP 數位錢包管理內部部署 ONTAP 叢集的授權</block>
+  <block id="576b63b6009db82dbb03f5fa245eb11c" category="paragraph"><block ref="576b63b6009db82dbb03f5fa245eb11c" category="inline-link-rx"></block></block>
 </blocks>
