@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concept-aiq-digital-advisor.html 
 keywords: concepts, active iq digital advisor, ontap 
-summary: 支援整合到BlueXP UI中、讓您在單一窗口中、將整個叢集的作業、安全性和效能最佳化。Active IQ Digital Advisor ONTAP 
+summary: BlueXP 數位顧問可讓您最佳化 ONTAP 叢集的作業、安全性和效能。 
 ---
-= 使用Digital Advisor最佳化叢集
+= 使用 BlueXP 數位顧問最佳化叢集
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,13 +14,13 @@ summary: 支援整合到BlueXP UI中、讓您在單一窗口中、將整個叢�
 
 
 [role="lead"]
-https://www.netapp.com/services/support/active-iq/["數位顧問"^] （先前稱為Active IQ 「支援」）已整合至BlueXP UI中、因此您可以在ONTAP 單一窗口中最佳化您的VMware叢集的作業、安全性和效能。
+BlueXP 數位顧問可讓您最佳化 ONTAP 叢集的作業、安全性和效能。
 
 
 
 == 功能
 
-您可以使用數位顧問、在報價表層級檢視儲存系統的整體狀態、系統健全狀況的高階資訊、庫存管理、規劃、升級、以及寶貴的見解。
+您可以使用 BlueXP 數位顧問、在觀察清單層級檢視儲存系統的整體狀態、系統健全狀況的高階資訊、庫存、規劃、升級、以及寶貴的見解。
 
 * 分析並最佳化儲存系統的健全狀況
 * 深入瞭解儲存系統的所有風險、以及降低風險的行動
@@ -34,10 +34,10 @@ https://www.netapp.com/services/support/active-iq/["數位顧問"^] （先前稱
 
 == 支援ONTAP 的支援的支援系統
 
-Digital Advisor可提供ONTAP 您在您的NSS.帳戶中所有內部部署的系統及Cloud Volumes ONTAP 支援系統的相關資訊。
+數位顧問可為所有內部部署 ONTAP 系統和 Cloud Volumes ONTAP 系統提供與您的 NetApp 支援網站 （ NSS ）帳戶相關的資訊。
 
 
 
-== 數位顧問如何與BlueXP搭配運作
+== 更多資訊
 
-請參閱 https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html["數位顧問文件"^] 以取得詳細資料。
+https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html["數位顧問文件"^]

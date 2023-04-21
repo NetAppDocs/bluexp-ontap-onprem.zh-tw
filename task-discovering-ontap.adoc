@@ -14,7 +14,7 @@ summary: 探索ONTAP 來自BlueXP的內部資源介紹叢集、以便您開始�
 
 
 [role="lead"]
-探索ONTAP 來自BlueXP的內部資源介紹叢集、以便您開始使用ONTAP 從BlueXP取得的功能完善的系統管理程式來管理磁碟區和執行進階管理。
+探索 BlueXP 的內部部署 ONTAP 叢集、以便開始使用 BlueXP 提供的 ONTAP 系統管理員來管理磁碟區和執行進階管理。
 
 
 
@@ -27,7 +27,7 @@ BlueXP提供兩種方法來探索及管理內部ONTAP 的支援功能
 --
 * 標準檢視、提供基本的Volume作業
 * 進階檢視、可透過System Manager進行管理（ONTAP 支援使用支援的版本為0。9.10.0及更新版本）
-* 與BlueXP資料服務整合、提供資料複寫、備份與還原、資料分類及資料分層等功能
+* 與 BlueXP 服務整合、提供資料複寫、備份與還原、資料分類及資料分層
 
 
 此選項需要連接器、您可以將其安裝在雲端供應商或內部部署環境中。
@@ -80,7 +80,7 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["�
 +
 ** https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["深入瞭解連接器"^]
 ** https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-connectors.html["在連接器之間切換"^]
-** https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["深入瞭解雲端分層"^]
+** https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["瞭解 BlueXP 分層"^]
 
 
 * 連接器主機必須允許透過連接埠 443 進行傳出 HTTPS 存取。

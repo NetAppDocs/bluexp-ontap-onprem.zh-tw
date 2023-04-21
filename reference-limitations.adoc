@@ -31,7 +31,7 @@ BlueXP不支援一些System Manager功能：
 
 * 雲端備份啟動
 +
-直接從Cloud Backup在內部部署叢集上啟用Cloud Backup。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html["瞭解如何開始使用"^]
+直接從 BlueXP 備份與還原在內部部署叢集上啟用 Cloud Backup 。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html["瞭解如何開始使用"^]
 
 * 隨需升級
 +

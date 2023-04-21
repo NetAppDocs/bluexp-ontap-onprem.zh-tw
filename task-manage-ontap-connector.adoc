@@ -14,7 +14,7 @@ summary: 如果您需要對ONTAP 內部部署的叢集執行進階管理、可�
 
 
 [role="lead"]
-如果您使用ONTAP Connector發現內部的支援叢集、可以從「標準」檢視建立磁碟區、從「進階」檢視使用System Manager、以及啟用BlueXP資料服務。
+如果您使用 Connector 發現內部部署 ONTAP 叢集、則可以從標準檢視建立磁碟區、從進階檢視使用系統管理員、以及啟用 BlueXP 資料服務。
 
 在畫版上、使用Connector探索到的叢集工作環境圖示應類似下列內容：
 
@@ -126,7 +126,7 @@ image:screenshot_template_creating_resource_ontap.png["快照顯示從範本建�
 
 然後新磁碟區便會新增至工作環境。
 
-此外、如果範本中實作任何次要動作、例如在磁碟區上啟用Cloud Backup、也會執行該動作。
+此外、如果範本中實作任何次要動作、例如在磁碟區上啟用 BlueXP 備份與還原、則也會執行該動作。
 
 .完成後
 如果您已配置 CIFS 共用區、請授予使用者或群組檔案和資料夾的權限、並確認這些使用者可以存取共用區並建立檔案。
@@ -216,7 +216,7 @@ image:screenshot-standard-view.png["內部ONTAP 環境的快照、顯示「切�
 
 
 
-== 啟用BlueXP資料服務
+== 啟用 BlueXP 服務
 
 在您的工作環境中啟用 BlueXP 資料服務、以複寫資料、備份資料、層級資料等。
 
@@ -226,22 +226,22 @@ image:screenshot-standard-view.png["內部ONTAP 環境的快照、顯示「切�
 https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["複寫文件"^]
 
 --
-備份資料:: 使用雲端備份、將內部部署 ONTAP 系統的資料備份到雲端的低成本物件儲存設備。
+備份資料:: 將內部部署 ONTAP 系統的資料備份到雲端的低成本物件儲存設備。
 +
 --
-https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html["雲端備份文件"^]
+https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html["備份與還原文件"^]
 
 --
 掃描、對應及分類您的資料:: 掃描公司內部部署叢集以對應及分類資料、並識別私有資訊。這有助於降低安全性與法規遵循風險、降低儲存成本、並協助您執行資料移轉專案。
 +
 --
-https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["Cloud Data Sense文件"^]
+https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["分類文件"^]
 
 --
-將資料分層至雲端:: 利用ONTAP 雲端分層功能、自動將非作用中的資料從叢集分層至物件式儲存設備、藉此將資料中心延伸至雲端。
+將資料分層至雲端:: 自動將非作用中的資料從 ONTAP 叢集分層至物件式儲存設備、將資料中心延伸至雲端。
 +
 --
-https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["雲端分層文件"^]
+https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["分層文件"^]
 
 --
 維持健全狀況、正常運作時間和效能:: 在發生中斷或故障之前、實作 ONTAP 叢集的建議修正。

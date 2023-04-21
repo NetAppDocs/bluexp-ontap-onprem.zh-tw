@@ -31,23 +31,11 @@
   <block id="25203f9c21dc384a4870095f19f67811" category="doc">內部ONTAP 部署的更新功能</block>
   <block id="ba26e4556a0f160834687982b0479336" category="section-title">2022年2月27日</block>
   <block id="d3f07c4c7baf0c60bc64c1cdc48732af" category="paragraph">現在您可以查看內部ONTAP 的叢集庫存、以及其硬體和服務合約的到期日。此外也提供叢集的其他詳細資料。</block>
-  <block id="184ca21b83c54a7ba12f9b1077ccb494" category="inline-link">請參閱如何檢視這項重要的內部叢集資訊</block>
-  <block id="a70e816a0245e4c041fe696bc068fde8" category="paragraph"><block ref="cdf49294fa22fe97f3cd9774fbb3d925" category="inline-link-rx"></block>。您必須擁有適用於叢集的NetApp支援網站帳戶（NSS）、而且必須將您的Cloud Manager帳戶附加至新的資信。</block>
   <block id="ef1bf4095b622ba80ac24b48b8e45eac" category="section-title">2022年1月11日</block>
   <block id="3686b84bef4027bfe5a11fcf472d8662" category="paragraph">您新增至磁碟區的標記現在與應用程式範本服務的標記功能相關聯、可協助您組織及簡化資源管理。</block>
   <block id="f61163b681442ac500a8018c87241770" category="section-title">2021年11月28日</block>
   <block id="feea05ef76a2f6f2d444dfab436c31c4" category="section-title">已ONTAP 簡化內部部署的架構叢集建立Volume精靈</block>
   <block id="decff6be18712c90db61aad628609885" category="paragraph">我們重新設計了「建立Volume精靈」、以方便使用、現在您可以選擇自訂的匯出原則。</block>
-  <block id="dbbd746e2d2c019dcb0c3c40b74f4f75" category="section-title">2021年3月8日</block>
-  <block id="4741d0181532f824e500e5fb61f113de" category="section-title">內部使用可在《不知如何」服務中取得的叢集資訊ONTAP Active IQ</block>
-  <block id="4daa302553b3da312bae6dd7eb61185b" category="inline-link-macro">探索叢集</block>
-  <block id="a0f0c23d7902a428b74d69d482ddd35f" category="list-text">當顯示內部叢集的清單（Active IQ 根據您的NSS帳戶）時、您可以按一下按鈕 <block ref="6092f07e6002a33280f60ad47718209e" category="inline-link-macro-rx"></block> 並將其新增至Cloud Manager畫版。如此一來、您就能更輕鬆地從Cloud Manager管理所有儲存系統。</block>
-  <block id="9daa178990889b96486cdf1ec49a312b" category="inline-link-macro">下載Ansible教戰手冊並升級叢集韌體</block>
-  <block id="17a4a2fa852d95e14e95882197efc7aa" category="list-text">當確定一個或多個叢集需要韌體更新時Active IQ 、您可以按一下按鈕來進行更新 <block ref="16afe937cb21a9e778b58814919b3a40" category="inline-link-macro-rx"></block>。</block>
-  <block id="6ab419e28cab05bd181b5548828ce291" category="inline-link-macro">雲端就緒工作負載索引標籤</block>
-  <block id="1ebb52f6b09efabdd77b2a2848b85455" category="list-text">全新 <block ref="6662d2379ae546ce8e2cb9fe679f2897" category="inline-link-macro-rx"></block> 提供一份工作負載或磁碟區清單、其中列出我們認為是從內部ONTAP 的支援叢集移至雲端的理想選擇。移轉其中一些磁碟區、可能會降低成本、並改善效能與恢復能力。</block>
-  <block id="9e49141228614f46674f3e99aa052d48" category="inline-link-macro">什麼是提升和轉變？</block>
-  <block id="40e7938989b9c693ef9d2535a73efc96" category="paragraph">請參閱 <block ref="e6e341fabb88ca4be499965211728d47" category="inline-link-macro-rx"></block></block>
   <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">功能</block>
   <block id="cd5d4df84a7902a777304de9ff13e8a8" category="list-text">分析並最佳化儲存系統的健全狀況</block>
   <block id="9d4e486fd4968dd03a1921222e688c12" category="list-text">深入瞭解儲存系統的所有風險、以及降低風險的行動</block>
@@ -63,8 +51,6 @@
   <block id="da1264a616f156bd6836a85f7dfdea5a" category="list-text"><block ref="da1264a616f156bd6836a85f7dfdea5a" category="inline-link-rx"></block></block>
   <block id="c870531773e82c374eb4125c8029e25e" category="inline-link">在連接器之間切換</block>
   <block id="74d39f4b6fe0e32c5cfa2ed86891bf44" category="list-text"><block ref="74d39f4b6fe0e32c5cfa2ed86891bf44" category="inline-link-rx"></block></block>
-  <block id="36afa058c74d288178950c27927bdb38" category="inline-link">深入瞭解雲端分層</block>
-  <block id="4a88b41a42a9618291028593ae2a0b05" category="list-text"><block ref="4a88b41a42a9618291028593ae2a0b05" category="inline-link-rx"></block></block>
   <block id="b06972aadece5eaa3ac9cc962a035477" category="list-text">連接器主機必須允許透過連接埠 443 進行傳出 HTTPS 存取。</block>
   <block id="2b9e44ec073f65b2847ecb4d29f27fb3" category="paragraph">如果 Connector 位於雲端、則預先定義的安全性群組會允許所有傳出通訊。</block>
   <block id="6f9f6c9a212736eda9e7ebc73ff5b991" category="paragraph">預設的「管理」防火牆原則允許從所有 IP 位址進行傳入 HTTPS 存取。如果您修改此預設原則、或是建立自己的防火牆原則、則必須將 HTTPS 傳輸協定與該原則建立關聯、並啟用從 Connector 主機存取。</block>
@@ -103,10 +89,8 @@
   <block id="40136e65ff57723941fc2af2bf21d54a" category="inline-image-macro">快照顯示從範本建立新磁碟區的進度。</block>
   <block id="1d2547b9bcbb0f13f704545fd4b3b7b0" category="paragraph"><block ref="1d2547b9bcbb0f13f704545fd4b3b7b0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3fcf4599fd910141dcd628a7411238d5" category="paragraph">然後新磁碟區便會新增至工作環境。</block>
-  <block id="0ca2ea4d1ed88de2980b88af718eedaf" category="paragraph">此外、如果範本中實作任何次要動作、例如在磁碟區上啟用Cloud Backup、也會執行該動作。</block>
   <block id="1e57268fd975664444ddbda428e56bf7" category="paragraph">如果您已配置 CIFS 共用區、請授予使用者或群組檔案和資料夾的權限、並確認這些使用者可以存取共用區並建立檔案。</block>
   <block id="b62196e30035e69996a2d1d3a9d64116" category="section-title">掃描、對應及分類您的資料</block>
-  <block id="74f0cc3c17958e80b4ccd076c9e50493" category="paragraph">利用ONTAP 雲端分層功能、自動將非作用中的資料從叢集分層至物件式儲存設備、藉此將資料中心延伸至雲端。</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">註冊以取得支援</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">「說明」功能表的快照、其中「支援」是第一個列出的選項</block>
   <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
@@ -128,7 +112,6 @@
   <block id="ffe3ec3b5faef58a758d9449470882a0" category="section-title">新的進階檢視</block>
   <block id="5549a52d6578bcb66138c7319ef4ea11" category="paragraph">如果您需要對ONTAP 內部部署的叢集執行進階管理、可以使用ONTAP 支援ONTAP 此功能的作業系統管理程式、這個管理介面是隨附於一個作業系統的。我們直接在Cloud Manager中加入System Manager介面、因此您不需要離開Cloud Manager進行進階管理。</block>
   <block id="99721ad2e6d601b2966a9d9e1c7de770" category="paragraph">此「進階檢視」可在ONTAP 內部部署的叢集執行9.10.0或更新版本時、以預覽形式提供。我們計畫改善這項體驗、並在即將推出的版本中加入增強功能。請使用產品內建聊天功能、向我們傳送意見反應。</block>
-  <block id="f303a87fe6efba259b752f5a9e11064b" category="inline-link-macro">深入瞭解進階檢視</block>
   <block id="d7ce0ccf910efd77ec00e6d9bde719ca" category="doc">使用進階檢視來管理ONTAP</block>
   <block id="74593b49f99b6e21d38ca3d969b213f3" category="paragraph">此「進階檢視」可作為預覽使用。我們計畫改善這項體驗、並在即將推出的版本中加入增強功能。請使用產品內建聊天功能、向我們傳送意見反應。</block>
   <block id="f3c3ee89c80d32726f5f937c07631d1c" category="list-text">進階儲存管理</block>
@@ -179,7 +162,6 @@
   <block id="99cbfcbab5c608668044fc3849d8db46" category="paragraph">我們重新設計「Volumes（磁碟區）」頁面、提供叢集上磁碟區的摘要。摘要會顯示磁碟區總數、已配置容量、已使用容量和保留容量、以及階層式資料量。</block>
   <block id="2f82cdfc06b6747c85937b5cceabaaee" category="inline-image-macro">顯示內部ONTAP 叢集「Volumes」（磁碟區）頁面的快照。</block>
   <block id="bb4feb07894e787f9d7a8a9c00fa4d55" category="paragraph"><block ref="bb4feb07894e787f9d7a8a9c00fa4d55" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="677a2aadb254e7c4efbc10a593c2f4db" category="paragraph"><block ref="869a420ba883bbe1b303fc03706f8b2f" category="inline-link-rx"></block>。</block>
   <block id="d71f4e248e7b72dc823a682ad81ee0a7" category="list-text">按一下功能表圖示、然後選取*從工作區移除*。</block>
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">除了上述的自我支援選項、您也可以在啟動支援之後、與NetApp支援專家合作解決任何問題。</block>
   <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">瞭解如何註冊以取得支援</block>
@@ -201,7 +183,6 @@
   <block id="bfd7860b885159ef1631572dc506bf0e" category="list-text">按一下「* Volume &gt; Add Volume *」。</block>
   <block id="97a34ca7d328720ed48cf2e2010985be" category="list-text">*詳細資料、保護及標記*：輸入磁碟區的詳細資料、例如磁碟區名稱和大小、選擇Snapshot原則、並視需要指定磁碟區標記。</block>
   <block id="17b6d3e2bf5506b5e797dfb98b76c0c2" category="list-text">*傳輸協定*：選擇磁碟區的傳輸協定（NFS、CIFS或iSCSI）、然後設定磁碟區的存取控制或權限。</block>
-  <block id="ac77698b17043bc79661d58433294c87" category="summary">透過BlueXP（AFF 前身為Cloud Manager）來管理您的NetApp功能和FAS 功能、以配置儲存設備、複寫資料及設定關鍵雲端型資料服務。</block>
   <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp以多種方式提供對BlueXP的支援。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。</block>
   <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">NetApp以多種方式支援BlueXP及其雲端服務。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。</block>
   <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">請搜尋BlueXP知識庫、找出有助於疑難排解問題的文章。</block>
@@ -271,16 +252,6 @@
   <block id="201080500e946070a2e4873042507c77" category="paragraph">確認將您的申請提交給NetApp、並建議您建立NetApp 支援網站 一個申請表。</block>
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">在此過程中、NetApp應與您聯絡。這是新使用者的一次性就職練習。</block>
   <block id="1c0e45ef07d0dbc13ca2394d5e285fd7" category="paragraph">一旦擁有NetApp 支援網站 您的不二帳戶、您就可以瀏覽至BlueXP、新增此新的NSS-帳戶以供日後登錄。</block>
-  <block id="0c726404ad0f4ebb2cb2a2d0bdc04192" category="summary">支援整合到BlueXP UI中、讓您在單一窗口中、將整個叢集的作業、安全性和效能最佳化。Active IQ Digital Advisor ONTAP</block>
-  <block id="f079f17b0940258743d34e7b771c715f" category="inline-link">數位顧問</block>
-  <block id="3cc843c9493ef45c6bf2c9ccc0f047aa" category="paragraph"><block ref="6f877bd6e1a5dde59d706a7e9ecadb7f" category="inline-link-rx"></block> （先前稱為Active IQ 「支援」）已整合至BlueXP UI中、因此您可以在ONTAP 單一窗口中最佳化您的VMware叢集的作業、安全性和效能。</block>
-  <block id="346661910d62d25c1475a0a09bd7a473" category="paragraph">您可以使用數位顧問、在報價表層級檢視儲存系統的整體狀態、系統健全狀況的高階資訊、庫存管理、規劃、升級、以及寶貴的見解。</block>
-  <block id="1dba3e6a495ee6df07aa2319c84850b9" category="paragraph">Digital Advisor可提供ONTAP 您在您的NSS.帳戶中所有內部部署的系統及Cloud Volumes ONTAP 支援系統的相關資訊。</block>
-  <block id="1708a7899dbb54c155b6283363ffb7ca" category="section-title">數位顧問如何與BlueXP搭配運作</block>
-  <block id="ea7b2437ddd14dce6ba3f65494d634fd" category="inline-link">數位顧問文件</block>
-  <block id="0d3c9b9e85d797576ff3dd7d69000330" category="paragraph">請參閱<block ref="ec9c12602878d9d46f06e78e6704d9d1" category="inline-link-rx"></block> 以取得詳細資料。</block>
-  <block id="bcb152582247346e2f453fce02c1fc3c" category="inline-link-macro">BlueXP 3.9</block>
-  <block id="03f975e839e4278228720a5d19656288" category="list-text"><block ref="03f975e839e4278228720a5d19656288" category="inline-link-macro-rx"></block></block>
   <block id="c6b78f20a92771fa152f068d245ad75e" category="summary">如果您需要對ONTAP 內部部署的叢集執行進階管理、可以使用ONTAP 支援ONTAP 此功能的作業系統管理程式、這個管理介面是隨附於一個作業系統的。我們已將System Manager介面直接納入BlueXP、因此您不需要離開BlueXP進行進階管理。</block>
   <block id="38ff1351e45b1e4303e79145f4bc10b4" category="paragraph">BlueXP的進階檢視可讓您存取其他管理功能：</block>
   <block id="e7b3f56c45c6705f279b059a9274225d" category="list-text">如有需要、請按一下*切換至標準檢視*、透過BlueXP返回標準管理。</block>
@@ -303,7 +274,6 @@
   <block id="7d0b01345a5038f25fdd17dc04d8872e" category="list-text">您需要叢集管理IP位址和管理員使用者帳戶的密碼。</block>
   <block id="95773f82d1d681361d7f2215f3912515" category="paragraph">BlueXP會使用ONTAP HTTPS探索叢集。如果您使用自訂防火牆原則、ONTAP 則無法透過連接埠443存取傳入HTTPS。</block>
   <block id="5c4425fb4da620b6fcdee80150d6eaf9" category="doc">管理ONTAP 內部使用Connector發現的叢集</block>
-  <block id="09d84fd04db90be9065d2babb3cfc106" category="paragraph">如果您使用ONTAP Connector發現內部的支援叢集、可以從「標準」檢視建立磁碟區、從「進階」檢視使用System Manager、以及啟用BlueXP資料服務。</block>
   <block id="95f71a487fe91fc0ea6cb5ded3a59cc3" category="section-title">從「標準」檢視建立Volume</block>
   <block id="b340c8312764799ec774b8e6fe16fec6" category="paragraph">在ONTAP 您使用Connector從BlueXP探索內部資源的叢集之後、您可以開啟工作環境來配置和管理儲存設備。</block>
   <block id="afb7adc3debe75aa13a1fc4fdb7c0a81" category="paragraph">BlueXP可讓您在現有的Aggregate上建立NFS或CIFS磁碟區。您無法ONTAP 從BlueXP標準檢視在內部的叢集上建立新的Aggregate。您需要使用「進階」檢視來建立Aggregate。</block>
@@ -315,22 +285,17 @@
   <block id="88e156005e08cd20db096e992009e8e5" category="paragraph"><block ref="c936b096dc7fb0bdb7ac3b472aa3a0a3" category="inline-xref-macro-rx"></block>。</block>
   <block id="dce4384ee7fa334b58b3b529933aacef" category="paragraph">如果您需要對內部部署ONTAP 的故障叢集執行進階管理、您可以使用ONTAP 支援ONTAP 此功能的支援功能、這個管理介面是隨附於一個故障診斷系統的。我們已將System Manager介面直接納入BlueXP、因此您不需要離開BlueXP進行進階管理。</block>
   <block id="5d82c1ade2b4a73465d28377bf1ee806" category="section-title">取得System Manager的協助</block>
-  <block id="9094954a45207debf588da430f00322f" category="section-title">啟用BlueXP資料服務</block>
   <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="section-title">複寫資料</block>
   <block id="b76ae88aa754ea86825b84c8badae90a" category="section-title">備份資料</block>
   <block id="840a495adf1ad99ebc0b2945d0d37848" category="section-title">將資料分層至雲端</block>
   <block id="9ac91148b1f0257152bc376ab38bf436" category="doc">內部部署ONTAP 的內部部署功能、包括叢集文件</block>
   <block id="64b5ac71fb7ec208d91ceb7344aa0b37" category="summary">BlueXP可以探索ONTAP 在AFF/FAS控制器和ONTAP Select VMware上執行的功能區叢集。將內部部署ONTAP 的支援系統新增至藍圖XP、讓您能夠從單一介面管理所有的儲存與資料資產。</block>
-  <block id="6e81f0148dafd5ebdc4b99d02355fea7" category="doc">內部部署的BlueXP叢集管理功能ONTAP</block>
   <block id="fb24315d532abea28c978f8643868013" category="list-text">管理NFS與CIFS磁碟區</block>
   <block id="3c5335f4270215aa7b16adf996cdf82d" category="list-text">使用ONTAP NetApp System Manager執行進階管理</block>
   <block id="f040aeb46f1ebe5c4940eb6054748170" category="list-text">利用BlueXP分析與控制功能、獲得健全狀況與效能觀察能力</block>
-  <block id="7c43ba708deecd15aad23a3cf40ef5ef" category="list-text">使用BlueXP的資料服務來複寫、備份、掃描、分類及分層資料</block>
-  <block id="878dda247caccb5e11ebd045025d171c" category="list-text">在Digital Wallet中檢視硬體與軟體合約狀態資訊</block>
   <block id="4021c0d07bda2ea80ded248828507d76" category="paragraph">成本可能會相關、但取決於下列項目：</block>
   <block id="f0ec06c8888b911820be6e1fcc689c0b" category="list-text">是否部署Connector來探索及管理叢集。</block>
   <block id="0d29d27599c2af161506dbd9dbafba3f" category="paragraph">您可以在雲端或內部部署環境中安裝Connector。</block>
-  <block id="8750ef20d1caf40f87b4773f2d8980f4" category="list-text">是否啟用雲端備份、雲端分層和資料感知等選用資料服務。</block>
   <block id="83ec139c80a3d5b2f11f1a94eed47cd2" category="section-title">2022年12月4日</block>
   <block id="612111851a1740ab34a9d35045621084" category="paragraph">以下是3.9.24版本的Connector所做的變更。</block>
   <block id="bad2ca9843e053dbde9d0f5cf2f18a7b" category="section-title">探索內部ONTAP 部署的新型叢集方法</block>
@@ -365,7 +330,6 @@
   <block id="ef8d24c115f07ff9475a999250c2a5d8" category="list-text">角色型存取控制（僅限連接器）</block>
   <block id="4a2ee857fe0aa1483d07a75bf8d71bec" category="paragraph">在使用ONTAP Connector探索及管理內部環境的叢集時、不支援System Manager的角色型存取控制。系統會在探索過程中提示您輸入管理員認證資料。這些認證資料會用於從System Manager採取的所有行動。</block>
   <block id="75116741b7b623681d2dd352ea2ef388" category="paragraph">有了直接探索選項、ONTAP 每次開啟工作環境時、系統都會提示您使用您的憑據登入。</block>
-  <block id="e57ef19ca7d4e00e73b11a38b0a89a63" category="paragraph">直接從Cloud Backup在內部部署叢集上啟用Cloud Backup。<block ref="d78fdae783f693d400093119494a670a" category="inline-link-rx"></block></block>
   <block id="05280ae0f52dfc03d23962982cf79f21" category="list-text">進階檢視、可透過System Manager進行管理（ONTAP 支援使用支援的版本為0。9.10.0及更新版本）</block>
   <block id="797c4c6d452fc60610219b263c22393d" category="paragraph">如果您決定稍後再使用其他探索選項、則需要在畫版上將內部叢集探索為獨立的工作環境。然後您可以選擇移除其他工作環境。</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">結果</block>
@@ -446,7 +410,6 @@
   <block id="fd02e84624a2fdfd58787131aa2820b5" category="list-text">如果您需要重新整理登入認證憑證權杖、也可以在中使用*更新認證*選項 <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> 功能表。</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">使用此選項會提示您重新登入。請注意、這些帳戶的權杖會在90天後過期。系統會張貼通知、提醒您注意此點。</block>
   <block id="623e1951042cd3019a0cc38bf7556bee" category="summary">探索ONTAP 來自BlueXP的內部資源介紹叢集、以便您開始使用ONTAP 從BlueXP取得的功能完善的系統管理程式來管理磁碟區和執行進階管理。</block>
-  <block id="0cd9fea7f87f5a503f2d07cc992f0993" category="list-text">與BlueXP資料服務整合、提供資料複寫、備份與還原、資料分類及資料分層等功能</block>
   <block id="e9b3b1686b45ea49547763029f379272" category="paragraph">此選項需要連接器、您可以將其安裝在雲端供應商或內部部署環境中。</block>
   <block id="d7aa3f7ee53003f5d75a0f500ddb1e6a" category="paragraph">此選項不需要連接器。</block>
   <block id="f75478b929f43a364a455cc34445b807" category="paragraph">當您在執行ONTAP 9.12.1或更新版本的內部部署功能叢集上存取System Manager並連線至BlueXP服務時、系統會提示您直接從BlueXP管理叢集。如果您遵循此提示、它會使用直接探索選項在BluXP中探索叢集。</block>
@@ -493,14 +456,7 @@
   <block id="7dfe1792c76bc1bec7f64c0b01460178" category="list-text">在 Cloud Volumes ONTAP 系統、適用於 ONTAP 檔案系統的 Amazon FSX 和 ONTAP 叢集之間複寫資料。選擇一次性資料複寫、可協助您在雲端之間移動資料、或是週期性排程、有助於災難恢復或長期資料保留。</block>
   <block id="dc699e704dec5502b9aa219f9381ad94" category="inline-link">複寫文件</block>
   <block id="5f87e564b371518f04853fd701600836" category="paragraph"><block ref="5f87e564b371518f04853fd701600836" category="inline-link-rx"></block></block>
-  <block id="5cb29a187dfa39bb23966a4d01f66e5a" category="list-text">使用雲端備份、將內部部署 ONTAP 系統的資料備份到雲端的低成本物件儲存設備。</block>
-  <block id="846099e77083903f32f72c0e2156c3c5" category="inline-link">雲端備份文件</block>
-  <block id="ac0eb00d0ec982bf3152bc023bc35e99" category="paragraph"><block ref="ac0eb00d0ec982bf3152bc023bc35e99" category="inline-link-rx"></block></block>
   <block id="6c8d5da78ab1fbae76a8c2a84cdb0a7c" category="list-text">掃描公司內部部署叢集以對應及分類資料、並識別私有資訊。這有助於降低安全性與法規遵循風險、降低儲存成本、並協助您執行資料移轉專案。</block>
-  <block id="c0554a6d8deefa28ad0d9e99455a69f7" category="inline-link">Cloud Data Sense文件</block>
-  <block id="7eeb485682479a1e26ec3839825c2fef" category="paragraph"><block ref="7eeb485682479a1e26ec3839825c2fef" category="inline-link-rx"></block></block>
-  <block id="18b67cdd6c50872fa0de2de9dfd11343" category="inline-link">雲端分層文件</block>
-  <block id="3e6d42d31ee577e8f72ad9c3894d3cf5" category="paragraph"><block ref="3e6d42d31ee577e8f72ad9c3894d3cf5" category="inline-link-rx"></block></block>
   <block id="d645b6604b6bed9eead9cae8fe011de8" category="list-text">維持健全狀況、正常運作時間和效能</block>
   <block id="a49bfeae157cc560a89bac37a142be7d" category="list-text">在發生中斷或故障之前、實作 ONTAP 叢集的建議修正。</block>
   <block id="5e37dded84c4efba1c6c22de468101ca" category="inline-link">營運恢復能力文件</block>
@@ -521,4 +477,36 @@
   <block id="06afa66cf6eca938a45be835a47030e1" category="paragraph-title">相關連結</block>
   <block id="73aa008a6b5cf018ef8dbd33a51ac3c7" category="inline-link">深入瞭解如何從 BlueXP 數位錢包管理內部部署 ONTAP 叢集的授權</block>
   <block id="576b63b6009db82dbb03f5fa245eb11c" category="paragraph"><block ref="576b63b6009db82dbb03f5fa245eb11c" category="inline-link-rx"></block></block>
+  <block id="eacd3ed630ae5b36126bd8cf27a43632" category="paragraph">探索 BlueXP 的內部部署 ONTAP 叢集、以便開始使用 BlueXP 提供的 ONTAP 系統管理員來管理磁碟區和執行進階管理。</block>
+  <block id="137ffb60b26b3895f9ae6f3042e0d587" category="list-text">與 BlueXP 服務整合、提供資料複寫、備份與還原、資料分類及資料分層</block>
+  <block id="e920ef862d77b3f54bb7bf3e535062a3" category="inline-link">瞭解 BlueXP 分層</block>
+  <block id="ab39f7f9b8000627309eae76de10963b" category="list-text"><block ref="ab39f7f9b8000627309eae76de10963b" category="inline-link-rx"></block></block>
+  <block id="6568b62a7d7e403aa25f80da4df48e9a" category="summary">從 BlueXP 管理您的 NetApp AFF 和 FAS 系統、以配置儲存設備、複寫資料及設定關鍵雲端型資料服務。</block>
+  <block id="afecfcae87b8b8aa94335648c348ba12" category="summary">BlueXP 數位顧問可讓您最佳化 ONTAP 叢集的作業、安全性和效能。</block>
+  <block id="3d47a3f36b63e7d673bae6921c58af01" category="doc">使用 BlueXP 數位顧問最佳化叢集</block>
+  <block id="f134e1429d83afa20e6cf1b79e3d20c9" category="paragraph">您可以使用 BlueXP 數位顧問、在觀察清單層級檢視儲存系統的整體狀態、系統健全狀況的高階資訊、庫存、規劃、升級、以及寶貴的見解。</block>
+  <block id="7e4f93e083961067c61f20abc47bc2d3" category="paragraph">數位顧問可為所有內部部署 ONTAP 系統和 Cloud Volumes ONTAP 系統提供與您的 NetApp 支援網站 （ NSS ）帳戶相關的資訊。</block>
+  <block id="ab066b3292d8ab61ef3b5c77169cdd19" category="section-title">更多資訊</block>
+  <block id="a97bd659401a9123a280fa1ec2f34874" category="inline-link">數位顧問文件</block>
+  <block id="ac26a062f287ef22a73c3d66ac423fc6" category="paragraph"><block ref="ac26a062f287ef22a73c3d66ac423fc6" category="inline-link-rx"></block></block>
+  <block id="c363f739f5bdf65a6ab4cae2b97b0d8a" category="inline-link">瞭解如何檢視這項重要的內部叢集資訊</block>
+  <block id="09cc582da9a3118b6520cf72b79e82b3" category="paragraph"><block ref="169e7af99ba2470a2a9f3de00e6dd5f8" category="inline-link-rx"></block>。您必須擁有適用於叢集的 NetApp 支援網站帳戶（NSS），而且必須將 NSS 認證資料附加至您的 Cloud Manager 帳戶。</block>
+  <block id="2e709f51ffde46c86ebf493de1158cdd" category="doc">BlueXP 的內部部署 ONTAP 叢集管理</block>
+  <block id="55fd1b0a10f3ffa4fd854f3b58535a0d" category="list-text">使用 BlueXP 服務來複寫、備份、掃描、分類及分層資料</block>
+  <block id="e6855a96bbe46265b9ff5968ea2f7ea1" category="list-text">在 BlueXP 數位錢包中檢視硬體和軟體合約狀態資訊</block>
+  <block id="df72ae90e7d4142f112bbc2859e6948b" category="list-text">您是否使用 BlueXP 服務、例如備份與還原、分層和分類。</block>
+  <block id="8e8b2132d267e6b940332cd979b14732" category="paragraph">如果您使用 Connector 發現內部部署 ONTAP 叢集、則可以從標準檢視建立磁碟區、從進階檢視使用系統管理員、以及啟用 BlueXP 資料服務。</block>
+  <block id="3cb732600caeb6ed3e89ade08544187b" category="paragraph">此外、如果範本中實作任何次要動作、例如在磁碟區上啟用 BlueXP 備份與還原、則也會執行該動作。</block>
+  <block id="c362ab732a9d440fb98db1e9b1395e29" category="section-title">啟用 BlueXP 服務</block>
+  <block id="32f4a4b77e8bb8a5997c35c84f226d07" category="list-text">將內部部署 ONTAP 系統的資料備份到雲端的低成本物件儲存設備。</block>
+  <block id="b781e6c9d1cf8ce1e5e954c2b07e6e8a" category="inline-link">備份與還原文件</block>
+  <block id="6645031c9d411c3036d45429e7b9b169" category="paragraph"><block ref="6645031c9d411c3036d45429e7b9b169" category="inline-link-rx"></block></block>
+  <block id="88038b21c0389de878b5955d44c08444" category="inline-link">分類文件</block>
+  <block id="4f24a5d25954834b6fff1a00bf7ad8e8" category="paragraph"><block ref="4f24a5d25954834b6fff1a00bf7ad8e8" category="inline-link-rx"></block></block>
+  <block id="bdaba8e114e06250b64623fa35d279e2" category="list-text">自動將非作用中的資料從 ONTAP 叢集分層至物件式儲存設備、將資料中心延伸至雲端。</block>
+  <block id="ec6926409b25c27a5821ec39e0552956" category="inline-link">分層文件</block>
+  <block id="4be55bddfe0135eea0cb86495548cff5" category="paragraph"><block ref="4be55bddfe0135eea0cb86495548cff5" category="inline-link-rx"></block></block>
+  <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">藍圖XP注意事項</block>
+  <block id="e8a6d0f19a957eac14b9917a6c92899b" category="paragraph"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
+  <block id="04bc2a96611cc493340c1c133029a56c" category="paragraph">直接從 BlueXP 備份與還原在內部部署叢集上啟用 Cloud Backup 。<block ref="d78fdae783f693d400093119494a670a" category="inline-link-rx"></block></block>
 </blocks>
