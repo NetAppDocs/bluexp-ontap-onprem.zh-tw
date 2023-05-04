@@ -325,7 +325,6 @@
   <block id="00134a9d28b6398470ee6b1362eeb303" category="section-title">使用進階檢視（系統管理員）</block>
   <block id="1eba71d64e6c5e410e558530711e835b" category="summary">已知限制指出本產品版本不支援的平台、裝置或功能、或是無法與產品正確互通的平台、裝置或功能。請仔細檢閱這些限制。</block>
   <block id="482723983a4f2af954e36ff41e567451" category="doc">已知限制</block>
-  <block id="d7eb6312f68de520afbf446e19850f73" category="paragraph">BlueXP不支援一些System Manager功能：</block>
   <block id="bbbaee2173c1bbfdec1f9145d05f9f6e" category="paragraph">設定管理IP位址並在內部ONTAP 的叢集上設定管理密碼之後、您可以在BlueXP中探索叢集。</block>
   <block id="ef8d24c115f07ff9475a999250c2a5d8" category="list-text">角色型存取控制（僅限連接器）</block>
   <block id="4a2ee857fe0aa1483d07a75bf8d71bec" category="paragraph">在使用ONTAP Connector探索及管理內部環境的叢集時、不支援System Manager的角色型存取控制。系統會在探索過程中提示您輸入管理員認證資料。這些認證資料會用於從System Manager採取的所有行動。</block>
@@ -509,4 +508,8 @@
   <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">藍圖XP注意事項</block>
   <block id="e8a6d0f19a957eac14b9917a6c92899b" category="paragraph"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
   <block id="04bc2a96611cc493340c1c133029a56c" category="paragraph">直接從 BlueXP 備份與還原在內部部署叢集上啟用 Cloud Backup 。<block ref="d78fdae783f693d400093119494a670a" category="inline-link-rx"></block></block>
+  <block id="51f9789c1f459351ccbb34c7b6043a74" category="section-title">不支援的叢集</block>
+  <block id="b9dbfde306bbf057c758e6f86b276382" category="paragraph">BlueXP 不支援使用 SAML 驗證設定的內部部署 ONTAP 叢集。</block>
+  <block id="3b4a393ec2775335fff67bde36ea1a2c" category="section-title">System Manager 限制</block>
+  <block id="863293364989cec504101494f7916b90" category="paragraph">BlueXP 不支援下列 System Manager 功能：</block>
 </blocks>
