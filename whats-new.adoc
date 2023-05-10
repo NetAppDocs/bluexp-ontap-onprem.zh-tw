@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, on-prem' 
-summary: 瞭解ONTAP BlueXP內部部署的更新功能、瞭解叢集管理功能。 
+summary: 瞭解 BlueXP 中內部部署 ONTAP 叢集管理的新功能。 
 ---
-= 內部ONTAP 部署的更新功能
+= 內部部署 ONTAP 叢集的新功能
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,26 @@ summary: 瞭解ONTAP BlueXP內部部署的更新功能、瞭解叢集管理功�
 
 
 [role="lead"]
-瞭解ONTAP BlueXP內部部署的更新功能、瞭解叢集管理功能。
+瞭解 BlueXP 中內部部署 ONTAP 叢集管理的新功能。
+
+
+
+== 2023 年 5 月 4 日
+
+
+
+=== 啟用 BlueXP 備份與還原
+
+從 ONTAP 9.13.1 開始、如果您使用 Connector 探索到叢集、就可以使用系統管理員（進階檢視）來啟用 BlueXP 備份與還原。 link:https://docs.netapp.com/us-en/ontap/task_cloud_backup_data_using_cbs.html["深入瞭解如何啟用 BlueXP 備份與還原"^]
+
+
+
+=== 升級 ONTAP 版本映像和硬體韌體
+
+從 ONTAP 9.10.1 開始、您可以使用系統管理員（進階檢視）來升級 ONTAP 版本映像和硬體韌體。您可以選擇接收自動升級以保持最新狀態、也可以從本機機器或使用 BlueXP 存取的伺服器手動進行更新。 link:https://docs.netapp.com/us-en/ontap/task_admin_update_firmware.html#prepare-for-firmware-update["深入瞭解如何升級 ONTAP 和韌體"^]
+
+
+NOTE: 如果您沒有連接器、則無法從本機機器進行更新、只能從使用 BlueXP 存取的伺服器進行更新。
 
 
 
@@ -36,7 +55,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/ma
 * 如果您沒有連接器、或是連接器沒有連線到ONTAP 該叢集、則BlueXP會自動使用「直接探索與管理」選項。
 
 
-https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["深入瞭解探索與管理選項"]。
+https://["深入瞭解探索與管理選項"]。
 
 
 
@@ -46,9 +65,9 @@ https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.
 
 === 儲存ONTAP 不一樣的認證資料
 
-當您在不ONTAP 使用Connector的情況下直接開啟內部的支援環境時、您現在可以選擇儲存ONTAP 您的支援中心叢集認證資料、以便在每次開啟工作環境時、都不需要輸入這些認證資料。
+當您開啟內部部署的 ONTAP 工作環境時、如果您不使用 Connector 直接探索、現在可以選擇儲存 ONTAP 叢集認證、這樣您就不需要在每次開啟工作環境時都輸入這些認證。
 
-https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-manage-ontap-direct.html["深入瞭解此選項。"]
+https://["深入瞭解此選項。"]
 
 
 
@@ -58,17 +77,17 @@ https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-manage-ontap-direc
 
 
 
-=== 探索內部ONTAP 部署的新型叢集方法
+=== 探索內部部署 ONTAP 叢集的新方法
 
-您現在ONTAP 無需使用Connector、即可直接探索內部的功能性叢集。此選項僅透過System Manager啟用叢集管理。您無法在此類型的工作環境中啟用任何BlueXP資料服務。
+您現在可以直接探索內部部署的 ONTAP 叢集、而無需使用 Connector 。此選項僅透過System Manager啟用叢集管理。您無法在此類型的工作環境中啟用任何BlueXP資料服務。
 
-https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["深入瞭解此探索與管理選項"]。
+https://["深入瞭解此探索與管理選項"]。
 
 
 
 === 資料量FlexGroup
 
-對於ONTAP 透過Connector探索的內部元件叢集、BlueXP中的「標準」檢視畫面現在會顯示FlexGroup 透過System Manager或ONTAP CLI建立的功能區。您也可以透過複製這些磁碟區、編輯其設定、刪除這些磁碟區等方式來管理這些磁碟區。
+對於透過 Connector 探索的內部部署 ONTAP 叢集、 BlueXP 中的標準檢視現在會顯示透過系統管理員或 ONTAP CLI 建立的 FlexGroup 磁碟區。您也可以透過複製這些磁碟區、編輯其設定、刪除這些磁碟區等方式來管理這些磁碟區。
 
 image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-flexgroup-volumes.png["在FlexGroup 「Volumes」（磁碟區）頁面上顯示的快照、可顯示內部ONTAP 叢集的「聲音量」。"]
 
@@ -124,9 +143,9 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/ma
 
 === 數位錢包提供「ONTAP 內部部署的功能」索引標籤
 
-現在您可以查看內部ONTAP 的叢集庫存、以及其硬體和服務合約的到期日。此外也提供叢集的其他詳細資料。
+現在您可以檢視內部部署 ONTAP 叢集的詳細目錄、以及其硬體和服務合約到期日。此外也提供叢集的其他詳細資料。
 
-https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-view-cluster-info.html["瞭解如何檢視這項重要的內部叢集資訊"]。您必須擁有適用於叢集的 NetApp 支援網站帳戶（NSS），而且必須將 NSS 認證資料附加至您的 Cloud Manager 帳戶。
+https://["瞭解如何檢視這項重要的內部叢集資訊"]。您必須擁有適用於叢集的 NetApp 支援網站帳戶（NSS），而且必須將 NSS 認證資料附加至您的 Cloud Manager 帳戶。
 
 
 
@@ -134,16 +153,6 @@ https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-view-cluster-info.
 
 
 
-=== 您在內部ONTAP 的等量資料叢集上新增的標記可與標記服務搭配使用
+=== 您新增至內部部署 ONTAP 叢集上磁碟區的標籤可與標記服務一起使用
 
 您新增至磁碟區的標記現在與應用程式範本服務的標記功能相關聯、可協助您組織及簡化資源管理。
-
-
-
-== 2021年11月28日
-
-
-
-=== 已ONTAP 簡化內部部署的架構叢集建立Volume精靈
-
-我們重新設計了「建立Volume精靈」、以方便使用、現在您可以選擇自訂的匯出原則。

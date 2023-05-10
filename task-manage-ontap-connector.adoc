@@ -207,11 +207,11 @@ image:screenshot-standard-view.png["內部ONTAP 環境的快照、顯示「切�
 
 === 取得System Manager的協助
 
-如果您需要協助、請ONTAP 參閱《System Manager with》（搭配使用系統管理程式） https://docs.netapp.com/us-en/ontap/index.html["本文檔 ONTAP"^] 以取得逐步指示。以下是幾個可能有幫助的連結：
+如果您需要協助、請ONTAP 參閱《System Manager with》（搭配使用系統管理程式） https://["本文檔 ONTAP"^] 以取得逐步指示。以下是幾個可能有幫助的連結：
 
-* https://docs.netapp.com/us-en/ontap/volume-admin-overview-concept.html["Volume與LUN管理"^]
-* https://docs.netapp.com/us-en/ontap/network-manage-overview-concept.html["網路管理"^]
-* https://docs.netapp.com/us-en/ontap/concept_dp_overview.html["資料保護"^]
+* https://["Volume與LUN管理"^]
+* https://["網路管理"^]
+* https://["資料保護"^]
 
 
 
@@ -223,37 +223,37 @@ image:screenshot-standard-view.png["內部ONTAP 環境的快照、顯示「切�
 複寫資料:: 在 Cloud Volumes ONTAP 系統、適用於 ONTAP 檔案系統的 Amazon FSX 和 ONTAP 叢集之間複寫資料。選擇一次性資料複寫、可協助您在雲端之間移動資料、或是週期性排程、有助於災難恢復或長期資料保留。
 +
 --
-https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["複寫文件"^]
+https://["複寫文件"^]
 
 --
 備份資料:: 將內部部署 ONTAP 系統的資料備份到雲端的低成本物件儲存設備。
 +
 --
-https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html["備份與還原文件"^]
+https://["備份與還原文件"^]
 
 --
 掃描、對應及分類您的資料:: 掃描公司內部部署叢集以對應及分類資料、並識別私有資訊。這有助於降低安全性與法規遵循風險、降低儲存成本、並協助您執行資料移轉專案。
 +
 --
-https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["分類文件"^]
+https://["分類文件"^]
 
 --
 將資料分層至雲端:: 自動將非作用中的資料從 ONTAP 叢集分層至物件式儲存設備、將資料中心延伸至雲端。
 +
 --
-https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["分層文件"^]
+https://["分層文件"^]
 
 --
 維持健全狀況、正常運作時間和效能:: 在發生中斷或故障之前、實作 ONTAP 叢集的建議修正。
 +
 --
-https://docs.netapp.com/us-en/bluexp-operational-resiliency/index.html["營運恢復能力文件"^]
+https://["營運恢復能力文件"^]
 
 --
 識別容量不足的叢集:: 識別容量偏低的叢集、檢閱叢集以瞭解目前和預測的容量等等。
 +
 --
-https://docs.netapp.com/us-en/bluexp-economic-efficiency/index.html["經濟效益文件"^]
+https://["經濟效益文件"^]
 
 --
 

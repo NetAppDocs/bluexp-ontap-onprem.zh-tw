@@ -40,4 +40,4 @@ BlueXP 數位顧問可讓您最佳化 ONTAP 叢集的作業、安全性和效能
 
 == 更多資訊
 
-https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html["數位顧問文件"^]
+https://["數位顧問文件"^]

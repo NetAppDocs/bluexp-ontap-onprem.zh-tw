@@ -30,7 +30,7 @@ BlueXP 不支援下列 System Manager 功能：
 
 * 叢集設定
 +
-設定管理IP位址並在內部ONTAP 的叢集上設定管理密碼之後、您可以在BlueXP中探索叢集。
+在內部部署 ONTAP 叢集上設定管理 IP 位址和管理密碼之後、您就可以在 BlueXP 中探索叢集。
 
 * 角色型存取控制（僅限連接器）
 +
@@ -39,13 +39,19 @@ BlueXP 不支援下列 System Manager 功能：
 +
 有了直接探索選項、ONTAP 每次開啟工作環境時、系統都會提示您使用您的憑據登入。
 
-* 雲端備份啟動
+* BlueXP 備份與還原（ Cloud Backup ）啟動
 +
-直接從 BlueXP 備份與還原在內部部署叢集上啟用 Cloud Backup 。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html["瞭解如何開始使用"^]
+叢集版本必須為 9.13.1 、才能從 System Manager 啟用 BlueXP 備份與還原。
+
++
+如果您未使用 Connector 探索叢集、則無法使用 System Manager （進階檢視）來啟用備份與還原。不過、您可以直接從 BlueXP 在內部部署叢集上啟用備份與還原。 https://["瞭解如何開始使用"^]
 
 * 隨需升級
 +
-無法隨需升級韌體和軟體。
+如果叢集版本為 ONTAP 9.9.1 或更新版本、則無法隨需升級韌體和軟體。
+
++
+如果您沒有連接器、則無法從本機機器進行更新、只能從使用 BlueXP 存取的伺服器進行更新。
 
 * 全域搜尋
 * 使用者介面設定

@@ -41,12 +41,12 @@ image:screenshot-credentials.png["螢幕擷取畫面會顯示提示、提示您�
 
 . 使用System Manager來管理ONTAP 功能。
 +
-如果您需要協助、請ONTAP 參閱《System Manager with》（搭配使用系統管理程式） https://docs.netapp.com/us-en/ontap/index.html["本文檔 ONTAP"^] 以取得逐步指示。以下是幾個可能有幫助的連結：
+如果您需要協助、請ONTAP 參閱《System Manager with》（搭配使用系統管理程式） https://["本文檔 ONTAP"^] 以取得逐步指示。以下是幾個可能有幫助的連結：
 
 +
-** https://docs.netapp.com/us-en/ontap/volume-admin-overview-concept.html["Volume與LUN管理"^]
-** https://docs.netapp.com/us-en/ontap/network-manage-overview-concept.html["網路管理"^]
-** https://docs.netapp.com/us-en/ontap/concept_dp_overview.html["資料保護"^]
+** https://["Volume與LUN管理"^]
+** https://["網路管理"^]
+** https://["資料保護"^]
 
 
 

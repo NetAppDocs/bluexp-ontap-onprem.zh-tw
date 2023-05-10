@@ -38,4 +38,4 @@ image:screenshot_digital_wallet_onprem_main.png["擴充叢集詳細資料的快�
 
 
 .相關連結
-https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-on-prem-clusters.html["深入瞭解如何從 BlueXP 數位錢包管理內部部署 ONTAP 叢集的授權"^]
+https://["深入瞭解如何從 BlueXP 數位錢包管理內部部署 ONTAP 叢集的授權"^]

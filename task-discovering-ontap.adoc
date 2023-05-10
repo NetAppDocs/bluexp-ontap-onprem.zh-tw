@@ -59,7 +59,7 @@ BlueXP提供兩種方法來探索及管理內部ONTAP 的支援功能
 
 * 您應該已經開始使用BlueXP、其中包括登入及設定帳戶。
 +
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["瞭解如何開始使用BlueXP"^]
+https://["瞭解如何開始使用BlueXP"^]
 
 * 您需要叢集管理IP位址和管理員使用者帳戶的密碼。
 * BlueXP會使用ONTAP HTTPS探索叢集。如果您使用自訂防火牆原則、ONTAP 則無法透過連接埠443存取傳入HTTPS。
@@ -78,9 +78,9 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["�
 如果您想要將冷資料分層至雲端、則應根據您計畫將冷資料分層的位置來審查 Connector 的需求。
 
 +
-** https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["深入瞭解連接器"^]
-** https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-connectors.html["在連接器之間切換"^]
-** https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["瞭解 BlueXP 分層"^]
+** https://["深入瞭解連接器"^]
+** https://["在連接器之間切換"^]
+** https://["瞭解 BlueXP 分層"^]
 
 
 * 連接器主機必須允許透過連接埠 443 進行傳出 HTTPS 存取。
