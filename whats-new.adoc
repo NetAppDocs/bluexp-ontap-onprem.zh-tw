@@ -45,7 +45,7 @@ NOTE: 如果您沒有連接器、則無法從本機機器進行更新、只能�
 
 當ONTAP 您從BlueXP主控台發現內部的功能性叢集時、您現在會看到一個選項：
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-discover-on-prem-ontap.png["快照顯示ONTAP 建立工作環境時可用的「探索內部部署的功能」選項"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/media/screenshot-discover-on-prem-ontap.png["快照顯示ONTAP 建立工作環境時可用的「探索內部部署的功能」選項"]
 
 以前、直接探索和使用Connector探索的流程是分開的。這兩個選項仍可使用、但合併成單一流程。
 
@@ -89,7 +89,7 @@ https://["深入瞭解此探索與管理選項"]。
 
 對於透過 Connector 探索的內部部署 ONTAP 叢集、 BlueXP 中的標準檢視現在會顯示透過系統管理員或 ONTAP CLI 建立的 FlexGroup 磁碟區。您也可以透過複製這些磁碟區、編輯其設定、刪除這些磁碟區等方式來管理這些磁碟區。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-flexgroup-volumes.png["在FlexGroup 「Volumes」（磁碟區）頁面上顯示的快照、可顯示內部ONTAP 叢集的「聲音量」。"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/media/screenshot-flexgroup-volumes.png["在FlexGroup 「Volumes」（磁碟區）頁面上顯示的快照、可顯示內部ONTAP 叢集的「聲音量」。"]
 
 BlueXP不支援建立FlexGroup 功能區。您需要繼續使用System Manager或CLI來建立FlexGroup 各種功能。
 
@@ -107,7 +107,7 @@ BlueXP不支援建立FlexGroup 功能區。您需要繼續使用System Manager�
 
 您也可以檢視與其他 BlueXP 服務整合的詳細資料、這些服務可實現資料分層、資料複寫和備份。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-overview.png["快照顯示內部ONTAP 叢集的「總覽」頁面。"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/media/screenshot-overview.png["快照顯示內部ONTAP 叢集的「總覽」頁面。"]
 
 
 
@@ -115,7 +115,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/ma
 
 我們重新設計「Volumes（磁碟區）」頁面、提供叢集上磁碟區的摘要。摘要會顯示磁碟區總數、已配置容量、已使用容量和保留容量、以及階層式資料量。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-volumes.png["顯示內部ONTAP 叢集「Volumes」（磁碟區）頁面的快照。"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/media/screenshot-volumes.png["顯示內部ONTAP 叢集「Volumes」（磁碟區）頁面的快照。"]
 
 
 
