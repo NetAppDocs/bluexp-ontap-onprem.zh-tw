@@ -45,7 +45,7 @@ NOTE: 如果您沒有連接器、則無法從本機機器進行更新、只能�
 
 當ONTAP 您從BlueXP主控台發現內部的功能性叢集時、您現在會看到一個選項：
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-discover-on-prem-ontap.png["快照顯示ONTAP 建立工作環境時可用的「探索內部部署的功能」選項"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/media/screenshot-discover-on-prem-ontap.png["快照顯示ONTAP 建立工作環境時可用的「探索內部部署的功能」選項"]
 
 以前、直接探索和使用Connector探索的流程是分開的。這兩個選項仍可使用、但合併成單一流程。
 
@@ -55,7 +55,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/ma
 * 如果您沒有連接器、或是連接器沒有連線到ONTAP 該叢集、則BlueXP會自動使用「直接探索與管理」選項。
 
 
-https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["深入瞭解探索與管理選項"]。
+https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["深入瞭解探索與管理選項"]。
 
 
 
@@ -67,7 +67,7 @@ https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.
 
 當您開啟內部部署的 ONTAP 工作環境時、如果您不使用 Connector 直接探索、現在可以選擇儲存 ONTAP 叢集認證、這樣您就不需要在每次開啟工作環境時都輸入這些認證。
 
-https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-manage-ontap-direct.html["深入瞭解此選項。"]
+https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-manage-ontap-direct.html["深入瞭解此選項。"]
 
 
 
@@ -81,7 +81,7 @@ https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-manage-ontap-direc
 
 您現在可以直接探索內部部署的 ONTAP 叢集、而無需使用 Connector 。此選項僅透過System Manager啟用叢集管理。您無法在此類型的工作環境中啟用任何BlueXP資料服務。
 
-https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["深入瞭解此探索與管理選項"]。
+https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["深入瞭解此探索與管理選項"]。
 
 
 
@@ -89,7 +89,7 @@ https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.
 
 對於透過 Connector 探索的內部部署 ONTAP 叢集、 BlueXP 中的標準檢視現在會顯示透過系統管理員或 ONTAP CLI 建立的 FlexGroup 磁碟區。您也可以透過複製這些磁碟區、編輯其設定、刪除這些磁碟區等方式來管理這些磁碟區。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-flexgroup-volumes.png["在FlexGroup 「Volumes」（磁碟區）頁面上顯示的快照、可顯示內部ONTAP 叢集的「聲音量」。"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/media/screenshot-flexgroup-volumes.png["在FlexGroup 「Volumes」（磁碟區）頁面上顯示的快照、可顯示內部ONTAP 叢集的「聲音量」。"]
 
 BlueXP不支援建立FlexGroup 功能區。您需要繼續使用System Manager或CLI來建立FlexGroup 各種功能。
 
@@ -107,7 +107,7 @@ BlueXP不支援建立FlexGroup 功能區。您需要繼續使用System Manager�
 
 您也可以檢視與其他 BlueXP 服務整合的詳細資料、這些服務可實現資料分層、資料複寫和備份。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-overview.png["快照顯示內部ONTAP 叢集的「總覽」頁面。"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/media/screenshot-overview.png["快照顯示內部ONTAP 叢集的「總覽」頁面。"]
 
 
 
@@ -115,7 +115,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/ma
 
 我們重新設計「Volumes（磁碟區）」頁面、提供叢集上磁碟區的摘要。摘要會顯示磁碟區總數、已配置容量、已使用容量和保留容量、以及階層式資料量。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-volumes.png["顯示內部ONTAP 叢集「Volumes」（磁碟區）頁面的快照。"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/media/screenshot-volumes.png["顯示內部ONTAP 叢集「Volumes」（磁碟區）頁面的快照。"]
 
 
 
@@ -145,7 +145,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/ma
 
 現在您可以檢視內部部署 ONTAP 叢集的詳細目錄、以及其硬體和服務合約到期日。此外也提供叢集的其他詳細資料。
 
-https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-view-cluster-info.html["瞭解如何檢視這項重要的內部叢集資訊"]。您必須擁有適用於叢集的 NetApp 支援網站帳戶（NSS），而且必須將 NSS 認證資料附加至您的 Cloud Manager 帳戶。
+https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-view-cluster-info.html["瞭解如何檢視這項重要的內部叢集資訊"]。您必須擁有適用於叢集的 NetApp 支援網站帳戶（NSS），而且必須將 NSS 認證資料附加至您的 Cloud Manager 帳戶。
 
 
 

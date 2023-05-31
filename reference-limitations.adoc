@@ -44,7 +44,7 @@ BlueXP 不支援下列 System Manager 功能：
 叢集版本必須為 9.13.1 、才能從 System Manager 啟用 BlueXP 備份與還原。
 
 +
-如果您未使用 Connector 探索叢集、則無法使用 System Manager （進階檢視）來啟用備份與還原。不過、您可以直接從 BlueXP 在內部部署叢集上啟用備份與還原。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html["瞭解如何開始使用"^]
+如果您未使用 Connector 探索叢集、則無法使用 System Manager （進階檢視）來啟用備份與還原。不過、您可以直接從 BlueXP 在內部部署叢集上啟用備份與還原。 https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-ontap-backup-to-cloud.html["瞭解如何開始使用"^]
 
 * 隨需升級
 +
