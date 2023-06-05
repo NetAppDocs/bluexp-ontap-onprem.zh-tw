@@ -121,6 +121,9 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["瞭解�
 如果您選取此選項、則每次開啟工作環境時、都不需要重新輸入認證資料。這些認證資料僅與您的BlueXP使用者相關聯。您帳戶中的任何人都不會儲存這些檔案以供使用。
 
 . 選擇* Discover（探索）*。
++
+如果您沒有 Connector 、而且無法從 BlueXP 存取 IP 位址、系統會提示您建立 Connector 。
+
 
 
 .結果
