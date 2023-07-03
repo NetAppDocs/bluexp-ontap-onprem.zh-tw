@@ -18,6 +18,18 @@ summary: 瞭解 BlueXP 中內部部署 ONTAP 叢集管理的新功能。
 
 
 
+== 2023 年 7 月 2 日
+
+
+
+=== 從我的資產探索叢集
+
+您現在可以從 * 畫布 > My 遺產 * 中探索內部部署的 ONTAP 叢集、方法是根據與 BlueXP 登入電子郵件地址相關聯的 ONTAP 叢集、選取 BlueXP 預先探索的叢集。
+
+https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html#add-a-pre-discovered-cluster["從「我的資產」頁面瞭解如何探索叢集"]。
+
+
+
 == 2023 年 5 月 4 日
 
 

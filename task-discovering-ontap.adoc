@@ -20,9 +20,9 @@ summary: 探索ONTAP 來自BlueXP的內部資源介紹叢集、以便您開始�
 
 == 探索與管理選項
 
-BlueXP提供兩種方法來探索及管理內部ONTAP 的支援功能
+BlueXP 為內部部署 ONTAP 叢集提供兩個探索與管理選項：
 
-透過連接器探索:: 此選項可讓您ONTAP 使用下列功能來管理執行支援功能的叢集：
+使用 Connector 進行探索與管理:: 此選項可讓您ONTAP 使用下列功能來管理執行支援功能的叢集：
 +
 --
 * 標準檢視、提供基本的Volume作業
@@ -33,7 +33,7 @@ BlueXP提供兩種方法來探索及管理內部ONTAP 的支援功能
 此選項需要連接器、您可以將其安裝在雲端供應商或內部部署環境中。
 
 --
-直接探索:: 此選項可讓您ONTAP 使用System Manager來管理執行《支援使用程式》9.12.1及更新版本的叢集。沒有其他管理選項可供使用。您無法使用「標準」檢視、也無法啟用資料服務。
+直接探索與管理:: 此選項可讓您ONTAP 使用System Manager來管理執行《支援使用程式》9.12.1及更新版本的叢集。沒有其他管理選項可供使用。您無法使用標準檢視、也無法啟用 BlueXP 服務。
 +
 --
 此選項不需要連接器。
@@ -51,7 +51,7 @@ BlueXP提供兩種方法來探索及管理內部ONTAP 的支援功能
 
 == 需求
 
-在您探索內部ONTAP 的功能完善的叢集之前、請先確認您已符合下列要求。
+在發現內部部署 ONTAP 叢集之前、請先確定您已符合下列需求。
 
 
 
@@ -70,7 +70,7 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["瞭解�
 
 
 
-=== Connector探索與管理需求
+=== Connector 探索的需求
 
 * 內部部署叢集必須執行ONTAP 不含更新版本的功能。
 * 連接器必須安裝在雲端供應商或內部部署環境中。
@@ -79,7 +79,7 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["瞭解�
 
 +
 ** https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["深入瞭解連接器"^]
-** https://docs.netapp.com/us-en/bluexp-setup-admin/task-managing-connectors.html["在連接器之間切換"^]
+** https://docs.netapp.com/us-en/bluexp-setup-admin/task-managing-connectors.html["瞭解如何在多個連接器之間切換"^]
 ** https://docs.netapp.com/us-en/bluexp-tiering/concept-cloud-tiering.html["瞭解 BlueXP 分層"^]
 
 
@@ -91,7 +91,7 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["瞭解�
 
 
 
-=== 直接探索與管理的需求
+=== 直接探索的需求
 
 * 內部部署叢集必須執行ONTAP 不含更新版本的功能。
 * 叢集必須具有與BlueXP服務的傳入和傳出連線：
@@ -105,21 +105,82 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["瞭解�
 
 == 探索叢集
 
-在ONTAP BlueXP中探索畫版上的內部資料叢集。當您開始探索程序時、BlueXP會探索叢集、如下所示：
+從 Canvas 手動提供叢集的詳細資料、或從「我的資產」頁面選取預先探索的叢集、即可從 Canvas 探索內部部署的 ONTAP 叢集。
 
-* 如果您的活動連接器已連線ONTAP 至您的叢集、則BlueXP會使用該連接器來探索及管理叢集。
-* 如果您沒有連接器、或是連接器沒有連線到ONTAP 該叢集、則BlueXP會自動使用「直接探索與管理」選項。
+.關於這項工作
+* 您可以使用下列兩種方式之一來啟動探索程序：
++
+** 從 * Canvas > My Working Environments * 手動新增內部部署 ONTAP 叢集的詳細資料。
+** 從 * 畫布 > My 莊園 * 中、選取 BlueXP 預先發現的叢集、該叢集是根據與 BlueXP 登入電子郵件地址相關聯的 ONTAP 叢集。
 
+
+* 當您開始探索程序時、 BlueXP 會如下發現叢集：
++
+** 如果您的 Active Connector 連線至 ONTAP 叢集、則 BlueXP 會使用該 Connector 來探索及管理叢集。
+** 如果您沒有連接器、或是連接器沒有連線到ONTAP 該叢集、則BlueXP會自動使用「直接探索與管理」選項。
+
+
+
+
+
+
+=== 手動探索叢集
+
+輸入叢集管理 IP 位址和管理使用者帳戶密碼、即可在 BlueXP 中探索內部部署 ONTAP 叢集。
 
 .步驟
 . 從導覽功能表中、選取*儲存設備> Canvas*。
-. 在「畫版」頁面上、按一下「*新增工作環境*」、然後選取「*內部部署*」。
+. 在 Canvas 頁面上、選取 * 新增工作環境 > 內部部署 * 。
 . 在內部部署ONTAP 的不二字旁、選取* Discover（探索）*。
 . 在「_Discover」頁面上、輸入叢集管理IP位址、以及管理使用者帳戶的密碼。
 . 如果您直接探索叢集（沒有連接器）、可以選取*儲存認證*。
 +
-如果您選取此選項、則每次開啟工作環境時、都不需要重新輸入認證資料。這些認證資料僅與您的BlueXP使用者相關聯。您帳戶中的任何人都不會儲存這些檔案以供使用。
+如果您選取此選項、則每次開啟工作環境時、都不需要重新輸入認證資料。這些認證僅與您的 BlueXP 使用者登入相關聯。它們不會儲存供 BlueXP 帳戶中的其他人使用。
 
+. 選擇* Discover（探索）*。
++
+如果您沒有 Connector 、而且無法從 BlueXP 存取 IP 位址、系統會提示您建立 Connector 。
+
+
+
+.結果
+BlueXP會探索叢集、並將其新增為畫版上的工作環境。您現在可以開始管理叢集。
+
+* link:task-manage-ontap-direct.html["瞭解如何直接管理探索到的叢集"]
+* link:task-manage-ontap-connector.html["瞭解如何管理透過Connector探索到的叢集"]
+
+
+
+
+=== 新增預先探索到的叢集
+
+BlueXP 會自動探索與 BlueXP 登入電子郵件地址相關聯的 ONTAP 叢集資訊、並將其顯示在「 * 我的資產 * 」頁面上、做為未探索到的叢集。您可以檢視未探索到的叢集清單、並一次新增一個叢集。
+
+.關於這項工作
+請注意下列有關出現在「我的資產」頁面上的內部部署 ONTAP 叢集：
+
+* 您用來登入 BlueXP 的電子郵件地址必須與已註冊的完整層級 NetApp 支援網站 （ NSS ）帳戶建立關聯。
++
+** 如果您使用 NSS 帳戶登入 BlueXP 並瀏覽至「我的資產」頁面、 BlueXP 會使用該 NSS 帳戶來尋找與帳戶相關聯的叢集。
+** 如果您使用雲端帳戶登入 BlueXP 並瀏覽至「我的資產」頁面、 BlueXP 會提示您驗證電子郵件。如果該電子郵件地址與 NSS 帳戶相關聯、 BlueXP 會使用該資訊來尋找與該帳戶相關聯的叢集。
+
+
+* BlueXP 只會顯示已成功傳送 AutoSupport 訊息至 NetApp 的 ONTAP 叢集。
+* 若要重新整理庫存清單、請離開「我的資產」頁面、等待 5 分鐘、然後返回。
+
+
+.步驟
+. 從導覽功能表中、選取*儲存設備> Canvas*。
+. 選擇 * 我的遺產 * 。
+. 在「 My 莊園」頁面上、針對內部部署 ONTAP 選取 * Discover * （探索）。
++
+image:screenshot-my-estate-ontap.png["「我的資產」頁面的螢幕快照、顯示 12 個內部部署 ONTAP 叢集尚未探索到。"]
+
+. 選取叢集、然後選取 * 探索 * 。
++
+image:screenshot-my-estate-ontap-discover.png["「我的資產」頁面的螢幕快照、顯示 12 個內部部署 ONTAP 叢集尚未探索到。"]
+
+. 輸入管理員使用者帳戶的密碼。
 . 選擇* Discover（探索）*。
 +
 如果您沒有 Connector 、而且無法從 BlueXP 存取 IP 位址、系統會提示您建立 Connector 。

@@ -36,7 +36,6 @@
   <block id="5a2ebfb8baa378cfcfcba58bbb1380c2" category="section-title">需求</block>
   <block id="cb754929bd2884eb53bfc39ddd5aadad" category="paragraph">如果您想要將冷資料分層至雲端、則應根據您計畫將冷資料分層的位置來審查 Connector 的需求。</block>
   <block id="e6e80588e9fe7cf89218fea44300f7ca" category="inline-link">深入瞭解連接器</block>
-  <block id="c870531773e82c374eb4125c8029e25e" category="inline-link">在連接器之間切換</block>
   <block id="b06972aadece5eaa3ac9cc962a035477" category="list-text">連接器主機必須允許透過連接埠 443 進行傳出 HTTPS 存取。</block>
   <block id="2b9e44ec073f65b2847ecb4d29f27fb3" category="paragraph">如果 Connector 位於雲端、則預先定義的安全性群組會允許所有傳出通訊。</block>
   <block id="6f9f6c9a212736eda9e7ebc73ff5b991" category="paragraph">預設的「管理」防火牆原則允許從所有 IP 位址進行傳入 HTTPS 存取。如果您修改此預設原則、或是建立自己的防火牆原則、則必須將 HTTPS 傳輸協定與該原則建立關聯、並啟用從 Connector 主機存取。</block>
@@ -160,15 +159,11 @@
   <block id="4bbcdd6338e8631576e63f1156b1c51d" category="doc">檢視叢集資訊和合約詳細資料</block>
   <block id="c5fbee6586294d81141f8dd158707985" category="doc">探索內部部署ONTAP 的叢集</block>
   <block id="e96ffca10c8548ba223da5a961f4e0bb" category="section-title">探索與管理選項</block>
-  <block id="a8b4b8a9fc6c5671a89f402cc069afda" category="paragraph">BlueXP提供兩種方法來探索及管理內部ONTAP 的支援功能</block>
-  <block id="a8fd54ba8c2928ea1b2a300ca75a00fa" category="list-text">透過連接器探索</block>
   <block id="dad407e605b93746e62dec356ab5303e" category="list-text">標準檢視、提供基本的Volume作業</block>
   <block id="95ef150c4c1c6bc6be1dda757b58c70c" category="paragraph">連接器必須安裝在雲端供應商或內部部署環境中。</block>
-  <block id="9023f6f288dd42621136db54ed1a4521" category="list-text">直接探索</block>
   <block id="5883223e097bdc0962b33579a610a819" category="paragraph">一旦發現、您的叢集就能在BlueXP畫版上做為工作環境使用。</block>
   <block id="5b972456043217ec9e0b836b869e5061" category="list-text">您應該已經開始使用BlueXP、其中包括登入及設定帳戶。</block>
   <block id="89e019c15bf54627a2a1e4918e66bab6" category="inline-link">瞭解如何開始使用BlueXP</block>
-  <block id="7d613f340824eb9c65d2bc768aa43577" category="list-text">在「畫版」頁面上、按一下「*新增工作環境*」、然後選取「*內部部署*」。</block>
   <block id="7d0b01345a5038f25fdd17dc04d8872e" category="list-text">您需要叢集管理IP位址和管理員使用者帳戶的密碼。</block>
   <block id="95773f82d1d681361d7f2215f3912515" category="paragraph">BlueXP會使用ONTAP HTTPS探索叢集。如果您使用自訂防火牆原則、ONTAP 則無法透過連接埠443存取傳入HTTPS。</block>
   <block id="5c4425fb4da620b6fcdee80150d6eaf9" category="doc">管理ONTAP 內部使用Connector發現的叢集</block>
@@ -236,7 +231,6 @@
   <block id="c09e2822c570628d904cc9ae1b81258c" category="section-title">數位錢包提供「ONTAP 內部部署的功能」索引標籤</block>
   <block id="c4d0d6d40840ebb3d4f4f87b4309d6b6" category="inline-image-macro">螢幕擷取畫面會顯示提示、提示您輸入ONTAP 使用者名稱和密碼以供使用。</block>
   <block id="ae0f0582f8fc53d392de639973d7187a" category="paragraph"><block ref="ae0f0582f8fc53d392de639973d7187a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="085602a04bf66e6b72300eefb21c9c32" category="list-text">此選項可讓您ONTAP 使用System Manager來管理執行《支援使用程式》9.12.1及更新版本的叢集。沒有其他管理選項可供使用。您無法使用「標準」檢視、也無法啟用資料服務。</block>
   <block id="8ab7236e714d67d0d2cdb0f6c0c6bdea" category="list-text">內部部署叢集必須執行ONTAP 不含更新版本的功能。</block>
   <block id="a3736487d08fb63c22adeaf7035f0bca" category="list-text">此選項可讓您ONTAP 使用下列功能來管理執行支援功能的叢集：</block>
   <block id="2901a10a7b1d7a91ad19913b88e371a6" category="list-text">在內部部署ONTAP 的不二字旁、選取* Discover（探索）*。</block>
@@ -244,17 +238,10 @@
   <block id="e9b3b1686b45ea49547763029f379272" category="paragraph">此選項需要連接器、您可以將其安裝在雲端供應商或內部部署環境中。</block>
   <block id="d7aa3f7ee53003f5d75a0f500ddb1e6a" category="paragraph">此選項不需要連接器。</block>
   <block id="f75478b929f43a364a455cc34445b807" category="paragraph">當您在執行ONTAP 9.12.1或更新版本的內部部署功能叢集上存取System Manager並連線至BlueXP服務時、系統會提示您直接從BlueXP管理叢集。如果您遵循此提示、它會使用直接探索選項在BluXP中探索叢集。</block>
-  <block id="0f7cd5e1a723722aba147a095960b6f2" category="paragraph">在您探索內部ONTAP 的功能完善的叢集之前、請先確認您已符合下列要求。</block>
   <block id="a1a264e616e24563d4b8f8b5795ea403" category="section-title">一般要求</block>
-  <block id="57e3bd92879e52aabb2d704d581a7eca" category="section-title">Connector探索與管理需求</block>
-  <block id="474308686741d3fac3585fee76ea82cb" category="section-title">直接探索與管理的需求</block>
-  <block id="20dbb48f93e265cf5e1f55346fd44629" category="section-title">探索叢集</block>
-  <block id="16708274774701d9897c9865da185258" category="paragraph">在ONTAP BlueXP中探索畫版上的內部資料叢集。當您開始探索程序時、BlueXP會探索叢集、如下所示：</block>
-  <block id="a1a1b3734bc79dc28eff3fad266ee579" category="list-text">如果您的活動連接器已連線ONTAP 至您的叢集、則BlueXP會使用該連接器來探索及管理叢集。</block>
   <block id="1f98df6cf22b8e11ecbe762c7b523860" category="list-text">如果您沒有連接器、或是連接器沒有連線到ONTAP 該叢集、則BlueXP會自動使用「直接探索與管理」選項。</block>
   <block id="1de006c684d29369fa4392137f9a3894" category="list-text">在「_Discover」頁面上、輸入叢集管理IP位址、以及管理使用者帳戶的密碼。</block>
   <block id="f7372fe2a1c7b50e7c7d583296559005" category="list-text">如果您直接探索叢集（沒有連接器）、可以選取*儲存認證*。</block>
-  <block id="da8239e44e04f0173e627074f8abe90c" category="paragraph">如果您選取此選項、則每次開啟工作環境時、都不需要重新輸入認證資料。這些認證資料僅與您的BlueXP使用者相關聯。您帳戶中的任何人都不會儲存這些檔案以供使用。</block>
   <block id="6717014f0e48b7ab08c9846925b42c93" category="list-text">選擇* Discover（探索）*。</block>
   <block id="150f022493510e4fc7851b23e0afdee7" category="paragraph">BlueXP會探索叢集、並將其新增為畫版上的工作環境。您現在可以開始管理叢集。</block>
   <block id="299867ed6070a6cda18ae92e5d434213" category="inline-link-macro">瞭解如何直接管理探索到的叢集</block>
@@ -302,7 +289,6 @@
   <block id="73aa008a6b5cf018ef8dbd33a51ac3c7" category="inline-link">深入瞭解如何從 BlueXP 數位錢包管理內部部署 ONTAP 叢集的授權</block>
   <block id="576b63b6009db82dbb03f5fa245eb11c" category="paragraph"><block ref="576b63b6009db82dbb03f5fa245eb11c" category="inline-link-rx"></block></block>
   <block id="eacd3ed630ae5b36126bd8cf27a43632" category="paragraph">探索 BlueXP 的內部部署 ONTAP 叢集、以便開始使用 BlueXP 提供的 ONTAP 系統管理員來管理磁碟區和執行進階管理。</block>
-  <block id="137ffb60b26b3895f9ae6f3042e0d587" category="list-text">與 BlueXP 服務整合、提供資料複寫、備份與還原、資料分類及資料分層</block>
   <block id="e920ef862d77b3f54bb7bf3e535062a3" category="inline-link">瞭解 BlueXP 分層</block>
   <block id="6568b62a7d7e403aa25f80da4df48e9a" category="summary">從 BlueXP 管理您的 NetApp AFF 和 FAS 系統、以配置儲存設備、複寫資料及設定關鍵雲端型資料服務。</block>
   <block id="afecfcae87b8b8aa94335648c348ba12" category="summary">BlueXP 數位顧問可讓您最佳化 ONTAP 叢集的作業、安全性和效能。</block>
@@ -473,7 +459,6 @@
   <block id="468caeffde72f6e5b0fda6369c3f5f0d" category="paragraph"><block ref="468caeffde72f6e5b0fda6369c3f5f0d" category="inline-link-rx"></block></block>
   <block id="0377f2dd7cfc90832cf86e4cdea18b27" category="paragraph"><block ref="0377f2dd7cfc90832cf86e4cdea18b27" category="inline-link-rx"></block></block>
   <block id="02156a4727415877195dc5302fa69275" category="list-text"><block ref="02156a4727415877195dc5302fa69275" category="inline-link-rx"></block></block>
-  <block id="2aeeba0020a7848f7902186fbd8cb9e8" category="list-text"><block ref="2aeeba0020a7848f7902186fbd8cb9e8" category="inline-link-rx"></block></block>
   <block id="0831a12ebe326ec4e6566367bf5ee293" category="list-text"><block ref="0831a12ebe326ec4e6566367bf5ee293" category="inline-link-rx"></block></block>
   <block id="6456f90a24e3ce74e10fac140453a9e4" category="paragraph"><block ref="6456f90a24e3ce74e10fac140453a9e4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="31704fc30eb2f5485c6844b2921554ff" category="paragraph"><block ref="9ff7898ac3309c19fb8d99f370e44be1" category="inline-link-rx"></block>。</block>
@@ -521,4 +506,46 @@
   <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">將 NSS 認證與 BlueXP 帳戶建立關聯、與 BlueXP 使用者登入相關的 NSS 帳戶不同。</block>
   <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">這些 NSS 認證會與您的特定 BlueXP 帳戶 ID 相關聯。屬於BlueXP帳戶的使用者可以從*支援&gt; nss管理*存取這些認證資料。</block>
   <block id="37ec2d4ffcb59f0218e30feb37bff04e" category="paragraph">如果您沒有 Connector 、而且無法從 BlueXP 存取 IP 位址、系統會提示您建立 Connector 。</block>
+  <block id="f73b546b2cf111d3a080443f2cd3b97f" category="section-title">2023 年 7 月 2 日</block>
+  <block id="11f4fef53a39b0e83d4fdb9f922e768e" category="section-title">從我的資產探索叢集</block>
+  <block id="4573c689742769edc01e3f45205fd784" category="paragraph">您現在可以從 * 畫布 &gt; My 遺產 * 中探索內部部署的 ONTAP 叢集、方法是根據與 BlueXP 登入電子郵件地址相關聯的 ONTAP 叢集、選取 BlueXP 預先探索的叢集。</block>
+  <block id="5a7621b5dce7d879d4fc86499c34c6e6" category="inline-link">從「我的資產」頁面瞭解如何探索叢集</block>
+  <block id="92adae4e241e70163adb8c5469771a82" category="paragraph"><block ref="24b3a807a9407b81f5101322f988421d" category="inline-link-rx"></block>。</block>
+  <block id="0955e7586176682941c1bba912eb5cc4" category="paragraph">BlueXP 為內部部署 ONTAP 叢集提供兩個探索與管理選項：</block>
+  <block id="58bc91c6986031a5bbfcc403ec8f4e40" category="list-text">使用 Connector 進行探索與管理</block>
+  <block id="c0dfb4f052c58a84c6f41e4a6de3caae" category="list-text">與 BlueXP 服務整合、提供資料複寫、備份與還原、資料分類及資料分層</block>
+  <block id="ed2669e12a2aca1d23d0391fe9aa4d4f" category="list-text">直接探索與管理</block>
+  <block id="551bc5d8466ddd3cdacf44099db1c7ab" category="list-text">此選項可讓您ONTAP 使用System Manager來管理執行《支援使用程式》9.12.1及更新版本的叢集。沒有其他管理選項可供使用。您無法使用標準檢視、也無法啟用 BlueXP 服務。</block>
+  <block id="6e66f27267404b1c78540790e471bc32" category="paragraph">在發現內部部署 ONTAP 叢集之前、請先確定您已符合下列需求。</block>
+  <block id="860b5a921910be87e98249197300aeb3" category="section-title">Connector 探索的需求</block>
+  <block id="2c907b6caf1e28d6079ea82a7c2dae43" category="inline-link">瞭解如何在多個連接器之間切換</block>
+  <block id="80cc9f0ae996b19f3dc87ec1e851b9fc" category="list-text"><block ref="80cc9f0ae996b19f3dc87ec1e851b9fc" category="inline-link-rx"></block></block>
+  <block id="be8c0cb1018ac37d4931901b25f4d7b8" category="section-title">直接探索的需求</block>
+  <block id="381ebbd947b85d55ba63ca069f4fd6e2" category="section-title">探索叢集</block>
+  <block id="5929920680ed1fe51a421ba27720d080" category="paragraph">從 Canvas 手動提供叢集的詳細資料、或從「我的資產」頁面選取預先探索的叢集、即可從 Canvas 探索內部部署的 ONTAP 叢集。</block>
+  <block id="bbe48fb854ea022537208eeeff822f91" category="list-title">關於這項工作</block>
+  <block id="b5dd4f91cc6db2ca2f45e3bb102fb889" category="list-text">您可以使用下列兩種方式之一來啟動探索程序：</block>
+  <block id="e2283afc49db55afcdc12825748b74cc" category="list-text">從 * Canvas &gt; My Working Environments * 手動新增內部部署 ONTAP 叢集的詳細資料。</block>
+  <block id="a5c0c470fe95d7a64c3b5fcb2a94828e" category="list-text">從 * 畫布 &gt; My 莊園 * 中、選取 BlueXP 預先發現的叢集、該叢集是根據與 BlueXP 登入電子郵件地址相關聯的 ONTAP 叢集。</block>
+  <block id="2e064277badcd21c62e8fd2c2f433487" category="list-text">當您開始探索程序時、 BlueXP 會如下發現叢集：</block>
+  <block id="070663698acc2c2608384f63852f1471" category="list-text">如果您的 Active Connector 連線至 ONTAP 叢集、則 BlueXP 會使用該 Connector 來探索及管理叢集。</block>
+  <block id="c77ba8df974ac9ac198176dcff4f8f52" category="section-title">手動探索叢集</block>
+  <block id="8c3cbd392f1e7d6c008b581f7fc4fc9b" category="paragraph">輸入叢集管理 IP 位址和管理使用者帳戶密碼、即可在 BlueXP 中探索內部部署 ONTAP 叢集。</block>
+  <block id="4e206327ecb5a9834b615078326acaec" category="list-text">在 Canvas 頁面上、選取 * 新增工作環境 &gt; 內部部署 * 。</block>
+  <block id="744a5b98e0d4825f191a9e89b609949c" category="paragraph">如果您選取此選項、則每次開啟工作環境時、都不需要重新輸入認證資料。這些認證僅與您的 BlueXP 使用者登入相關聯。它們不會儲存供 BlueXP 帳戶中的其他人使用。</block>
+  <block id="50bc63d3ce96c1c059c531930e9b1ccc" category="section-title">新增預先探索到的叢集</block>
+  <block id="9531ad82bf5dc45f66f60a601474ec73" category="paragraph">BlueXP 會自動探索與 BlueXP 登入電子郵件地址相關聯的 ONTAP 叢集資訊、並將其顯示在「 * 我的資產 * 」頁面上、做為未探索到的叢集。您可以檢視未探索到的叢集清單、並一次新增一個叢集。</block>
+  <block id="8b88ed64b6b30080910756ab3a0ea719" category="paragraph">請注意下列有關出現在「我的資產」頁面上的內部部署 ONTAP 叢集：</block>
+  <block id="06730fe7ddb260af67563763fb1cff3f" category="list-text">您用來登入 BlueXP 的電子郵件地址必須與已註冊的完整層級 NetApp 支援網站 （ NSS ）帳戶建立關聯。</block>
+  <block id="05df8b76be995f5a9cfa0f9805c5c671" category="list-text">如果您使用 NSS 帳戶登入 BlueXP 並瀏覽至「我的資產」頁面、 BlueXP 會使用該 NSS 帳戶來尋找與帳戶相關聯的叢集。</block>
+  <block id="17579109afe537b92b0d58dc1b3a2261" category="list-text">如果您使用雲端帳戶登入 BlueXP 並瀏覽至「我的資產」頁面、 BlueXP 會提示您驗證電子郵件。如果該電子郵件地址與 NSS 帳戶相關聯、 BlueXP 會使用該資訊來尋找與該帳戶相關聯的叢集。</block>
+  <block id="cf28359d03fa5d995d85df0a5ebb62c8" category="list-text">BlueXP 只會顯示已成功傳送 AutoSupport 訊息至 NetApp 的 ONTAP 叢集。</block>
+  <block id="9e5b23122dc2a6feb6587ea531e0634e" category="list-text">若要重新整理庫存清單、請離開「我的資產」頁面、等待 5 分鐘、然後返回。</block>
+  <block id="0c136b2a4c8e3fbb938288c9e135d82b" category="list-text">選擇 * 我的遺產 * 。</block>
+  <block id="ff24e889350068d5df46c75b1da1f5af" category="list-text">在「 My 莊園」頁面上、針對內部部署 ONTAP 選取 * Discover * （探索）。</block>
+  <block id="eb0bc6fee7fc89460407cbab71c71faf" category="inline-image-macro">「我的資產」頁面的螢幕快照、顯示 12 個內部部署 ONTAP 叢集尚未探索到。</block>
+  <block id="9ea83282503d3d948b041ef70d87101f" category="paragraph"><block ref="9ea83282503d3d948b041ef70d87101f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7689e37bac08b82f66558bf21e5ea57d" category="list-text">選取叢集、然後選取 * 探索 * 。</block>
+  <block id="f44b1e23b4e1566aa16d4b2b0be52eb8" category="paragraph"><block ref="f44b1e23b4e1566aa16d4b2b0be52eb8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="eecdf85dabb12fb229d35075dd322550" category="list-text">輸入管理員使用者帳戶的密碼。</block>
 </blocks>
