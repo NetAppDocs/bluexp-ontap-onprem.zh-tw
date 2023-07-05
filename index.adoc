@@ -5,7 +5,7 @@ permalink: index.html
 lead: Manage your NetApp AFF and FAS systems from BlueXP to provision storage, replicate data, and configure critical cloud-based data services. 
 summary: 從 BlueXP 管理您的 NetApp AFF 和 FAS 系統、以配置儲存設備、複寫資料及設定關鍵雲端型資料服務。 
 ---
-= 內部部署ONTAP 的內部部署功能、包括叢集文件
+= 使用 BlueXP 進行內部部署 ONTAP 叢集管理
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

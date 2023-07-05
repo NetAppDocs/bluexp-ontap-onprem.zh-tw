@@ -181,7 +181,6 @@
   <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="section-title">複寫資料</block>
   <block id="b76ae88aa754ea86825b84c8badae90a" category="section-title">備份資料</block>
   <block id="840a495adf1ad99ebc0b2945d0d37848" category="section-title">將資料分層至雲端</block>
-  <block id="9ac91148b1f0257152bc376ab38bf436" category="doc">內部部署ONTAP 的內部部署功能、包括叢集文件</block>
   <block id="64b5ac71fb7ec208d91ceb7344aa0b37" category="summary">BlueXP可以探索ONTAP 在AFF/FAS控制器和ONTAP Select VMware上執行的功能區叢集。將內部部署ONTAP 的支援系統新增至藍圖XP、讓您能夠從單一介面管理所有的儲存與資料資產。</block>
   <block id="fb24315d532abea28c978f8643868013" category="list-text">管理NFS與CIFS磁碟區</block>
   <block id="3c5335f4270215aa7b16adf996cdf82d" category="list-text">使用ONTAP NetApp System Manager執行進階管理</block>
@@ -548,4 +547,5 @@
   <block id="7689e37bac08b82f66558bf21e5ea57d" category="list-text">選取叢集、然後選取 * 探索 * 。</block>
   <block id="f44b1e23b4e1566aa16d4b2b0be52eb8" category="paragraph"><block ref="f44b1e23b4e1566aa16d4b2b0be52eb8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="eecdf85dabb12fb229d35075dd322550" category="list-text">輸入管理員使用者帳戶的密碼。</block>
+  <block id="3f155fde095b56c33aa16ebcf24a5d94" category="doc">使用 BlueXP 進行內部部署 ONTAP 叢集管理</block>
 </blocks>
