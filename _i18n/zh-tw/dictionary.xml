@@ -537,7 +537,6 @@
   <block id="8b88ed64b6b30080910756ab3a0ea719" category="paragraph">請注意下列有關出現在「我的資產」頁面上的內部部署 ONTAP 叢集：</block>
   <block id="06730fe7ddb260af67563763fb1cff3f" category="list-text">您用來登入 BlueXP 的電子郵件地址必須與已註冊的完整層級 NetApp 支援網站 （ NSS ）帳戶建立關聯。</block>
   <block id="05df8b76be995f5a9cfa0f9805c5c671" category="list-text">如果您使用 NSS 帳戶登入 BlueXP 並瀏覽至「我的資產」頁面、 BlueXP 會使用該 NSS 帳戶來尋找與帳戶相關聯的叢集。</block>
-  <block id="17579109afe537b92b0d58dc1b3a2261" category="list-text">如果您使用雲端帳戶登入 BlueXP 並瀏覽至「我的資產」頁面、 BlueXP 會提示您驗證電子郵件。如果該電子郵件地址與 NSS 帳戶相關聯、 BlueXP 會使用該資訊來尋找與該帳戶相關聯的叢集。</block>
   <block id="cf28359d03fa5d995d85df0a5ebb62c8" category="list-text">BlueXP 只會顯示已成功傳送 AutoSupport 訊息至 NetApp 的 ONTAP 叢集。</block>
   <block id="9e5b23122dc2a6feb6587ea531e0634e" category="list-text">若要重新整理庫存清單、請離開「我的資產」頁面、等待 5 分鐘、然後返回。</block>
   <block id="0c136b2a4c8e3fbb938288c9e135d82b" category="list-text">選擇 * 我的遺產 * 。</block>
@@ -548,4 +547,5 @@
   <block id="f44b1e23b4e1566aa16d4b2b0be52eb8" category="paragraph"><block ref="f44b1e23b4e1566aa16d4b2b0be52eb8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="eecdf85dabb12fb229d35075dd322550" category="list-text">輸入管理員使用者帳戶的密碼。</block>
   <block id="3f155fde095b56c33aa16ebcf24a5d94" category="doc">使用 BlueXP 進行內部部署 ONTAP 叢集管理</block>
+  <block id="9db4c476e2e5483cdbf8e71023278b72" category="list-text">如果您以雲端帳戶或聯盟連線登入 BlueXP 、並瀏覽至「我的資產」頁面、 BlueXP 會提示您驗證電子郵件。如果該電子郵件地址與 NSS 帳戶相關聯、 BlueXP 會使用該資訊來尋找與該帳戶相關聯的叢集。</block>
 </blocks>
