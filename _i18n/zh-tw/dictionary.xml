@@ -525,7 +525,6 @@
   <block id="87377698a8dca305b9579a13060142f2" category="section-title">建立FlexGroup 功能區</block>
   <block id="14b044746cb87538e696ebd7cef86e8f" category="paragraph">如果您使用 Connector 管理叢集、現在可以使用 BlueXP API 建立 FlexGroup Volume 。</block>
   <block id="ca513b668252beaae65808764fc2388f" category="inline-link">瞭解如何建立 FlexGroup Volume</block>
-  <block id="6fbac88fa8db3a2a67d5495cb1dcacd2" category="list-text"><block ref="6fbac88fa8db3a2a67d5495cb1dcacd2" category="inline-link-rx"></block></block>
   <block id="bbcffd6476036994102e5ec1c5571f64" category="inline-link">瞭解什麼是 FlexGroup Volume</block>
   <block id="a33a2b4a40f0a01a71b97f709ac14074" category="list-text"><block ref="a33a2b4a40f0a01a71b97f709ac14074" category="inline-link-rx"></block></block>
   <block id="ed36532cba007a185fa7e3557a16206a" category="list-text">在 Canvas 頁面上、選取內部部署 ONTAP 工作環境。</block>
@@ -556,4 +555,5 @@
   <block id="cdf14d2156528231a5dbd12ad5c95d3f" category="list-text">選取以變更表格中顯示的欄 <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> 然後選擇您要顯示的欄。</block>
   <block id="348552521b849746260fe8d296d34c15" category="list-text">選取以管理現有案例 <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> 並選擇其中一個可用選項：</block>
   <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">* 結案案例 * ：提供結案原因的詳細資料、並選取 * 結案案例 * 。</block>
+  <block id="dfc9f0f0920c102b079fd1c513fccdde" category="list-text"><block ref="dfc9f0f0920c102b079fd1c513fccdde" category="inline-link-rx"></block></block>
 </blocks>
