@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-manage-ontap-connector.html 
-keywords: system manager, advanced view, access system manager, load system manager, use system manager 
+keywords: system manager, advanced view, access system manager, load system manager, use system manager, flexgroup, flexgroup volumes, create flexgroup volume 
 summary: 如果您需要對ONTAP 內部部署的叢集執行進階管理、可以使用ONTAP 支援ONTAP 此功能的作業系統管理程式、這個管理介面是隨附於一個作業系統的。我們已將System Manager介面直接納入BlueXP、因此您不需要離開BlueXP進行進階管理。 
 ---
 = 管理ONTAP 內部使用Connector發現的叢集
@@ -24,9 +24,9 @@ image:screenshot-connector-we.png["出現在畫版上的工作環境圖示快照
 
 
 
-== 從「標準」檢視建立Volume
+== 從「標準」檢視建立 FlexVol Volume
 
-在ONTAP 您使用Connector從BlueXP探索內部資源的叢集之後、您可以開啟工作環境來配置和管理儲存設備。
+在您使用 Connector 從 BlueXP 探索內部部署 ONTAP 叢集之後、您可以開啟工作環境來配置和管理 FlexVol Volume 。
 
 
 
@@ -38,8 +38,8 @@ BlueXP可讓您在現有的Aggregate上建立NFS或CIFS磁碟區。您無法ONTA
 
 .步驟
 . 從導覽功能表中、選取*儲存設備> Canvas*。
-. 在「畫版」頁面上、按兩下您ONTAP 要在其中配置Volume的內部版位元組叢集名稱。
-. 按一下「* Volume > Add Volume *」。
+. 在「畫布」頁面上、選取您要在其中配置磁碟區的內部部署 ONTAP 叢集。
+. 選取 * Volume > Add Volume * 。
 . 依照精靈中的步驟建立磁碟區。
 +
 .. *詳細資料、保護及標記*：輸入磁碟區的詳細資料、例如磁碟區名稱和大小、選擇Snapshot原則、並視需要指定磁碟區標記。
@@ -76,7 +76,7 @@ BlueXP可讓您在現有的Aggregate上建立NFS或CIFS磁碟區。您無法ONTA
 | 權限與使用者/群組 | 這些欄位可讓您控制使用者和群組存取SMB共用區的層級（也稱為存取控制清單或ACL）。您可以指定本機或網域 Windows 使用者或群組、或 UNIX 使用者或群組。如果您指定網域 Windows 使用者名稱、則必須使用網域 \ 使用者名稱格式來包含使用者的網域。 
 |===
 .. *使用率設定檔*：選擇是否啟用或停用磁碟區上的儲存效率功能、以減少所需的儲存總容量。
-.. *審查*：檢閱磁碟區的詳細資料、然後按一下*新增*。
+.. * 審查 * ：檢閱有關 Volume 的詳細資料、然後選取 * 新增 * 。
 
 
 
@@ -93,12 +93,12 @@ BlueXP可讓您在現有的Aggregate上建立NFS或CIFS磁碟區。您無法ONTA
 NOTE: 使用範本時、您只能建立NFS或CIFS磁碟區。
 
 .步驟
-. 在「畫版」頁面上、按一下ONTAP 您要配置Volume的內部部署功能系統名稱。
-. 按一下 image:screenshot_gallery_options.gif["具有三個點的圖示。"] >*從範本新增Volume *。
+. 在「畫布」頁面上、選取您要在其中配置磁碟區的內部部署 ONTAP 叢集。
+. 選取 image:screenshot_gallery_options.gif["具有三個點的圖示。"] >*從範本新增Volume *。
 +
 image:screenshot_template_add_vol_ontap.png["顯示如何從範本新增磁碟區的快照。"]
 
-. 在「選取範本_」頁面中、選取您要用來建立磁碟區的範本、然後按一下「*下一步*」。
+. 在 _ 選取範本 _ 頁面中、選取您要用來建立磁碟區的範本、然後選取 * 下一步 * 。
 +
 image:screenshot_select_template_ontap.png["可用應用程式範本的快照。"]
 
@@ -109,14 +109,14 @@ image:screenshot_select_template_ontap.png["可用應用程式範本的快照。
 image:screenshot_define_ontap_vol_from_template.png["顯示空白範本的螢幕快照、您必須填寫才能建立Volume。"]
 
 +
-*注意：*如果您想查看這些參數的值、可以按一下「Show read-only parameters*（顯示唯讀參數*）」核取方塊、以顯示範本已鎖定的所有欄位。根據預設、這些預先定義的欄位會隱藏、只會顯示您需要填寫的欄位。
+* 注意： * 如果您想查看這些參數的值、您可以選取核取方塊 * 顯示唯讀參數 * 來顯示範本鎖定的所有欄位。根據預設、這些預先定義的欄位會隱藏、只會顯示您需要填寫的欄位。
 
 . 在_context_區域中、工作環境會填入您剛開始使用的工作環境名稱。您需要選擇要在其中建立磁碟區的*儲存VM*和* Aggregate *。
 . 新增所有非模板硬編碼的參數值。
 +
 <<建立磁碟區,瞭解建立Volume所需的參數>>。
 
-. 定義完此Volume所需的所有參數後、請按一下*執行範本*。
+. 定義此 Volume 所需的所有參數之後、請選取 * 執行範本 * 。
 
 
 .結果
@@ -130,6 +130,16 @@ image:screenshot_template_creating_resource_ontap.png["快照顯示從範本建�
 
 .完成後
 如果您已配置 CIFS 共用區、請授予使用者或群組檔案和資料夾的權限、並確認這些使用者可以存取共用區並建立檔案。
+
+
+
+== 建立FlexGroup 功能區
+
+您可以使用 BlueXP API 來建立 FlexGroup Volume 。支援垂直擴充的功能是提供高效能及自動負載分配的功能。FlexGroup
+
+* https://docs.netapp.com/us-en/bluexp-automation/cm/wf_flexgroup_ontap_create_vol.html["瞭解如何使用 API 建立 FlexGroup Volume"^]
+* https://docs.netapp.com/us-en/ontap/flexgroup/definition-concept.html["瞭解什麼是 FlexGroup Volume"^]
+
 
 
 
@@ -187,17 +197,17 @@ link:reference-limitations.html["檢閱限制清單"]。
 
 === 使用進階檢視（系統管理員）
 
-開啟內部部署ONTAP 的「不工作環境」、然後按一下「進階檢視」選項。
+開啟內部部署的 ONTAP 工作環境、然後選取「進階檢視」選項。
 
 .步驟
-. 在「畫版」頁面上、按兩下內部部署ONTAP 的運作環境名稱。
-. 在右上角、按一下*切換至進階檢視*。
+. 在「畫布」頁面上、選取您要在其中配置磁碟區的內部部署 ONTAP 叢集。
+. 在右上角、選取 * 切換至進階檢視 * 。
 +
 image:screenshot-advanced-view.png["內部ONTAP 環境的快照、顯示「切換至進階檢視」選項。"]
 
-. 如果出現確認訊息、請仔細閱讀、然後按一下*關閉*。
+. 如果出現確認訊息、請仔細閱讀並選擇 * 關閉 * 。
 . 使用System Manager來管理ONTAP 功能。
-. 如有需要、請按一下*切換至標準檢視*、透過BlueXP返回標準管理。
+. 如有需要、請選取 * 切換至標準檢視 * 、以透過 BlueXP 返回標準管理。
 +
 image:screenshot-standard-view.png["內部ONTAP 環境的快照、顯示「切換至標準檢視」選項。"]
 

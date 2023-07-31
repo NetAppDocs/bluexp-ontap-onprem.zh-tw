@@ -18,6 +18,20 @@ summary: 瞭解 BlueXP 中內部部署 ONTAP 叢集管理的新功能。
 
 
 
+== 2023 年 7 月 30 日
+
+
+
+=== 建立FlexGroup 功能區
+
+如果您使用 Connector 管理叢集、現在可以使用 BlueXP API 建立 FlexGroup Volume 。
+
+* https://docs.netapp.com/us-en/bluexp-automation/cm/wf_flexgroup_ontap_create_vol.html["瞭解如何建立 FlexGroup Volume"^]
+* https://docs.netapp.com/us-en/ontap/flexgroup/definition-concept.html["瞭解什麼是 FlexGroup Volume"^]
+
+
+
+
 == 2023 年 7 月 2 日
 
 

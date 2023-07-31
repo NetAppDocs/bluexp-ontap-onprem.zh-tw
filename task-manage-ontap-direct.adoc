@@ -25,7 +25,7 @@ BlueXP不支援一些System Manager功能。
 link:reference-limitations.html["檢閱限制清單"]。
 
 .步驟
-. 在「畫版」頁面上、按兩下內部部署ONTAP 的運作環境名稱。
+. 在 Canvas 頁面上、選取內部部署 ONTAP 工作環境。
 +
 工作環境圖示可識別直接探索到的叢集：
 
