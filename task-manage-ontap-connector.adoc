@@ -137,7 +137,7 @@ image:screenshot_template_creating_resource_ontap.png["快照顯示從範本建�
 
 您可以使用 BlueXP API 來建立 FlexGroup Volume 。支援垂直擴充的功能是提供高效能及自動負載分配的功能。FlexGroup
 
-* https://docs.netapp.com/us-en/bluexp-automation/cm/wf_flexgroup_ontap_create_vol.html["瞭解如何使用 API 建立 FlexGroup Volume"^]
+* https://docs.netapp.com/us-en/bluexp-automation/cm/wf_onprem_flexgroup_ontap_create_vol.html["瞭解如何使用 API 建立 FlexGroup Volume"^]
 * https://docs.netapp.com/us-en/ontap/flexgroup/definition-concept.html["瞭解什麼是 FlexGroup Volume"^]
 
 
