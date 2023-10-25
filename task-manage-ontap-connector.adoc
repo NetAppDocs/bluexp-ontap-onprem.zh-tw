@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-manage-ontap-connector.html 
 keywords: system manager, advanced view, access system manager, load system manager, use system manager, flexgroup, flexgroup volumes, create flexgroup volume 
-summary: 如果您需要對ONTAP 內部部署的叢集執行進階管理、可以使用ONTAP 支援ONTAP 此功能的作業系統管理程式、這個管理介面是隨附於一個作業系統的。我們已將System Manager介面直接納入BlueXP、因此您不需要離開BlueXP進行進階管理。 
+summary: 如果您使用 Connector 發現內部部署 ONTAP 叢集、則可以從標準檢視建立磁碟區、從進階檢視使用系統管理員、以及啟用 BlueXP 資料服務。 
 ---
-= 管理ONTAP 內部使用Connector發現的叢集
+= 管理使用 Connector 探索到的叢集
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -128,7 +128,7 @@ image:screenshot_template_creating_resource_ontap.png["快照顯示從範本建�
 
 此外、如果範本中實作任何次要動作、例如在磁碟區上啟用 BlueXP 備份與還原、則也會執行該動作。
 
-.完成後
+.接下來呢？
 如果您已配置 CIFS 共用區、請授予使用者或群組檔案和資料夾的權限、並確認這些使用者可以存取共用區並建立檔案。
 
 
@@ -143,7 +143,7 @@ image:screenshot_template_creating_resource_ontap.png["快照顯示從範本建�
 
 
 
-== 使用進階檢視來管理ONTAP
+== 使用進階檢視（系統管理員）管理 ONTAP
 
 如果您需要對內部部署ONTAP 的故障叢集執行進階管理、您可以使用ONTAP 支援ONTAP 此功能的支援功能、這個管理介面是隨附於一個故障診斷系統的。我們已將System Manager介面直接納入BlueXP、因此您不需要離開BlueXP進行進階管理。
 
@@ -195,7 +195,7 @@ link:reference-limitations.html["檢閱限制清單"]。
 
 
 
-=== 使用進階檢視（系統管理員）
+=== 使用進階檢視
 
 開啟內部部署的 ONTAP 工作環境、然後選取「進階檢視」選項。
 

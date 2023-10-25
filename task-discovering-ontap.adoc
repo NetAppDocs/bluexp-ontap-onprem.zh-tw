@@ -18,7 +18,7 @@ summary: 探索ONTAP 來自BlueXP的內部資源介紹叢集、以便您開始�
 
 
 
-== 探索與管理選項
+== 步驟 1 ：檢閱探索與管理選項
 
 BlueXP 為內部部署 ONTAP 叢集提供兩個探索與管理選項：
 
@@ -49,18 +49,15 @@ BlueXP 為內部部署 ONTAP 叢集提供兩個探索與管理選項：
 
 
 
-== 需求
+== 步驟 2 ：設定您的環境
 
 在發現內部部署 ONTAP 叢集之前、請先確定您已符合下列需求。
 
-
-
-=== 一般要求
-
-* 您應該已經開始使用BlueXP、其中包括登入及設定帳戶。
+一般要求::
 +
+--
+* 您應該已經開始使用BlueXP、其中包括登入及設定帳戶。
 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["瞭解如何開始使用BlueXP"^]
-
 * 您需要叢集管理IP位址和管理員使用者帳戶的密碼。
 * BlueXP會使用ONTAP HTTPS探索叢集。如果您使用自訂防火牆原則、ONTAP 則無法透過連接埠443存取傳入HTTPS。
 +
@@ -68,10 +65,10 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["瞭解�
 
 
 
-
-
-=== Connector 探索的需求
-
+--
+Connector 探索的需求::
++
+--
 * 內部部署叢集必須執行ONTAP 不含更新版本的功能。
 * 連接器必須安裝在雲端供應商或內部部署環境中。
 +
@@ -83,16 +80,16 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["瞭解�
 ** https://docs.netapp.com/us-en/bluexp-tiering/concept-cloud-tiering.html["瞭解 BlueXP 分層"^]
 
 
-* 連接器主機必須允許透過連接埠 443 進行傳出 HTTPS 存取。
+* Connector 主機必須允許透過連接埠 443 （ HTTPS ）進行輸出連線、且 ONTAP 叢集必須允許透過連接埠 443 進行傳入 HTTP 存取。
 +
 如果 Connector 位於雲端、則預先定義的安全性群組會允許所有傳出通訊。
 
 
 
-
-
-=== 直接探索的需求
-
+--
+直接探索的需求::
++
+--
 * 內部部署叢集必須執行ONTAP 不含更新版本的功能。
 * 叢集必須具有與BlueXP服務的傳入和傳出連線：
 +
@@ -101,31 +98,29 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["瞭解�
 * 您用來存取BlueXP主控台的電腦必須有連至內部ONTAP 叢集的網路連線、這與您提供連線至私有網路中其他資源的方式類似。
 
 
-
-
-== 探索叢集
-
-從 Canvas 手動提供叢集的詳細資料、或從「我的資產」頁面選取預先探索的叢集、即可從 Canvas 探索內部部署的 ONTAP 叢集。
-
-.關於這項工作
-* 您可以使用下列兩種方式之一來啟動探索程序：
-+
-** 從 * Canvas > My Working Environments * 手動新增內部部署 ONTAP 叢集的詳細資料。
-** 從 * 畫布 > My 莊園 * 中、選取 BlueXP 預先發現的叢集、該叢集是根據與 BlueXP 登入電子郵件地址相關聯的 ONTAP 叢集。
-
-
-* 當您開始探索程序時、 BlueXP 會如下發現叢集：
-+
-** 如果您的 Active Connector 連線至 ONTAP 叢集、則 BlueXP 會使用該 Connector 來探索及管理叢集。
-** 如果您沒有連接器、或是連接器沒有連線到ONTAP 該叢集、則BlueXP會自動使用「直接探索與管理」選項。
+--
 
 
 
 
+== 步驟 3 ：探索叢集
+
+透過以下兩種方式之一、從 Canvas 探索內部部署 ONTAP 叢集：
+
+* 從 * Canvas > My Working Environments * 手動新增內部部署 ONTAP 叢集的詳細資料。
+* 從 * 畫布 > My 莊園 * 中、選取 BlueXP 預先發現的叢集、該叢集是根據與 BlueXP 登入電子郵件地址相關聯的 ONTAP 叢集。
 
 
-=== 手動探索叢集
+當您開始探索程序時、 BlueXP 會如下發現叢集：
 
+* 如果您的 Active Connector 連線至 ONTAP 叢集、則 BlueXP 會使用該 Connector 來探索及管理叢集。
+* 如果您沒有連接器、或是連接器沒有連線到ONTAP 該叢集、則BlueXP會自動使用「直接探索與管理」選項。
+
+
+[role="tabbed-block"]
+====
+.手動探索叢集
+--
 輸入叢集管理 IP 位址和管理使用者帳戶密碼、即可在 BlueXP 中探索內部部署 ONTAP 叢集。
 
 .步驟
@@ -150,10 +145,9 @@ BlueXP會探索叢集、並將其新增為畫版上的工作環境。您現在�
 * link:task-manage-ontap-connector.html["瞭解如何管理透過Connector探索到的叢集"]
 
 
-
-
-=== 新增預先探索到的叢集
-
+--
+.新增預先探索到的叢集
+--
 BlueXP 會自動探索與 BlueXP 登入電子郵件地址相關聯的 ONTAP 叢集資訊、並將其顯示在「 * 我的資產 * 」頁面上、做為未探索到的叢集。您可以檢視未探索到的叢集清單、並一次新增一個叢集。
 
 .關於這項工作
@@ -193,3 +187,6 @@ BlueXP會探索叢集、並將其新增為畫版上的工作環境。您現在�
 * link:task-manage-ontap-direct.html["瞭解如何直接管理探索到的叢集"]
 * link:task-manage-ontap-connector.html["瞭解如何管理透過Connector探索到的叢集"]
 
+
+--
+====

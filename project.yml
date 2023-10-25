@@ -23,7 +23,7 @@ sidebar:
     entries:
     - title: 深入瞭解ONTAP 內部的叢集管理
       url: "/concept-onprem-ontap.html"
-    - title: 探索 ONTAP 叢集
+    - title: 探索內部部署ONTAP 的叢集
       url: "/task-discovering-ontap.html"
   - title: 管理內部ONTAP 的叢集
     entries:
@@ -33,7 +33,7 @@ sidebar:
       url: "/task-manage-ontap-connector.html"
     - title: 檢視叢集資訊和合約詳細資料
       url: "/task-view-cluster-info.html"
-    - title: 使用Digital Advisor最佳化叢集
+    - title: 使用 BlueXP 數位顧問最佳化叢集
       url: "/concept-aiq-digital-advisor.html"
     - title: 移除內部ONTAP 環境的不正常運作環境
       url: "/task-remove-on-prem.html"
