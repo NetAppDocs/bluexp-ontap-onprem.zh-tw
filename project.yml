@@ -45,28 +45,6 @@ sidebar:
       url: "/task-get-help.html"
   - title: 法律聲明
     url: "/legal-notices.html"
-homepage:
-  tiles:
-  - title: 開始使用
-    links:
-    - title: 深入瞭解ONTAP 內部的叢集管理
-      url: concept-onprem-ontap.html
-    - title: 探索 ONTAP 叢集
-      url: task-discovering-ontap.html
-  - title: 管理內部ONTAP 的叢集
-    links:
-    - title: 直接管理探索到的叢集
-      url: task-manage-ontap-direct.html
-    - title: 使用Connector管理探索到的叢集
-      url: task-manage-ontap-connector.html
-  - title: 部落格社群
-    links:
-    - title: NetApp社群
-      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
-    - title: BlueXP部落格
-      url: https://cloud.netapp.com/blog
-    - title: 雲端網路研討會
-      url: https://cloud.netapp.com/events
 product-family:
   name: BlueXP
   repo: bluexp-family

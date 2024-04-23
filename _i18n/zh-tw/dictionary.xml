@@ -33,7 +33,6 @@
   <block id="6f9f6c9a212736eda9e7ebc73ff5b991" category="paragraph">預設的「管理」防火牆原則允許從所有 IP 位址進行傳入 HTTPS 存取。如果您修改此預設原則、或是建立自己的防火牆原則、則必須將 HTTPS 傳輸協定與該原則建立關聯、並啟用從 Connector 主機存取。</block>
   <block id="84c2c11254da9ee11c4482a60291186d" category="paragraph">每個叢集的軟體合約和硬體合約到期日均會顯示在行上。</block>
   <block id="18f84cf96ce5861e5585468ef883b180" category="inline-image-macro">擴充叢集詳細資料的快照、以便您檢視叢集授權資訊。</block>
-  <block id="efc4120a3fbfbea33245fb931c324492" category="inline-xref">這些步驟</block>
   <block id="108a74a6cbb575c986177039e07dc411" category="list-text">依照精靈中的步驟建立磁碟區。</block>
   <block id="3b0e375a08fe94a129cba31916c9d2dc" category="paragraph">此頁面上的部分欄位是不知自明的。下列清單說明您可能需要指引的欄位：</block>
   <block id="6f16a5f8ff5d75ab84c018adacdfcbb7" category="cell">欄位</block>
@@ -46,32 +45,13 @@
   <block id="8aaaedc342a0dce1d73d33f3fb69a2af" category="cell">存取控制</block>
   <block id="4f365bcd27fae641194545a5a823e30f" category="cell">權限與使用者/群組</block>
   <block id="5cd4beaa083f2301775c1a1bc84f2afc" category="cell">這些欄位可讓您控制使用者和群組存取SMB共用區的層級（也稱為存取控制清單或ACL）。您可以指定本機或網域 Windows 使用者或群組、或 UNIX 使用者或群組。如果您指定網域 Windows 使用者名稱、則必須使用網域 \ 使用者名稱格式來包含使用者的網域。</block>
-  <block id="afe466f073b1387a5eab0283552b7517" category="paragraph">如果貴組織已建立內部部署ONTAP 的支援範本、以便部署針對特定應用程式工作負載需求最佳化的磁碟區、請依照本節中的步驟進行。</block>
-  <block id="7ae492186bd46e832a6b64cff9b1575a" category="paragraph">此範本應可讓您的工作更輕鬆、因為範本中已定義了某些磁碟區參數、例如磁碟類型、大小、傳輸協定、快照原則等。當參數已預先定義時、您只需跳至下一個Volume參數即可。</block>
-  <block id="395f4870d887a81edabc6ad40f5a84f0" category="admonition">使用範本時、您只能建立NFS或CIFS磁碟區。</block>
-  <block id="74099e7b70c30e3a55db543cda9bfc1e" category="inline-image-macro">顯示如何從範本新增磁碟區的快照。</block>
-  <block id="f5cfbd56be4d95a78f70efb70e2e9079" category="paragraph"><block ref="f5cfbd56be4d95a78f70efb70e2e9079" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="41fdbb8293e553892079d0e7ad8a9ad9" category="inline-image-macro">可用應用程式範本的快照。</block>
-  <block id="cfb983acad90faeddd99d211d0d05e99" category="paragraph"><block ref="cfb983acad90faeddd99d211d0d05e99" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="8675916eaff2fb10955e8a3b1b14108f" category="paragraph">此時會顯示「定義參數_」頁面。</block>
-  <block id="19f5b7f92268b2f8e63e4083819666c9" category="inline-image-macro">顯示空白範本的螢幕快照、您必須填寫才能建立Volume。</block>
-  <block id="19c51733b2ad780abc1dd51dfb4774d0" category="paragraph"><block ref="19c51733b2ad780abc1dd51dfb4774d0" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="44e06c3ed2de64bcd539ac10a3a31173" category="list-text">在_context_區域中、工作環境會填入您剛開始使用的工作環境名稱。您需要選擇要在其中建立磁碟區的*儲存VM*和* Aggregate *。</block>
-  <block id="40136e65ff57723941fc2af2bf21d54a" category="inline-image-macro">快照顯示從範本建立新磁碟區的進度。</block>
-  <block id="1d2547b9bcbb0f13f704545fd4b3b7b0" category="paragraph"><block ref="1d2547b9bcbb0f13f704545fd4b3b7b0" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="3fcf4599fd910141dcd628a7411238d5" category="paragraph">然後新磁碟區便會新增至工作環境。</block>
-  <block id="1e57268fd975664444ddbda428e56bf7" category="paragraph">如果您已配置 CIFS 共用區、請授予使用者或群組檔案和資料夾的權限、並確認這些使用者可以存取共用區並建立檔案。</block>
   <block id="b62196e30035e69996a2d1d3a9d64116" category="section-title">掃描、對應及分類您的資料</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">註冊以取得支援</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">版本資訊</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始使用</block>
-  <block id="a1ebf612d281c8e7fb16bbfa253b9627" category="sidebar">探索 ONTAP 叢集</block>
   <block id="019323681c39b462d0fd30312fc741c2" category="sidebar">管理內部ONTAP 的叢集</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識與支援</block>
   <block id="1c27e11c5e65b93611e6f5ce640f8184" category="sidebar">建立磁碟區</block>
-  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">部落格社群</block>
-  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp社群</block>
-  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">雲端網路研討會</block>
   <block id="f8b475a3fefebada77a30229238d0a1a" category="section-title">2022年6月7日</block>
   <block id="4f03a5c652641013d1e43811930f5769" category="paragraph">以下變更是在版本3.9.19的Connector中提出的。</block>
   <block id="ffe3ec3b5faef58a758d9449470882a0" category="section-title">新的進階檢視</block>
@@ -108,7 +88,6 @@
   <block id="57614f27dec39901199cca4b61cebfe9" category="list-text"><block ref="57614f27dec39901199cca4b61cebfe9" category="inline-link-rx"></block></block>
   <block id="7e7397a7b79323762c61941fc0e6b5f9" category="inline-link">資料保護</block>
   <block id="168463a2e30ac746441036fb49df730e" category="list-text"><block ref="168463a2e30ac746441036fb49df730e" category="inline-link-rx"></block></block>
-  <block id="6a9903314020e84e3af325216666825e" category="inline-image-macro">具有三個點的圖示。</block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022年9月18日</block>
   <block id="440be74a67502f9c3d55890782329328" category="paragraph">以下是3.9.22版Connector的變更。</block>
   <block id="c8328d07fc05c4708c68f547ce6f5e77" category="section-title">全新總覽頁面</block>
@@ -117,7 +96,6 @@
   <block id="c76ff3fb4e35074fc6f04c1cb8ea02af" category="section-title">重新設計「Volume」頁面</block>
   <block id="99cbfcbab5c608668044fc3849d8db46" category="paragraph">我們重新設計「Volumes（磁碟區）」頁面、提供叢集上磁碟區的摘要。摘要會顯示磁碟區總數、已配置容量、已使用容量和保留容量、以及階層式資料量。</block>
   <block id="2f82cdfc06b6747c85937b5cceabaaee" category="inline-image-macro">顯示內部ONTAP 叢集「Volumes」（磁碟區）頁面的快照。</block>
-  <block id="97a34ca7d328720ed48cf2e2010985be" category="list-text">*詳細資料、保護及標記*：輸入磁碟區的詳細資料、例如磁碟區名稱和大小、選擇Snapshot原則、並視需要指定磁碟區標記。</block>
   <block id="17b6d3e2bf5506b5e797dfb98b76c0c2" category="list-text">*傳輸協定*：選擇磁碟區的傳輸協定（NFS、CIFS或iSCSI）、然後設定磁碟區的存取控制或權限。</block>
   <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp以多種方式提供對BlueXP的支援。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。</block>
   <block id="a820c8babe9911ddf670332c6647b2cf" category="summary">如果ONTAP 您不想再從BlueXP管理內部部署的不工作環境、請將其移除。</block>
@@ -126,10 +104,8 @@
   <block id="69e6c31f6140607f08425260f2faecb5" category="list-text">從導覽功能表中、選取*儲存設備&gt; Canvas*。</block>
   <block id="886d154945ab6b1710e580c43bfabaf7" category="paragraph">如果您選擇CIFS、但伺服器尚未設定、則BlueXP會提示您使用Active Directory或工作群組來設定CIFS伺服器。</block>
   <block id="c2cf3bd16a968cc398d9e36f7fee3e49" category="cell">NFS匯出原則會定義子網路中可存取磁碟區的用戶端。根據預設、BlueXP會輸入一個值、以供存取子網路中的所有執行個體。</block>
-  <block id="71fe7750eaf8ad346bfa5f8d17e350aa" category="paragraph">BlueXP會配置磁碟區並顯示頁面、以便您查看進度。</block>
   <block id="243263104c829e77835d632f591230d5" category="summary">在您透過NetApp技術支援開啟支援案例之前、您必須先在NetApp 支援網站 BlueXP中新增一個支援帳戶、然後註冊以取得支援。</block>
   <block id="38ff1351e45b1e4303e79145f4bc10b4" category="paragraph">BlueXP的進階檢視可讓您存取其他管理功能：</block>
-  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP部落格</block>
   <block id="4bbcdd6338e8631576e63f1156b1c51d" category="doc">檢視叢集資訊和合約詳細資料</block>
   <block id="c5fbee6586294d81141f8dd158707985" category="doc">探索內部部署ONTAP 的叢集</block>
   <block id="dad407e605b93746e62dec356ab5303e" category="list-text">標準檢視、提供基本的Volume作業</block>
@@ -139,12 +115,7 @@
   <block id="7d0b01345a5038f25fdd17dc04d8872e" category="list-text">您需要叢集管理IP位址和管理員使用者帳戶的密碼。</block>
   <block id="95773f82d1d681361d7f2215f3912515" category="paragraph">BlueXP會使用ONTAP HTTPS探索叢集。如果您使用自訂防火牆原則、ONTAP 則無法透過連接埠443存取傳入HTTPS。</block>
   <block id="afb7adc3debe75aa13a1fc4fdb7c0a81" category="paragraph">BlueXP可讓您在現有的Aggregate上建立NFS或CIFS磁碟區。您無法ONTAP 從BlueXP標準檢視在內部的叢集上建立新的Aggregate。您需要使用「進階」檢視來建立Aggregate。</block>
-  <block id="890592abc0c43fcc710edb1dbdeaf2b3" category="paragraph">稱為「範本」的BlueXP功能可讓您建立專為特定應用程式（例如資料庫或串流服務）工作負載需求最佳化的磁碟區。如果您的組織已建立您應該使用的Volume範本、請遵循 <block ref="841f2986c591e442944fbc4b9e18c81f" category="inline-xref-macro-rx"></block>。</block>
   <block id="a17ea0b6ec5074b6e385c43de80e900d" category="list-text">*使用率設定檔*：選擇是否啟用或停用磁碟區上的儲存效率功能、以減少所需的儲存總容量。</block>
-  <block id="a37f6000ecd62b3a2058de32fa603d0a" category="section-title">從範本建立磁碟區</block>
-  <block id="c3865611609b6bd4b2a95ed4f83f6261" category="list-text">新增所有非模板硬編碼的參數值。</block>
-  <block id="8b7f5e90385d9570cd1e8c028e829385" category="inline-xref">瞭解建立Volume所需的參數</block>
-  <block id="88e156005e08cd20db096e992009e8e5" category="paragraph"><block ref="c936b096dc7fb0bdb7ac3b472aa3a0a3" category="inline-xref-macro-rx"></block>。</block>
   <block id="dce4384ee7fa334b58b3b529933aacef" category="paragraph">如果您需要對內部部署ONTAP 的故障叢集執行進階管理、您可以使用ONTAP 支援ONTAP 此功能的支援功能、這個管理介面是隨附於一個故障診斷系統的。我們已將System Manager介面直接納入BlueXP、因此您不需要離開BlueXP進行進階管理。</block>
   <block id="5d82c1ade2b4a73465d28377bf1ee806" category="section-title">取得System Manager的協助</block>
   <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="section-title">複寫資料</block>
@@ -268,7 +239,6 @@
   <block id="e6855a96bbe46265b9ff5968ea2f7ea1" category="list-text">在 BlueXP 數位錢包中檢視硬體和軟體合約狀態資訊</block>
   <block id="df72ae90e7d4142f112bbc2859e6948b" category="list-text">您是否使用 BlueXP 服務、例如備份與還原、分層和分類。</block>
   <block id="8e8b2132d267e6b940332cd979b14732" category="paragraph">如果您使用 Connector 發現內部部署 ONTAP 叢集、則可以從標準檢視建立磁碟區、從進階檢視使用系統管理員、以及啟用 BlueXP 資料服務。</block>
-  <block id="3cb732600caeb6ed3e89ade08544187b" category="paragraph">此外、如果範本中實作任何次要動作、例如在磁碟區上啟用 BlueXP 備份與還原、則也會執行該動作。</block>
   <block id="c362ab732a9d440fb98db1e9b1395e29" category="section-title">啟用 BlueXP 服務</block>
   <block id="32f4a4b77e8bb8a5997c35c84f226d07" category="list-text">將內部部署 ONTAP 系統的資料備份到雲端的低成本物件儲存設備。</block>
   <block id="b781e6c9d1cf8ce1e5e954c2b07e6e8a" category="inline-link">備份與還原文件</block>
@@ -313,7 +283,6 @@
   <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">如果您有客戶層級的帳戶、可以新增一或多個NSS帳戶。</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">如果您有合作夥伴或經銷商帳戶、您可以新增一或多個NSS帳戶、但這些帳戶無法與客戶層級帳戶一起新增。</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">「說明」功能表的快照、其中「支援」是第一個列出的選項</block>
-  <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp使用Microsoft Azure Active Directory做為身分識別供應商、提供專為支援與授權所設計的驗證服務。</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">在登入頁面上，提供您的 NetApp 支援網站註冊電子郵件地址和密碼，以執行身分驗證程序。</block>
   <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">這些行動可讓BlueXP將您的nssa帳戶用於授權下載、軟體升級驗證、以及未來的支援註冊等項目。</block>
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">請注意下列事項：</block>
@@ -355,8 +324,6 @@
   <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">歡迎加入BlueXP社群、以追蹤後續討論或建立新討論。</block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">文件</block>
   <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">您目前正在檢視的BlueXP文件。</block>
-  <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto：ng-cloudmanager-feedback@netapp.com [意見反應電子郵件]</block>
-  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">我們非常重視您的意見。提交意見反應、協助我們改善藍圖。</block>
   <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">利用NetApp支援建立案例</block>
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">除了上述的自我支援選項、您也可以在啟動支援之後、與NetApp支援專家合作解決任何問題。</block>
   <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">開始之前</block>
@@ -511,10 +478,6 @@
   <block id="8d2b311f9b9d9270715e282b3f9a0738" category="list-text">在「畫布」頁面上、選取您要在其中配置磁碟區的內部部署 ONTAP 叢集。</block>
   <block id="ba426b409f9ec6763d7b1ecebd5d576f" category="list-text">選取 * Volume &gt; Add Volume * 。</block>
   <block id="b664e4294e5d14d6fd3d39615d4e3341" category="list-text">* 審查 * ：檢閱有關 Volume 的詳細資料、然後選取 * 新增 * 。</block>
-  <block id="41efc0cb3ec8dc0be40bd6cef8036869" category="list-text">選取 <block ref="8891ca04a345a35bd7da25d57718d9b7" category="inline-image-macro-rx" type="image"></block> &gt;*從範本新增Volume *。</block>
-  <block id="9e1283eb7fbf6e762fdae86f50b35f77" category="list-text">在 _ 選取範本 _ 頁面中、選取您要用來建立磁碟區的範本、然後選取 * 下一步 * 。</block>
-  <block id="71f2916937cb366e2caf599a6feda2a1" category="paragraph">* 注意： * 如果您想查看這些參數的值、您可以選取核取方塊 * 顯示唯讀參數 * 來顯示範本鎖定的所有欄位。根據預設、這些預先定義的欄位會隱藏、只會顯示您需要填寫的欄位。</block>
-  <block id="251cee18a5cc71eca251e760cf761ae2" category="list-text">定義此 Volume 所需的所有參數之後、請選取 * 執行範本 * 。</block>
   <block id="17946fbbcc494462c1dfafa59978ba50" category="paragraph">您可以使用 BlueXP API 來建立 FlexGroup Volume 。支援垂直擴充的功能是提供高效能及自動負載分配的功能。FlexGroup</block>
   <block id="b72566f4d301c9dec06189b65b061300" category="inline-link">瞭解如何使用 API 建立 FlexGroup Volume</block>
   <block id="67bdff562faa68c471571176e3844346" category="paragraph">開啟內部部署的 ONTAP 工作環境、然後選取「進階檢視」選項。</block>
@@ -547,7 +510,6 @@
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">若要獲得 BlueXP 及其儲存解決方案與服務的專屬技術支援、請使用下列支援選項。</block>
   <block id="c65dc56e9af1b59f20d971d9f8ecd361" category="doc">管理直接探索到的叢集</block>
   <block id="842394c4883838b029db28103480c404" category="doc">管理使用 Connector 探索到的叢集</block>
-  <block id="58eaebf972358f1cf03d386a4ade1a0f" category="paragraph-title">接下來呢？</block>
   <block id="9403a7672f0137bf2158d9662b27dbd0" category="section-title">使用進階檢視（系統管理員）管理 ONTAP</block>
   <block id="48208e085946470d7aeaad6b13dcda66" category="section-title">使用進階檢視</block>
   <block id="1822d12a7b10a50fdd93b84fc0c9f70e" category="doc">瞭解 BlueXP 中的內部部署 ONTAP 叢集管理</block>
@@ -558,4 +520,9 @@
   <block id="3293cc9f12e1fa232d9a61b0022166b9" category="list-text">Connector 主機必須允許透過連接埠 443 （ HTTPS ）進行輸出連線、且 ONTAP 叢集必須允許透過連接埠 443 進行傳入 HTTP 存取。</block>
   <block id="f06497cae9ab6e78fd37893cdca029bd" category="section-title">步驟 3 ：探索叢集</block>
   <block id="9d96bd9b544805d33ce76bcba91e4c62" category="paragraph">透過以下兩種方式之一、從 Canvas 探索內部部署 ONTAP 叢集：</block>
+  <block id="9d5b3307d5a7d5905623bf21ab049bdd" category="section-title">2024 年 4 月 22 日</block>
+  <block id="2d177a5ce778fe0e6f460ac5e9449f84" category="section-title">不再支援 Volume 範本</block>
+  <block id="14b1c6bd63866971a4cd695c3c2a3d80" category="paragraph">您無法再從範本建立磁碟區。此動作與 BlueXP 補救服務相關聯、此服務已無法使用。</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp 使用 Microsoft Entra ID 做為身分識別提供者、提供專為支援與授權所設計的驗證服務。</block>
+  <block id="a28aaa114e91d430f853038c9ac17766" category="list-text">* 詳細資料、保護與標記 * ：輸入磁碟區名稱與大小等詳細資料、然後選擇 Snapshot 原則。</block>
 </blocks>
