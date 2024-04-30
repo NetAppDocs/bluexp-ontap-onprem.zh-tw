@@ -525,4 +525,9 @@
   <block id="14b1c6bd63866971a4cd695c3c2a3d80" category="paragraph">您無法再從範本建立磁碟區。此動作與 BlueXP 補救服務相關聯、此服務已無法使用。</block>
   <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp 使用 Microsoft Entra ID 做為身分識別提供者、提供專為支援與授權所設計的驗證服務。</block>
   <block id="a28aaa114e91d430f853038c9ac17766" category="list-text">* 詳細資料、保護與標記 * ：輸入磁碟區名稱與大小等詳細資料、然後選擇 Snapshot 原則。</block>
+  <block id="a1ebf612d281c8e7fb16bbfa253b9627" category="sidebar">探索 ONTAP 叢集</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">部落格與社群</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp社群</block>
+  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP部落格</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">雲端網路研討會</block>
 </blocks>

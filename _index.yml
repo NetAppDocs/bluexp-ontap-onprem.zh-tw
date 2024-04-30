@@ -1,0 +1,27 @@
+---
+indexpage:
+  title: 使用 BlueXP 進行內部部署 ONTAP 叢集管理
+  summary: 從 BlueXP 管理您的 NetApp AFF 和 FAS 系統、以配置儲存設備、複寫資料及設定關鍵雲端型資料服務。
+  keywords: bluexp, ontap, discover onprem
+  lead: 從 BlueXP 管理您的 NetApp AFF 和 FAS 系統、以配置儲存設備、複寫資料及設定關鍵雲端型資料服務。
+  tiles:
+  - title: 開始使用
+    links:
+    - title: 深入瞭解ONTAP 內部的叢集管理
+      url: concept-onprem-ontap.html
+    - title: 探索 ONTAP 叢集
+      url: task-discovering-ontap.html
+  - title: 管理內部ONTAP 的叢集
+    links:
+    - title: 直接管理探索到的叢集
+      url: task-manage-ontap-direct.html
+    - title: 使用Connector管理探索到的叢集
+      url: task-manage-ontap-connector.html
+  - title: 部落格與社群
+    links:
+    - title: NetApp社群
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: BlueXP部落格
+      url: https://cloud.netapp.com/blog
+    - title: 雲端網路研討會
+      url: https://cloud.netapp.com/events
