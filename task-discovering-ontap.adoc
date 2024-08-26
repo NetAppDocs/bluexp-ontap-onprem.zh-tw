@@ -80,7 +80,7 @@ Connector 探索的需求::
 ** https://docs.netapp.com/us-en/bluexp-tiering/concept-cloud-tiering.html["瞭解 BlueXP 分層"^]
 
 
-* Connector 主機必須允許透過連接埠 443 （ HTTPS ）進行輸出連線、且 ONTAP 叢集必須允許透過連接埠 443 進行傳入 HTTP 存取。
+* Connector 主機必須允許透過連接埠 443 （ HTTPS ）進行輸出連線、而 ONTAP 叢集必須允許透過連接埠 443 傳入 HTTP 存取至叢集管理 LIF 。
 +
 如果 Connector 位於雲端、則預先定義的安全性群組會允許所有傳出通訊。
 

@@ -516,7 +516,6 @@
   <block id="663060c661d21dbe1c32242cc8731f0e" category="section-title">步驟 2 ：設定您的環境</block>
   <block id="051ffa63d019158ee74f0c9b63be5dab" category="list-text">您應該已經開始使用BlueXP、其中包括登入及設定帳戶。
 <block ref="0377f2dd7cfc90832cf86e4cdea18b27" category="inline-link-rx"></block></block>
-  <block id="3293cc9f12e1fa232d9a61b0022166b9" category="list-text">Connector 主機必須允許透過連接埠 443 （ HTTPS ）進行輸出連線、且 ONTAP 叢集必須允許透過連接埠 443 進行傳入 HTTP 存取。</block>
   <block id="f06497cae9ab6e78fd37893cdca029bd" category="section-title">步驟 3 ：探索叢集</block>
   <block id="9d96bd9b544805d33ce76bcba91e4c62" category="paragraph">透過以下兩種方式之一、從 Canvas 探索內部部署 ONTAP 叢集：</block>
   <block id="9d5b3307d5a7d5905623bf21ab049bdd" category="section-title">2024 年 4 月 22 日</block>
@@ -530,4 +529,5 @@
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP部落格</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">雲端網路研討會</block>
   <block id="74702430dfc941eaabc5007d9e5554f6" category="list-text"><block ref="74702430dfc941eaabc5007d9e5554f6" category="inline-link-rx"></block></block>
+  <block id="3ebda767e5f86db4657a423fd661132a" category="list-text">Connector 主機必須允許透過連接埠 443 （ HTTPS ）進行輸出連線、而 ONTAP 叢集必須允許透過連接埠 443 傳入 HTTP 存取至叢集管理 LIF 。</block>
 </blocks>
