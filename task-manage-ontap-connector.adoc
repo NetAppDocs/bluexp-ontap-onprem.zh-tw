@@ -149,9 +149,9 @@ link:reference-limitations.html["檢閱限制清單"]。
 
 .步驟
 . 在「畫布」頁面上、選取您要在其中配置磁碟區的內部部署 ONTAP 叢集。
-. 在右上角、選取 * 切換至進階檢視 * 。
+. 從右側面板的 * 服務 * 下、找到 * 系統管理員 * 、然後選取 * 開啟 * 。
 +
-image:screenshot-advanced-view.png["內部ONTAP 環境的快照、顯示「切換至進階檢視」選項。"]
+image:screenshot-advanced-view.png["BlueXP  畫布的螢幕擷取畫面、會在選取內部部署 ONTAP 工作環境之後顯示可用服務的清單。"]
 
 . 如果出現確認訊息、請仔細閱讀並選擇 * 關閉 * 。
 . 使用System Manager來管理ONTAP 功能。
