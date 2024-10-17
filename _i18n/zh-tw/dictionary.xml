@@ -516,7 +516,6 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">雲端網路研討會</block>
   <block id="74702430dfc941eaabc5007d9e5554f6" category="list-text"><block ref="74702430dfc941eaabc5007d9e5554f6" category="inline-link-rx"></block></block>
   <block id="3ebda767e5f86db4657a423fd661132a" category="list-text">Connector 主機必須允許透過連接埠 443 （ HTTPS ）進行輸出連線、而 ONTAP 叢集必須允許透過連接埠 443 傳入 HTTP 存取至叢集管理 LIF 。</block>
-  <block id="fde1abb5537b55c34521d414267b3f70" category="section-title">ASA r2 系統</block>
   <block id="0bf2301f5cb3996192947186158c2e09" category="paragraph">當您發現 NetApp ASA R2 系統並開啟工作環境之後、系統管理員就會直接將您帶到系統管理員。</block>
   <block id="d5861f4539296095cd7c9fdfd0c5a2c9" category="paragraph">ASA R2 系統沒有其他管理選項可用。您無法使用標準檢視、也無法啟用 BlueXP 服務。</block>
   <block id="989977a18a476a92018e04dd60ec37c1" category="inline-link">深入瞭解 ASA R2 系統</block>
@@ -537,5 +536,9 @@
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">這些 NSS 認證會與您的特定 BlueXP  組織 ID 相關聯。屬於 BlueXP  組織的使用者可從 * 支援 &gt; NSS 管理 * 存取這些認證。</block>
   <block id="e5182edc3707e8e354c40ab7fa819f39" category="section-title">2024 年 10 月 7 日</block>
   <block id="1e095c69621645fccc8f12cd7f35f6fc" category="section-title">支援 ASA R2 系統</block>
-  <block id="effcb34ce55a7b0374e99feabbc3c970" category="paragraph">您現在可以在 BlueXP  中探索 NetApp ASA R2 系統。當您發現 NetApp ASA R2 系統並開啟工作環境之後、系統管理員就會直接將您帶到系統管理員。</block>
+  <block id="835e40a074ba47935e3e68e3452eb52f" category="section-title">與 ASA R2 系統相關的限制</block>
+  <block id="f2fba5567ec0d8ae5addf04c960ba6d0" category="list-text">在私有模式中使用 BlueXP  時、不支援探索 ASA R2 系統。</block>
+  <block id="d26c29507d869d48f4861c9b4bae1f6e" category="paragraph">現在您可以在 BlueXP  中探索 NetApp ASA R2 系統、以標準模式或私有模式使用 BlueXP  。當您發現 NetApp ASA R2 系統並開啟工作環境之後、系統管理員就會直接將您帶到系統管理員。</block>
+  <block id="62bd7572081df25dd3f1f52151883c4a" category="inline-link">瞭解 BlueXP 部署模式</block>
+  <block id="d3342e15149bfef7fd9289d7025e506e" category="list-text"><block ref="d3342e15149bfef7fd9289d7025e506e" category="inline-link-rx"></block></block>
 </blocks>
