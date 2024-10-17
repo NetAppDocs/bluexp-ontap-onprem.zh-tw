@@ -538,7 +538,8 @@
   <block id="1e095c69621645fccc8f12cd7f35f6fc" category="section-title">支援 ASA R2 系統</block>
   <block id="835e40a074ba47935e3e68e3452eb52f" category="section-title">與 ASA R2 系統相關的限制</block>
   <block id="f2fba5567ec0d8ae5addf04c960ba6d0" category="list-text">在私有模式中使用 BlueXP  時、不支援探索 ASA R2 系統。</block>
-  <block id="d26c29507d869d48f4861c9b4bae1f6e" category="paragraph">現在您可以在 BlueXP  中探索 NetApp ASA R2 系統、以標準模式或私有模式使用 BlueXP  。當您發現 NetApp ASA R2 系統並開啟工作環境之後、系統管理員就會直接將您帶到系統管理員。</block>
   <block id="62bd7572081df25dd3f1f52151883c4a" category="inline-link">瞭解 BlueXP 部署模式</block>
   <block id="d3342e15149bfef7fd9289d7025e506e" category="list-text"><block ref="d3342e15149bfef7fd9289d7025e506e" category="inline-link-rx"></block></block>
+  <block id="4f59dac344ae97a32d47fe32ee94249f" category="list-text">在標準模式或受限模式下使用 BlueXP  時、您可以在 BlueXP  中探索 NetApp ASA R2 系統。在私有模式中使用 BlueXP  時、不支援探索 ASA R2 系統。</block>
+  <block id="0c02bcea354671c5372f06a37c547a7d" category="paragraph">在標準模式或受限模式下使用 BlueXP  時、您現在可以在 BlueXP  中探索 NetApp ASA R2 系統。當您發現 NetApp ASA R2 系統並開啟工作環境之後、系統管理員就會直接將您帶到系統管理員。</block>
 </blocks>
