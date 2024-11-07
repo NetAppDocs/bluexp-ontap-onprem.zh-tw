@@ -127,8 +127,6 @@ https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-manage-ontap-direct.html[
 
 == 2022年12月4日
 
-以下是3.9.24版本的Connector所做的變更。
-
 
 
 === 探索內部部署 ONTAP 叢集的新方法
@@ -151,8 +149,6 @@ BlueXP不支援建立FlexGroup 功能區。您需要繼續使用System Manager�
 
 == 2022年9月18日
 
-以下是3.9.22版Connector的變更。
-
 
 
 === 全新總覽頁面
@@ -174,8 +170,6 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/medi
 
 
 == 2022年6月7日
-
-以下變更是在版本3.9.19的Connector中提出的。
 
 
 
