@@ -53,7 +53,6 @@
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識與支援</block>
   <block id="1c27e11c5e65b93611e6f5ce640f8184" category="sidebar">建立磁碟區</block>
   <block id="f8b475a3fefebada77a30229238d0a1a" category="section-title">2022年6月7日</block>
-  <block id="4f03a5c652641013d1e43811930f5769" category="paragraph">以下變更是在版本3.9.19的Connector中提出的。</block>
   <block id="ffe3ec3b5faef58a758d9449470882a0" category="section-title">新的進階檢視</block>
   <block id="5549a52d6578bcb66138c7319ef4ea11" category="paragraph">如果您需要對ONTAP 內部部署的叢集執行進階管理、可以使用ONTAP 支援ONTAP 此功能的作業系統管理程式、這個管理介面是隨附於一個作業系統的。我們直接在Cloud Manager中加入System Manager介面、因此您不需要離開Cloud Manager進行進階管理。</block>
   <block id="99721ad2e6d601b2966a9d9e1c7de770" category="paragraph">此「進階檢視」可在ONTAP 內部部署的叢集執行9.10.0或更新版本時、以預覽形式提供。我們計畫改善這項體驗、並在即將推出的版本中加入增強功能。請使用產品內建聊天功能、向我們傳送意見反應。</block>
@@ -87,7 +86,6 @@
   <block id="7e7397a7b79323762c61941fc0e6b5f9" category="inline-link">資料保護</block>
   <block id="168463a2e30ac746441036fb49df730e" category="list-text"><block ref="168463a2e30ac746441036fb49df730e" category="inline-link-rx"></block></block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022年9月18日</block>
-  <block id="440be74a67502f9c3d55890782329328" category="paragraph">以下是3.9.22版Connector的變更。</block>
   <block id="c8328d07fc05c4708c68f547ce6f5e77" category="section-title">全新總覽頁面</block>
   <block id="8e41db9b51f790909ef80a064153f722" category="paragraph">我們推出全新的「總覽」頁面、提供內部部署ONTAP 的叢集的重要詳細資料。例如、您現在可以檢視儲存效率、容量分配和系統資訊等詳細資料。</block>
   <block id="fba766c98683be4af93f93b5d7909f1e" category="inline-image-macro">快照顯示內部ONTAP 叢集的「總覽」頁面。</block>
@@ -127,7 +125,6 @@
   <block id="f0ec06c8888b911820be6e1fcc689c0b" category="list-text">是否部署Connector來探索及管理叢集。</block>
   <block id="0d29d27599c2af161506dbd9dbafba3f" category="paragraph">您可以在雲端或內部部署環境中安裝Connector。</block>
   <block id="83ec139c80a3d5b2f11f1a94eed47cd2" category="section-title">2022年12月4日</block>
-  <block id="612111851a1740ab34a9d35045621084" category="paragraph">以下是3.9.24版本的Connector所做的變更。</block>
   <block id="336404297eaddf0051e1d62c3d3bb48e" category="inline-link">深入瞭解此探索與管理選項</block>
   <block id="ee1ef6cf0f3971b44eb2abcac958fb8d" category="section-title">資料量FlexGroup</block>
   <block id="2907843476579cb2696e8e0e783a2a07" category="inline-image-macro">在FlexGroup 「Volumes」（磁碟區）頁面上顯示的快照、可顯示內部ONTAP 叢集的「聲音量」。</block>
@@ -540,6 +537,8 @@
   <block id="f2fba5567ec0d8ae5addf04c960ba6d0" category="list-text">在私有模式中使用 BlueXP  時、不支援探索 ASA R2 系統。</block>
   <block id="62bd7572081df25dd3f1f52151883c4a" category="inline-link">瞭解 BlueXP 部署模式</block>
   <block id="d3342e15149bfef7fd9289d7025e506e" category="list-text"><block ref="d3342e15149bfef7fd9289d7025e506e" category="inline-link-rx"></block></block>
-  <block id="4f59dac344ae97a32d47fe32ee94249f" category="list-text">在標準模式或受限模式下使用 BlueXP  時、您可以在 BlueXP  中探索 NetApp ASA R2 系統。在私有模式中使用 BlueXP  時、不支援探索 ASA R2 系統。</block>
   <block id="0c02bcea354671c5372f06a37c547a7d" category="paragraph">在標準模式或受限模式下使用 BlueXP  時、您現在可以在 BlueXP  中探索 NetApp ASA R2 系統。當您發現 NetApp ASA R2 系統並開啟工作環境之後、系統管理員就會直接將您帶到系統管理員。</block>
+  <block id="613fbbb3f2dbf238c8527a537252e8ed" category="doc">支援採用私有模式的 ASA R2 系統</block>
+  <block id="0d9e2244b8fb5d13651efe34b9723803" category="paragraph">現在，您可以在私有模式中使用 BlueXP  時探索 NetApp ASA R2 系統。此支援自 BlueXP  3.9.46 私有模式版本開始提供。</block>
+  <block id="d415b73567ff8e090cdf21c20afeaa64" category="section-title">2024 年 26 月 11 日</block>
 </blocks>

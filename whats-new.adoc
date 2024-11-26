@@ -18,6 +18,20 @@ summary: 瞭解 BlueXP 中內部部署 ONTAP 叢集管理的新功能。
 
 
 
+== 2024 年 26 月 11 日
+
+
+
+=== 支援採用私有模式的 ASA R2 系統
+
+現在，您可以在私有模式中使用 BlueXP  時探索 NetApp ASA R2 系統。此支援自 BlueXP  3.9.46 私有模式版本開始提供。
+
+* https://docs.netapp.com/us-en/asa-r2/index.html["深入瞭解 ASA R2 系統"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["瞭解 BlueXP 部署模式"^]
+
+
+
+
 == 2024 年 10 月 7 日
 
 
