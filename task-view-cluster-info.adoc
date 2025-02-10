@@ -16,26 +16,4 @@ summary: BlueXP 數位錢包可讓您檢視每個內部部署 ONTAP 叢集的合
 [role="lead"]
 BlueXP 數位錢包可讓您檢視每個內部部署 ONTAP 叢集的合約詳細資料。如果您尚未在 BlueXP 中發現叢集、也可以從數位錢包中找到叢集。
 
-.開始之前
-BlueXP 數位錢包會顯示內部部署 ONTAP 叢集的詳細資料、這些叢集是您在工作環境中發現的、或是與您新增至 BlueXP 的 NetApp 支援網站 帳戶相關聯的叢集。
-
-.步驟
-. 從BlueXP導覽功能表中、選取*管理>數位錢包*。
-. 選取*內部部署ONTAP 的S--。
-+
-如果系統提示您先輸入 NetApp 支援網站（NSS）帳戶認證資料，請在支援儀表板中輸入認證資料。新增帳戶後、即會顯示該帳戶中包含的叢集。
-
-+
-每個叢集的軟體合約和硬體合約到期日均會顯示在行上。
-
-+
-image:screenshot_digital_wallet_onprem_main.png["擴充叢集詳細資料的快照、以便您檢視叢集授權資訊。"]
-
-. 如果您尚未將叢集發現為工作環境、請選取 * 探索 * 、然後依照提示進行。
-+
-當您發現叢集之後、它就會在 BlueXP 中作為工作環境提供、以便您管理它。
-
-
-
-.相關連結
 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-on-prem-clusters.html["深入瞭解如何從 BlueXP 數位錢包管理內部部署 ONTAP 叢集的授權"^]
