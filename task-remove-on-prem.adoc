@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-remove-on-prem.html 
-keywords: ontap, cluster, remove, delete, remove ontap cluster, remove onprem, delete cluster, delete working environment, remove working environment 
+keywords: ontap, cluster, remove, delete, remove ontap cluster, remove onprem, delete cluster, delete working environment, remove working environment, storage admin 
 summary: 如果ONTAP 您不想再從BlueXP管理內部部署的不工作環境、請將其移除。 
 ---
 = 移除內部ONTAP 環境的不正常運作環境
@@ -15,6 +15,9 @@ summary: 如果ONTAP 您不想再從BlueXP管理內部部署的不工作環境�
 
 [role="lead"]
 如果ONTAP 您不想再從BlueXP管理內部部署的不工作環境、請將其移除。
+
+.所需的BlueXP角色：
+組織管理員、資料夾或專案管理員或儲存管理員。 link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解BlueXP訪問角色。"^]
 
 移除工作環境並不會影響ONTAP 到整個叢集。您可以隨時從BlueXP重新探索。
 

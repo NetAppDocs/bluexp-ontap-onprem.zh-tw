@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-discovering-ontap.html 
-keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, digital wallet 
+keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, digital wallet, roles 
 summary: 探索ONTAP 來自BlueXP的內部資源介紹叢集、以便您開始使用ONTAP 從BlueXP取得的功能完善的系統管理程式來管理磁碟區和執行進階管理。 
 ---
 = 探索內部部署ONTAP 的叢集
@@ -16,6 +16,9 @@ summary: 探索ONTAP 來自BlueXP的內部資源介紹叢集、以便您開始�
 [role="lead"]
 探索 BlueXP 的內部部署 ONTAP 叢集、以便開始使用 BlueXP 提供的 ONTAP 系統管理員來管理磁碟區和執行進階管理。
 
+.所需的BlueXP角色：
+組織管理員、資料夾或專案管理員、儲存管理員或系統健康專家。 link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解BlueXP訪問角色。"^]
+
 
 
 == 步驟 1 ：檢閱探索與管理選項
@@ -25,12 +28,11 @@ BlueXP 為內部部署 ONTAP 叢集提供兩個探索與管理選項：
 使用 Connector 進行探索與管理:: 此選項可讓您ONTAP 使用下列功能來管理執行支援功能的叢集：
 +
 --
-* 標準檢視、提供基本的Volume作業
-* 進階檢視、可透過System Manager進行管理（ONTAP 支援使用支援的版本為0。9.10.0及更新版本）
+* 透過BlueXP介面原生提供基本磁碟區操作
+* ONTAP系統管理器（支援ONTAP 9.10.0 及更高版本），直接從BlueXP存取每個對應叢集的系統管理器
 * 與 BlueXP 服務整合、提供資料複寫、備份與還原、資料分類及資料分層
+* 您必須擁有組織管理員角色才能安裝連接器。如果您不確定您的組織是否有連接器，或是否需要建立連接器，請聯絡您的BlueXP管理員。  https://review.docs.netapp.com/us-en/bluexp-setup-admin/task-user-settings.html#contact-your-organization-administrator["聯絡您的組織管理員。"^]
 
-
-此選項需要連接器、您可以將其安裝在雲端供應商或內部部署環境中。
 
 --
 直接探索與管理:: 此選項可讓您ONTAP 使用System Manager來管理執行《支援使用程式》9.12.1及更新版本的叢集。沒有其他管理選項可供使用。您無法使用標準檢視、也無法啟用 BlueXP 服務。
@@ -45,7 +47,7 @@ BlueXP 為內部部署 ONTAP 叢集提供兩個探索與管理選項：
 
 一旦發現、您的叢集就能在BlueXP畫版上做為工作環境使用。
 
-如果您決定稍後再使用其他探索選項、則需要在畫版上將內部叢集探索為獨立的工作環境。然後您可以選擇移除其他工作環境。
+如果您決定將連接器新增至您的BlueXP部署中，則需要在 Canvas 上將您的本機叢集重新發現為單獨的工作環境。這將啟用本機BlueXP管理以及對BlueXP資料服務的存取。然後，您可以選擇移除其他工作環境。
 
 
 
@@ -56,8 +58,7 @@ BlueXP 為內部部署 ONTAP 叢集提供兩個探索與管理選項：
 一般要求::
 +
 --
-* 您應該已經開始使用BlueXP、其中包括登入及設定帳戶。
-https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["瞭解如何開始使用BlueXP"^]
+* 您需要擁有以下BlueXP存取角色之一：組織管理員、資料夾或專案管理員或儲存管理員。
 * 您需要叢集管理IP位址和管理員使用者帳戶的密碼。
 * BlueXP會使用ONTAP HTTPS探索叢集。如果您使用自訂防火牆原則、ONTAP 則無法透過連接埠443存取傳入HTTPS。
 +

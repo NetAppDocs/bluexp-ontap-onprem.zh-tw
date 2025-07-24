@@ -14,9 +14,12 @@ summary: 如果您使用 Connector 發現內部部署 ONTAP 叢集、則可以�
 
 
 [role="lead"]
-如果您使用 Connector 發現內部部署 ONTAP 叢集、則可以從標準檢視建立磁碟區、從進階檢視使用系統管理員、以及啟用 BlueXP 資料服務。
+如果您使用連接器發現了本地ONTAP集群，則可以直接從BlueXP介面建立卷，存取ONTAP系統管理器（從BlueXP）進行高階管理，並啟用BlueXP資料服務。
 
-在畫版上、使用Connector探索到的叢集工作環境圖示應類似下列內容：
+.所需的BlueXP角色：
+組織管理員、資料夾或專案管理員、儲存管理員或系統健康專家。 link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解BlueXP訪問角色。"^]
+
+在畫布上，使用連接器發現的叢集的工作環境圖示類似於以下內容：
 
 image:screenshot-connector-we.png["出現在畫版上的工作環境圖示快照"]
 
@@ -24,15 +27,11 @@ image:screenshot-connector-we.png["出現在畫版上的工作環境圖示快照
 
 
 
-== 從「標準」檢視建立 FlexVol Volume
+== 從BlueXP創建FlexVol卷
 
-在您使用 Connector 從 BlueXP 探索內部部署 ONTAP 叢集之後、您可以開啟工作環境來配置和管理 FlexVol Volume 。
+使用連接器從BlueXP發現您的本機ONTAP叢集後，您可以直接從BlueXP設定和管理FlexVol磁碟區。
 
-
-
-=== 建立磁碟區
-
-BlueXP可讓您在現有的Aggregate上建立NFS或CIFS磁碟區。您無法ONTAP 從BlueXP標準檢視在內部的叢集上建立新的Aggregate。您需要使用「進階」檢視來建立Aggregate。
+BlueXP可讓您在現有聚合上建立 NFS 或 CIFS 磁碟區。您無法透過原生BlueXP介面在本機ONTAP叢集上建立新聚合；但是，您可以從BlueXP存取對應的ONTAP系統管理器來建立聚合。
 
 .步驟
 . 從導覽功能表中、選取*儲存設備> Canvas*。
@@ -81,7 +80,7 @@ BlueXP可讓您在現有的Aggregate上建立NFS或CIFS磁碟區。您無法ONTA
 
 
 
-== 建立FlexGroup 功能區
+== 使用BlueXP API 建立FlexGroup卷
 
 您可以使用 BlueXP API 來建立 FlexGroup Volume 。支援垂直擴充的功能是提供高效能及自動負載分配的功能。FlexGroup
 
@@ -91,17 +90,15 @@ BlueXP可讓您在現有的Aggregate上建立NFS或CIFS磁碟區。您無法ONTA
 
 
 
-== 使用進階檢視（系統管理員）管理 ONTAP
+== 從BlueXP存取ONTAP系統管理器
 
-如果您需要對內部部署ONTAP 的故障叢集執行進階管理、您可以使用ONTAP 支援ONTAP 此功能的支援功能、這個管理介面是隨附於一個故障診斷系統的。我們已將System Manager介面直接納入BlueXP、因此您不需要離開BlueXP進行進階管理。
-
-此「進階檢視」可作為預覽使用。我們計畫改善這項體驗、並在即將推出的版本中加入增強功能。請使用產品內建聊天功能、向我們傳送意見反應。
+如果您需要對本機ONTAP叢集進行高階管理，可以使用ONTAP系統管理器。您可以直接在BlueXP內部存取ONTAP系統管理器介面，無需離開BlueXP即可進行高階管理。
 
 
 
 === 功能
 
-BlueXP的進階檢視可讓您存取其他管理功能：
+當您從BlueXP存取ONTAP系統管理員時，您可以存取其他管理功能：
 
 * 進階儲存管理
 +
@@ -137,15 +134,15 @@ BlueXP的進階檢視可讓您存取其他管理功能：
 
 === 限制
 
-在使用BlueXP中的進階檢視時、內部部署ONTAP 的叢集不支援一些System Manager功能。
+透過BlueXP存取ONTAP系統管理器時，本機ONTAP叢集不支援某些系統管理器功能。
 
 link:reference-limitations.html["檢閱限制清單"]。
 
 
 
-=== 使用進階檢視
+=== 從BlueXP存取ONTAP系統管理器
 
-開啟內部部署的 ONTAP 工作環境、然後選取「進階檢視」選項。
+開啟本機ONTAP工作環境並開啟該環境的系統管理員。
 
 .步驟
 . 在「畫布」頁面上、選取您要在其中配置磁碟區的內部部署 ONTAP 叢集。

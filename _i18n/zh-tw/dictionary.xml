@@ -31,8 +31,6 @@
   <block id="e6e80588e9fe7cf89218fea44300f7ca" category="inline-link">深入瞭解連接器</block>
   <block id="2b9e44ec073f65b2847ecb4d29f27fb3" category="paragraph">如果 Connector 位於雲端、則預先定義的安全性群組會允許所有傳出通訊。</block>
   <block id="6f9f6c9a212736eda9e7ebc73ff5b991" category="paragraph">預設的「管理」防火牆原則允許從所有 IP 位址進行傳入 HTTPS 存取。如果您修改此預設原則、或是建立自己的防火牆原則、則必須將 HTTPS 傳輸協定與該原則建立關聯、並啟用從 Connector 主機存取。</block>
-  <block id="84c2c11254da9ee11c4482a60291186d" category="paragraph">每個叢集的軟體合約和硬體合約到期日均會顯示在行上。</block>
-  <block id="18f84cf96ce5861e5585468ef883b180" category="inline-image-macro">擴充叢集詳細資料的快照、以便您檢視叢集授權資訊。</block>
   <block id="108a74a6cbb575c986177039e07dc411" category="list-text">依照精靈中的步驟建立磁碟區。</block>
   <block id="3b0e375a08fe94a129cba31916c9d2dc" category="paragraph">此頁面上的部分欄位是不知自明的。下列清單說明您可能需要指引的欄位：</block>
   <block id="6f16a5f8ff5d75ab84c018adacdfcbb7" category="cell">欄位</block>
@@ -51,12 +49,10 @@
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始使用</block>
   <block id="019323681c39b462d0fd30312fc741c2" category="sidebar">管理內部ONTAP 的叢集</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識與支援</block>
-  <block id="1c27e11c5e65b93611e6f5ce640f8184" category="sidebar">建立磁碟區</block>
   <block id="f8b475a3fefebada77a30229238d0a1a" category="section-title">2022年6月7日</block>
   <block id="ffe3ec3b5faef58a758d9449470882a0" category="section-title">新的進階檢視</block>
   <block id="5549a52d6578bcb66138c7319ef4ea11" category="paragraph">如果您需要對ONTAP 內部部署的叢集執行進階管理、可以使用ONTAP 支援ONTAP 此功能的作業系統管理程式、這個管理介面是隨附於一個作業系統的。我們直接在Cloud Manager中加入System Manager介面、因此您不需要離開Cloud Manager進行進階管理。</block>
   <block id="99721ad2e6d601b2966a9d9e1c7de770" category="paragraph">此「進階檢視」可在ONTAP 內部部署的叢集執行9.10.0或更新版本時、以預覽形式提供。我們計畫改善這項體驗、並在即將推出的版本中加入增強功能。請使用產品內建聊天功能、向我們傳送意見反應。</block>
-  <block id="74593b49f99b6e21d38ca3d969b213f3" category="paragraph">此「進階檢視」可作為預覽使用。我們計畫改善這項體驗、並在即將推出的版本中加入增強功能。請使用產品內建聊天功能、向我們傳送意見反應。</block>
   <block id="f3c3ee89c80d32726f5f937c07631d1c" category="list-text">進階儲存管理</block>
   <block id="81988711ef6c9af40c8e8973f25c0bed" category="paragraph">管理一致性群組、共用區、qtree、配額和儲存VM。</block>
   <block id="62735a856683757bf28f1f02f97c151c" category="list-text">網路管理</block>
@@ -96,41 +92,32 @@
   <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp以多種方式提供對BlueXP的支援。我們全年無休提供豐富的免費自助支援選項、例如知識庫（KB）文章和社群論壇。您的支援註冊包括透過網路票證提供遠端技術支援。</block>
   <block id="a820c8babe9911ddf670332c6647b2cf" category="summary">如果ONTAP 您不想再從BlueXP管理內部部署的不工作環境、請將其移除。</block>
   <block id="bd60ce6149853fe9cc7d5bd848c0bde4" category="paragraph">移除工作環境並不會影響ONTAP 到整個叢集。您可以隨時從BlueXP重新探索。</block>
-  <block id="43bfd35e9b57eaace0eafa6750af5ff7" category="list-text">從BlueXP導覽功能表中、選取*管理&gt;數位錢包*。</block>
   <block id="69e6c31f6140607f08425260f2faecb5" category="list-text">從導覽功能表中、選取*儲存設備&gt; Canvas*。</block>
   <block id="886d154945ab6b1710e580c43bfabaf7" category="paragraph">如果您選擇CIFS、但伺服器尚未設定、則BlueXP會提示您使用Active Directory或工作群組來設定CIFS伺服器。</block>
   <block id="c2cf3bd16a968cc398d9e36f7fee3e49" category="cell">NFS匯出原則會定義子網路中可存取磁碟區的用戶端。根據預設、BlueXP會輸入一個值、以供存取子網路中的所有執行個體。</block>
   <block id="243263104c829e77835d632f591230d5" category="summary">在您透過NetApp技術支援開啟支援案例之前、您必須先在NetApp 支援網站 BlueXP中新增一個支援帳戶、然後註冊以取得支援。</block>
-  <block id="38ff1351e45b1e4303e79145f4bc10b4" category="paragraph">BlueXP的進階檢視可讓您存取其他管理功能：</block>
   <block id="4bbcdd6338e8631576e63f1156b1c51d" category="doc">檢視叢集資訊和合約詳細資料</block>
   <block id="c5fbee6586294d81141f8dd158707985" category="doc">探索內部部署ONTAP 的叢集</block>
-  <block id="dad407e605b93746e62dec356ab5303e" category="list-text">標準檢視、提供基本的Volume作業</block>
   <block id="95ef150c4c1c6bc6be1dda757b58c70c" category="paragraph">連接器必須安裝在雲端供應商或內部部署環境中。</block>
   <block id="5883223e097bdc0962b33579a610a819" category="paragraph">一旦發現、您的叢集就能在BlueXP畫版上做為工作環境使用。</block>
-  <block id="89e019c15bf54627a2a1e4918e66bab6" category="inline-link">瞭解如何開始使用BlueXP</block>
   <block id="7d0b01345a5038f25fdd17dc04d8872e" category="list-text">您需要叢集管理IP位址和管理員使用者帳戶的密碼。</block>
   <block id="95773f82d1d681361d7f2215f3912515" category="paragraph">BlueXP會使用ONTAP HTTPS探索叢集。如果您使用自訂防火牆原則、ONTAP 則無法透過連接埠443存取傳入HTTPS。</block>
-  <block id="afb7adc3debe75aa13a1fc4fdb7c0a81" category="paragraph">BlueXP可讓您在現有的Aggregate上建立NFS或CIFS磁碟區。您無法ONTAP 從BlueXP標準檢視在內部的叢集上建立新的Aggregate。您需要使用「進階」檢視來建立Aggregate。</block>
   <block id="a17ea0b6ec5074b6e385c43de80e900d" category="list-text">*使用率設定檔*：選擇是否啟用或停用磁碟區上的儲存效率功能、以減少所需的儲存總容量。</block>
-  <block id="dce4384ee7fa334b58b3b529933aacef" category="paragraph">如果您需要對內部部署ONTAP 的故障叢集執行進階管理、您可以使用ONTAP 支援ONTAP 此功能的支援功能、這個管理介面是隨附於一個故障診斷系統的。我們已將System Manager介面直接納入BlueXP、因此您不需要離開BlueXP進行進階管理。</block>
   <block id="5d82c1ade2b4a73465d28377bf1ee806" category="section-title">取得System Manager的協助</block>
   <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="section-title">複寫資料</block>
   <block id="b76ae88aa754ea86825b84c8badae90a" category="section-title">備份資料</block>
   <block id="840a495adf1ad99ebc0b2945d0d37848" category="section-title">將資料分層至雲端</block>
   <block id="64b5ac71fb7ec208d91ceb7344aa0b37" category="summary">BlueXP可以探索ONTAP 在AFF/FAS控制器和ONTAP Select VMware上執行的功能區叢集。將內部部署ONTAP 的支援系統新增至藍圖XP、讓您能夠從單一介面管理所有的儲存與資料資產。</block>
   <block id="fb24315d532abea28c978f8643868013" category="list-text">管理NFS與CIFS磁碟區</block>
-  <block id="3c5335f4270215aa7b16adf996cdf82d" category="list-text">使用ONTAP NetApp System Manager執行進階管理</block>
   <block id="f040aeb46f1ebe5c4940eb6054748170" category="list-text">利用BlueXP分析與控制功能、獲得健全狀況與效能觀察能力</block>
   <block id="4021c0d07bda2ea80ded248828507d76" category="paragraph">成本可能會相關、但取決於下列項目：</block>
   <block id="f0ec06c8888b911820be6e1fcc689c0b" category="list-text">是否部署Connector來探索及管理叢集。</block>
-  <block id="0d29d27599c2af161506dbd9dbafba3f" category="paragraph">您可以在雲端或內部部署環境中安裝Connector。</block>
   <block id="83ec139c80a3d5b2f11f1a94eed47cd2" category="section-title">2022年12月4日</block>
   <block id="336404297eaddf0051e1d62c3d3bb48e" category="inline-link">深入瞭解此探索與管理選項</block>
   <block id="ee1ef6cf0f3971b44eb2abcac958fb8d" category="section-title">資料量FlexGroup</block>
   <block id="2907843476579cb2696e8e0e783a2a07" category="inline-image-macro">在FlexGroup 「Volumes」（磁碟區）頁面上顯示的快照、可顯示內部ONTAP 叢集的「聲音量」。</block>
   <block id="1c081854506aed2f757f753e779bc45f" category="paragraph">BlueXP不支援建立FlexGroup 功能區。您需要繼續使用System Manager或CLI來建立FlexGroup 各種功能。</block>
   <block id="e99ba2e85cd14247616b34e8e537a2a3" category="summary">如果您在ONTAP 不使用Connector的情況下直接探索內部的叢集、可以使用System Manager進入工作環境來管理叢集。</block>
-  <block id="4b00b5b65d810ab0ae0bc0144d73b71a" category="paragraph">如果您在ONTAP 不使用Connector的情況下直接探索內部的叢集、可以使用System Manager開啟工作環境來管理叢集。</block>
   <block id="cff5bc039637fff679fead59b27d79c4" category="list-text">全域搜尋</block>
   <block id="382f24d48bc1efa5dd974e166ac8df58" category="list-text">使用者介面設定</block>
   <block id="3014dc2d87cf02248e7abe6b8ac89106" category="sidebar">內部部署ONTAP 的叢集文件</block>
@@ -143,14 +130,11 @@
   <block id="ef8d24c115f07ff9475a999250c2a5d8" category="list-text">角色型存取控制（僅限連接器）</block>
   <block id="4a2ee857fe0aa1483d07a75bf8d71bec" category="paragraph">在使用ONTAP Connector探索及管理內部環境的叢集時、不支援System Manager的角色型存取控制。系統會在探索過程中提示您輸入管理員認證資料。這些認證資料會用於從System Manager採取的所有行動。</block>
   <block id="75116741b7b623681d2dd352ea2ef388" category="paragraph">有了直接探索選項、ONTAP 每次開啟工作環境時、系統都會提示您使用您的憑據登入。</block>
-  <block id="05280ae0f52dfc03d23962982cf79f21" category="list-text">進階檢視、可透過System Manager進行管理（ONTAP 支援使用支援的版本為0。9.10.0及更新版本）</block>
-  <block id="797c4c6d452fc60610219b263c22393d" category="paragraph">如果您決定稍後再使用其他探索選項、則需要在畫版上將內部叢集探索為獨立的工作環境。然後您可以選擇移除其他工作環境。</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">結果</block>
   <block id="971b56bb19698ede33f8f4ef782f3774" category="list-text">內部部署叢集必須執行ONTAP 不含更新版本的功能。</block>
   <block id="d8140eebe21fbc87913a211d15aa72f0" category="list-text">叢集必須具有與BlueXP服務的傳入和傳出連線：</block>
   <block id="3693065b074c131d0dd4c103327a1d7b" category="paragraph">\https://cloudmanager.cloud.netapp.com/ontap-service/check-service-connection</block>
   <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">完成後</block>
-  <block id="ae5ebdf987b9634f1c41168db5af6124" category="paragraph">在使用BlueXP中的進階檢視時、內部部署ONTAP 的叢集不支援一些System Manager功能。</block>
   <block id="480454c8f8beef2524f1fbdddc48ea12" category="inline-link-macro">檢閱限制清單</block>
   <block id="bfe73fc0abe25019e3e0d76f17653911" category="paragraph"><block ref="736a4b96dd4361a68ef1dd0a557122e0" category="inline-link-macro-rx"></block>。</block>
   <block id="bc3d7bdad28e2f8cac321d5cae0b897c" category="paragraph">BlueXP不支援一些System Manager功能。</block>
@@ -166,7 +150,6 @@
   <block id="a3736487d08fb63c22adeaf7035f0bca" category="list-text">此選項可讓您ONTAP 使用下列功能來管理執行支援功能的叢集：</block>
   <block id="2901a10a7b1d7a91ad19913b88e371a6" category="list-text">在內部部署ONTAP 的不二字旁、選取* Discover（探索）*。</block>
   <block id="623e1951042cd3019a0cc38bf7556bee" category="summary">探索ONTAP 來自BlueXP的內部資源介紹叢集、以便您開始使用ONTAP 從BlueXP取得的功能完善的系統管理程式來管理磁碟區和執行進階管理。</block>
-  <block id="e9b3b1686b45ea49547763029f379272" category="paragraph">此選項需要連接器、您可以將其安裝在雲端供應商或內部部署環境中。</block>
   <block id="d7aa3f7ee53003f5d75a0f500ddb1e6a" category="paragraph">此選項不需要連接器。</block>
   <block id="f75478b929f43a364a455cc34445b807" category="paragraph">當您在執行ONTAP 9.12.1或更新版本的內部部署功能叢集上存取System Manager並連線至BlueXP服務時、系統會提示您直接從BlueXP管理叢集。如果您遵循此提示、它會使用直接探索選項在BluXP中探索叢集。</block>
   <block id="a1a264e616e24563d4b8f8b5795ea403" category="section-title">一般要求</block>
@@ -187,14 +170,12 @@
   <block id="251a667be8662557b7aba30c53380da3" category="paragraph">當您開始探索程序時、BlueXP會探索叢集、如下所示：</block>
   <block id="02067bb3de9c60175abe8c4b7d81c3c2" category="list-text">如果您的活動連接器已連線ONTAP 至您的叢集、則BlueXP會使用該連接器來探索及管理叢集。</block>
   <block id="873b328fabdfb8db13a38e03c836d37b" category="inline-link">深入瞭解探索與管理選項</block>
-  <block id="6935d4eff56228cdcc6138a57b8873c9" category="paragraph">在畫版上、使用Connector探索到的叢集工作環境圖示應類似下列內容：</block>
   <block id="db711502e98fa11f32f96dfd6ecc6e6b" category="inline-image-macro">出現在畫版上的工作環境圖示快照</block>
   <block id="7191ab2cdb6e0f21fd1844124dd5642e" category="paragraph"><block ref="7191ab2cdb6e0f21fd1844124dd5642e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="128f3f75e6d7b802bf2dc0276793e8f6" category="paragraph">如果直接探索到工作環境、工作環境圖示會顯示「Direct（直接）」一詞。</block>
   <block id="e2868e6281d0ed6987fd505840c53ebb" category="paragraph">工作環境圖示可識別直接探索到的叢集：</block>
   <block id="adae1368fef895169a40e9765864c2d0" category="paragraph"><block ref="adae1368fef895169a40e9765864c2d0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d6a0741adb3101b3ac8caa5bee63eb9e" category="list-text">如果出現提示、請輸入ONTAP 您的「不確定」認證資料。</block>
-  <block id="45d2775227d0faf611658c52b9e5d2da" category="paragraph">如果您未儲存認證資料、系統會在ONTAP 每次開啟工作環境時、提示您使用您的支援認證登入。您可以選擇儲存認證資料、以便不需要每次都輸入。如果您使用此選項、認證資料僅與您的BlueXP使用者相關聯。您帳戶中的任何人都不會儲存這些檔案以供使用。</block>
   <block id="d35ea0fa6a3d81047f0a36a7dfac1c07" category="paragraph">您也可以檢視與其他 BlueXP 服務整合的詳細資料、這些服務可實現資料分層、資料複寫和備份。</block>
   <block id="c0c23b19a5402f833c9c6d50dc076f38" category="paragraph">在您的工作環境中啟用 BlueXP 資料服務、以複寫資料、備份資料、層級資料等。</block>
   <block id="7dfe1792c76bc1bec7f64c0b01460178" category="list-text">在 Cloud Volumes ONTAP 系統、適用於 ONTAP 檔案系統的 Amazon FSX 和 ONTAP 叢集之間複寫資料。選擇一次性資料複寫、可協助您在雲端之間移動資料、或是週期性排程、有助於災難恢復或長期資料保留。</block>
@@ -210,13 +191,6 @@
   <block id="5a1ba2c518bc284a53dce33562379ae9" category="paragraph"><block ref="5a1ba2c518bc284a53dce33562379ae9" category="inline-link-rx"></block></block>
   <block id="94fd71e366753efc2c71fcdd0fc3afd4" category="summary">BlueXP 數位錢包可讓您檢視每個內部部署 ONTAP 叢集的合約詳細資料。如果您尚未在 BlueXP 中發現叢集、也可以從數位錢包中找到叢集。</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">開始之前</block>
-  <block id="2b474be1d4faf7d5e70a3977fa183a0a" category="paragraph">BlueXP 數位錢包會顯示內部部署 ONTAP 叢集的詳細資料、這些叢集是您在工作環境中發現的、或是與您新增至 BlueXP 的 NetApp 支援網站 帳戶相關聯的叢集。</block>
-  <block id="e65135bd79d15db91bec6c98a9f8dabe" category="list-text">選取*內部部署ONTAP 的S--。</block>
-  <block id="93416f52fcce3ab7a37ed87d0aeb8134" category="paragraph">如果系統提示您先輸入 NetApp 支援網站（NSS）帳戶認證資料，請在支援儀表板中輸入認證資料。新增帳戶後、即會顯示該帳戶中包含的叢集。</block>
-  <block id="50b3dac67cf083c4a4dd133f8b8d0076" category="paragraph"><block ref="50b3dac67cf083c4a4dd133f8b8d0076" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="19d0494f8c332b6872314cab23b38a2d" category="list-text">如果您尚未將叢集發現為工作環境、請選取 * 探索 * 、然後依照提示進行。</block>
-  <block id="87713871e17e5ef9a4e363132a527495" category="paragraph">當您發現叢集之後、它就會在 BlueXP 中作為工作環境提供、以便您管理它。</block>
-  <block id="06afa66cf6eca938a45be835a47030e1" category="paragraph-title">相關連結</block>
   <block id="73aa008a6b5cf018ef8dbd33a51ac3c7" category="inline-link">深入瞭解如何從 BlueXP 數位錢包管理內部部署 ONTAP 叢集的授權</block>
   <block id="576b63b6009db82dbb03f5fa245eb11c" category="paragraph"><block ref="576b63b6009db82dbb03f5fa245eb11c" category="inline-link-rx"></block></block>
   <block id="eacd3ed630ae5b36126bd8cf27a43632" category="paragraph">探索 BlueXP 的內部部署 ONTAP 叢集、以便開始使用 BlueXP 提供的 ONTAP 系統管理員來管理磁碟區和執行進階管理。</block>
@@ -268,7 +242,6 @@
   <block id="ba38e2fd40d303ca0ee880c6170d261e" category="paragraph">您新增至磁碟區的標記現在與應用程式範本服務的標記功能相關聯、可協助您組織及簡化資源管理。</block>
   <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">Amazon FSX for ONTAP Sf</block>
   <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
-  <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">適用於 Google Cloud Cloud Volumes Service</block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">支援登錄總覽</block>
   <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">有兩種登錄形式可啟動支援服務權利：</block>
   <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">這是您在BlueXP內任何服務的單一支援訂閱ID。每個BlueXP帳戶層級的支援訂閱都必須註冊。</block>
@@ -360,7 +333,6 @@
   <block id="52ba8ac12050d2494572b940a0d65b25" category="paragraph"><block ref="52ba8ac12050d2494572b940a0d65b25" category="inline-link-rx"></block></block>
   <block id="9d06990508d25d367d9158c6558eb9c8" category="list-text"><block ref="9d06990508d25d367d9158c6558eb9c8" category="inline-link-macro-rx"></block></block>
   <block id="2e0c742f4616eb27b5b7646aa790edfe" category="list-text"><block ref="2e0c742f4616eb27b5b7646aa790edfe" category="inline-link-macro-rx"></block></block>
-  <block id="cf14bff66a8b72d3675db8ffe0f02ee3" category="list-text"><block ref="cf14bff66a8b72d3675db8ffe0f02ee3" category="inline-link-macro-rx"></block></block>
   <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">這是系統產生的ID、會對應至您的電子郵件。在「* nssn*管理*」頁面上、您可以從顯示電子郵件 <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> 功能表。</block>
   <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">如果您需要重新整理登入認證憑證權杖、也可以在中使用*更新認證*選項 <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> 功能表。</block>
@@ -456,14 +428,11 @@
   <block id="ed36532cba007a185fa7e3557a16206a" category="list-text">在 Canvas 頁面上、選取內部部署 ONTAP 工作環境。</block>
   <block id="7c9f32f73fa06aecdeb526cf83b2809c" category="list-text">選取功能表圖示、然後選取 * 從工作區移除 * 。</block>
   <block id="b7dd0331ad4ede9488c2fd01dda69e83" category="list-text">選取 * 移除 * 以確認。</block>
-  <block id="a792efd76746d2c4c81fc6f8c1cdecf7" category="section-title">從「標準」檢視建立 FlexVol Volume</block>
-  <block id="2f0161095944f4ce3cb6f68537b3a19c" category="paragraph">在您使用 Connector 從 BlueXP 探索內部部署 ONTAP 叢集之後、您可以開啟工作環境來配置和管理 FlexVol Volume 。</block>
   <block id="8d2b311f9b9d9270715e282b3f9a0738" category="list-text">在「畫布」頁面上、選取您要在其中配置磁碟區的內部部署 ONTAP 叢集。</block>
   <block id="ba426b409f9ec6763d7b1ecebd5d576f" category="list-text">選取 * Volume &gt; Add Volume * 。</block>
   <block id="b664e4294e5d14d6fd3d39615d4e3341" category="list-text">* 審查 * ：檢閱有關 Volume 的詳細資料、然後選取 * 新增 * 。</block>
   <block id="17946fbbcc494462c1dfafa59978ba50" category="paragraph">您可以使用 BlueXP API 來建立 FlexGroup Volume 。支援垂直擴充的功能是提供高效能及自動負載分配的功能。FlexGroup</block>
   <block id="b72566f4d301c9dec06189b65b061300" category="inline-link">瞭解如何使用 API 建立 FlexGroup Volume</block>
-  <block id="67bdff562faa68c471571176e3844346" category="paragraph">開啟內部部署的 ONTAP 工作環境、然後選取「進階檢視」選項。</block>
   <block id="83f4f85306f8b866c6ddc2026b1a554b" category="list-text">如果出現確認訊息、請仔細閱讀並選擇 * 關閉 * 。</block>
   <block id="e5da9221130cfc01e0feac2117f19695" category="list-text">如有需要、請選取 * 切換至標準檢視 * 、以透過 BlueXP 返回標準管理。</block>
   <block id="7fe6981833e8fe7fd89e0a99a55573da" category="list-text">在 BlueXP 中、選取 * 說明 &gt; 支援 * 。</block>
@@ -492,13 +461,9 @@
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">若要獲得 BlueXP 及其儲存解決方案與服務的專屬技術支援、請使用下列支援選項。</block>
   <block id="c65dc56e9af1b59f20d971d9f8ecd361" category="doc">管理直接探索到的叢集</block>
   <block id="842394c4883838b029db28103480c404" category="doc">管理使用 Connector 探索到的叢集</block>
-  <block id="9403a7672f0137bf2158d9662b27dbd0" category="section-title">使用進階檢視（系統管理員）管理 ONTAP</block>
-  <block id="48208e085946470d7aeaad6b13dcda66" category="section-title">使用進階檢視</block>
   <block id="1822d12a7b10a50fdd93b84fc0c9f70e" category="doc">瞭解 BlueXP 中的內部部署 ONTAP 叢集管理</block>
   <block id="d3d762abdaccb1dfe422eda709146098" category="section-title">步驟 1 ：檢閱探索與管理選項</block>
   <block id="663060c661d21dbe1c32242cc8731f0e" category="section-title">步驟 2 ：設定您的環境</block>
-  <block id="051ffa63d019158ee74f0c9b63be5dab" category="list-text">您應該已經開始使用BlueXP、其中包括登入及設定帳戶。
-<block ref="0377f2dd7cfc90832cf86e4cdea18b27" category="inline-link-rx"></block></block>
   <block id="f06497cae9ab6e78fd37893cdca029bd" category="section-title">步驟 3 ：探索叢集</block>
   <block id="9d96bd9b544805d33ce76bcba91e4c62" category="paragraph">透過以下兩種方式之一、從 Canvas 探索內部部署 ONTAP 叢集：</block>
   <block id="9d5b3307d5a7d5905623bf21ab049bdd" category="section-title">2024 年 4 月 22 日</block>
@@ -541,4 +506,35 @@
   <block id="613fbbb3f2dbf238c8527a537252e8ed" category="doc">支援採用私有模式的 ASA R2 系統</block>
   <block id="0d9e2244b8fb5d13651efe34b9723803" category="paragraph">現在，您可以在私有模式中使用 BlueXP  時探索 NetApp ASA R2 系統。此支援自 BlueXP  3.9.46 私有模式版本開始提供。</block>
   <block id="d415b73567ff8e090cdf21c20afeaa64" category="section-title">2024 年 26 月 11 日</block>
+  <block id="1da5a40083bd16c3443e7eda42875506" category="doc">需要BlueXP訪問角色</block>
+  <block id="fd3b9b6f969e334605ecb2deacbd84cc" category="inline-link-macro">了解BlueXP訪問角色。</block>
+  <block id="7e80dfbc882bf899ca8e80bc9729e4b5" category="paragraph">現在，您需要以下存取角色之一來查看、發現或管理本機ONTAP叢集：組織管理員、資料夾或專案管理員、儲存管理員或系統健康專家。 <block ref="5f4605f8f9a6dca73fc40e564cf6fcbc" category="inline-link-macro-rx"></block></block>
+  <block id="3d58bc31cd44969a012707d72eabdd3f" category="list-text">透過BlueXP存取任何託管叢集的ONTAP系統管理器</block>
+  <block id="9c5eb001f497ae96a1977dd49cdb488d" category="paragraph">您可以在雲端或本機安裝連接器。在雲端安裝連接器會產生費用。</block>
+  <block id="eb41c324559b969116f2a7d0e5a512c7" category="paragraph-title">所需的BlueXP角色：</block>
+  <block id="4de48b1d25f387ca4892d8634f62973e" category="paragraph">組織管理員、資料夾或專案管理員、儲存管理員或系統健康專家。 <block ref="6677d2bbecb9c8fe39d4645334e442a8" category="inline-link-macro-rx"></block></block>
+  <block id="d7c9437036f16fa8b23b0590b594b280" category="list-text">透過BlueXP介面原生提供基本磁碟區操作</block>
+  <block id="68a038c0f0eff41dc5e33c2a696c8770" category="list-text">ONTAP系統管理器（支援ONTAP 9.10.0 及更高版本），直接從BlueXP存取每個對應叢集的系統管理器</block>
+  <block id="d4a6e71a69daabc670296b6e5d940bcf" category="inline-link">聯絡您的組織管理員。</block>
+  <block id="6054bbd2a3a9fe9f41dd6f59f4c93672" category="list-text">您必須擁有組織管理員角色才能安裝連接器。如果您不確定您的組織是否有連接器，或是否需要建立連接器，請聯絡您的BlueXP管理員。 <block ref="0a429c936e168ea5991bcfda83872d22" category="inline-link-rx"></block></block>
+  <block id="62cec381980970c923c8d743303aabe8" category="paragraph">如果您決定將連接器新增至您的BlueXP部署中，則需要在 Canvas 上將您的本機叢集重新發現為單獨的工作環境。這將啟用本機BlueXP管理以及對BlueXP資料服務的存取。然後，您可以選擇移除其他工作環境。</block>
+  <block id="d9eb245a1a81e7b05bdd86ad51b43917" category="list-text">您需要擁有以下BlueXP存取角色之一：組織管理員、資料夾或專案管理員或儲存管理員。</block>
+  <block id="1215f8190533dfdf63d2224a6d88266f" category="inline-link-macro">Google Cloud NetApp Volumes</block>
+  <block id="cb4bf32603c89d08cad17e7e7dd302f2" category="list-text"><block ref="cb4bf32603c89d08cad17e7e7dd302f2" category="inline-link-macro-rx"></block></block>
+  <block id="b0ebdbe799a483a714c07ff396aa5c64" category="paragraph">如果您使用連接器發現了本地ONTAP集群，則可以直接從BlueXP介面建立卷，存取ONTAP系統管理器（從BlueXP）進行高階管理，並啟用BlueXP資料服務。</block>
+  <block id="9aed139bef2bb57b0e94b058d0ed7617" category="paragraph">在畫布上，使用連接器發現的叢集的工作環境圖示類似於以下內容：</block>
+  <block id="7c2948ade8abaf1cf8dd65ffc7946cbf" category="section-title">從BlueXP創建FlexVol卷</block>
+  <block id="e01e3487fe8c7903eaf492764b461c4d" category="paragraph">使用連接器從BlueXP發現您的本機ONTAP叢集後，您可以直接從BlueXP設定和管理FlexVol磁碟區。</block>
+  <block id="bffd3578170a4ba5c6f78e492bccdb59" category="paragraph">BlueXP可讓您在現有聚合上建立 NFS 或 CIFS 磁碟區。您無法透過原生BlueXP介面在本機ONTAP叢集上建立新聚合；但是，您可以從BlueXP存取對應的ONTAP系統管理器來建立聚合。</block>
+  <block id="52d883e4d60761ca0c03ce2659a36cad" category="section-title">使用BlueXP API 建立FlexGroup卷</block>
+  <block id="44e9a8bfc18f64c7acdaa21aaec6a1f9" category="section-title">從BlueXP存取ONTAP系統管理器</block>
+  <block id="d47d93b84f2cf3fb4ef074910d74642f" category="paragraph">如果您需要對本機ONTAP叢集進行高階管理，可以使用ONTAP系統管理器。您可以直接在BlueXP內部存取ONTAP系統管理器介面，無需離開BlueXP即可進行高階管理。</block>
+  <block id="acd48ecac2f47df6acb17744257f97be" category="paragraph">當您從BlueXP存取ONTAP系統管理員時，您可以存取其他管理功能：</block>
+  <block id="37f021899f102ba63adc8496ce6c98eb" category="paragraph">透過BlueXP存取ONTAP系統管理器時，本機ONTAP叢集不支援某些系統管理器功能。</block>
+  <block id="f97e78684dc8d55619c7dd565b819db4" category="paragraph">開啟本機ONTAP工作環境並開啟該環境的系統管理員。</block>
+  <block id="f1454f0a280690f9f4c19e5d5537ae4d" category="paragraph">如果您未使用連接器而直接發現了本機ONTAP集群，則可以開啟工作環境並使用ONTAP系統管理員來管理集群。</block>
+  <block id="3b56e21ce3b2789f26e0ab17304a8658" category="paragraph">如果您未儲存憑證，每次開啟工作環境時，系統都會提示您使用ONTAP憑證登入。您可以選擇儲存憑證，這樣就無需每次都輸入。您可以在「使用者憑證」頁面上管理這些憑證。在某些情況下，您的BlueXP管理員（組織管理員角色）可能會停用此選項，並要求您每次都輸入憑證。</block>
+  <block id="5bc6f7894821932fa85d795cfc188701" category="paragraph">組織管理員、資料夾或專案管理員或儲存管理員。 <block ref="6677d2bbecb9c8fe39d4645334e442a8" category="inline-link-macro-rx"></block></block>
+  <block id="cfabae139407debe01c6e8f56e4ec472" category="paragraph">組織管理員，或資料夾或專案管理員。 <block ref="6677d2bbecb9c8fe39d4645334e442a8" category="inline-link-macro-rx"></block></block>
+  <block id="e48502083eb8949c8f65b2ccddd5adec" category="section-title">2025年5月12日</block>
 </blocks>

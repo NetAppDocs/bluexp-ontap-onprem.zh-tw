@@ -21,7 +21,7 @@ BlueXP可以探索ONTAP 在AFF/FAS控制器和ONTAP Select VMware上執行的功
 == 功能
 
 * 管理NFS與CIFS磁碟區
-* 使用ONTAP NetApp System Manager執行進階管理
+* 透過BlueXP存取任何託管叢集的ONTAP系統管理器
 * 利用BlueXP分析與控制功能、獲得健全狀況與效能觀察能力
 * 使用 BlueXP 服務來複寫、備份、掃描、分類及分層資料
 * 在 BlueXP 數位錢包中檢視硬體和軟體合約狀態資訊
@@ -35,7 +35,7 @@ BlueXP可以探索ONTAP 在AFF/FAS控制器和ONTAP Select VMware上執行的功
 
 * 是否部署Connector來探索及管理叢集。
 +
-您可以在雲端或內部部署環境中安裝Connector。
+您可以在雲端或本機安裝連接器。在雲端安裝連接器會產生費用。
 
 * 您是否使用 BlueXP 服務、例如備份與還原、分層和分類。
 

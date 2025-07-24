@@ -14,7 +14,10 @@ summary: 如果您在ONTAP 不使用Connector的情況下直接探索內部的�
 
 
 [role="lead"]
-如果您在ONTAP 不使用Connector的情況下直接探索內部的叢集、可以使用System Manager開啟工作環境來管理叢集。
+如果您未使用連接器而直接發現了本機ONTAP集群，則可以開啟工作環境並使用ONTAP系統管理員來管理集群。
+
+.所需的BlueXP角色：
+組織管理員、資料夾或專案管理員、儲存管理員或系統健康專家。 link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解BlueXP訪問角色。"^]
 
 .開始之前
 您用來存取BlueXP主控台的電腦必須有連至內部ONTAP 叢集的網路連線、這與您提供連線至私有網路中其他資源的方式類似。
@@ -34,7 +37,7 @@ image:screenshot-direct-discovery-we.png["出現在畫版上的工作環境圖�
 
 . 如果出現提示、請輸入ONTAP 您的「不確定」認證資料。
 +
-如果您未儲存認證資料、系統會在ONTAP 每次開啟工作環境時、提示您使用您的支援認證登入。您可以選擇儲存認證資料、以便不需要每次都輸入。如果您使用此選項、認證資料僅與您的BlueXP使用者相關聯。您帳戶中的任何人都不會儲存這些檔案以供使用。
+如果您未儲存憑證，每次開啟工作環境時，系統都會提示您使用ONTAP憑證登入。您可以選擇儲存憑證，這樣就無需每次都輸入。您可以在「使用者憑證」頁面上管理這些憑證。在某些情況下，您的BlueXP管理員（組織管理員角色）可能會停用此選項，並要求您每次都輸入憑證。
 
 +
 image:screenshot-credentials.png["螢幕擷取畫面會顯示提示、提示您輸入ONTAP 使用者名稱和密碼以供使用。"]
